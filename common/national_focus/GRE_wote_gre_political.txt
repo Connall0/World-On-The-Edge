@@ -1,0 +1,1018 @@
+focus_tree = { 
+id = wote_gre_political
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = GRE 
+} 
+} 
+#Focus for A Predictable Result
+focus = { 
+id = GRE_apredictableresult
+icon = GFX_focus_generic_self_management
+x = 38
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_parliamentdissolved } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Minority Government
+focus = { 
+id = GRE_aminoritygovernment
+icon = GFX_focus_hol_the_foundations_of_defense
+x = 34
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_parliamentsurvives } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Parliament Survives
+focus = { 
+id = GRE_parliamentsurvives
+icon = GFX_parliamentsurvives
+x = 34
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekingschoice } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Letter of Resignation
+focus = { 
+id = GRE_letterofresignation
+icon = GFX_letterofresignation
+x = 36
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_investigatethecentreunion } 
+prerequisite = { focus = GRE_arrestcommunistsympathisers } 
+prerequisite = { focus = GRE_promoteroyalpower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for General Election
+focus = { 
+id = GRE_generalelection
+icon = GFX_generalelection
+x = 36
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_letterofresignation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The King's Choice
+focus = { 
+id = GRE_thekingschoice
+icon = GFX_thekingschoice
+x = 36
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_generalelection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote Royal Power
+focus = { 
+id = GRE_promoteroyalpower
+icon = GFX_focus_rom_royal_dictatorship
+x = 38
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekaramanliscabinet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Apostasia
+focus = { 
+id = GRE_apostasia
+icon = GFX_goal_generic_demand_territory
+x = 36
+y = 14
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thepeoplesreaction focus = GRE_thekingsreaction } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The King's Reaction
+focus = { 
+id = GRE_thekingsreaction
+icon = GFX_thekingsreaction
+x = 37
+y = 13
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_paprendroumakeshismove } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Paprendrou Makes His Move
+focus = { 
+id = GRE_paprendroumakeshismove
+icon = GFX_goal_generic_forceful_treaty
+x = 37
+y = 12
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_investigation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The People's Reaction
+focus = { 
+id = GRE_thepeoplesreaction
+icon = GFX_focus_generic_military_academy
+x = 35
+y = 13
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekingmakeshismove } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The King Makes His Move
+focus = { 
+id = GRE_thekingmakeshismove
+icon = GFX_focus_rom_royal_dictatorship
+x = 35
+y = 12
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_ignorance } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ignorance
+focus = { 
+id = GRE_ignorance
+icon = GFX_focus_rom_parties_end
+x = 35
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_aspidascandal } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Investigation
+focus = { 
+id = GRE_investigation
+icon = GFX_focus_generic_treaty
+x = 37
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_aspidascandal } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A New King
+focus = { 
+id = GRE_anewking
+icon = GFX_focus_generic_home_defense
+x = 36
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_fightextremism } 
+prerequisite = { focus = GRE_centreleftcabinet focus = GRE_centrerightcabinet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Centre-Right Cabinet
+focus = { 
+id = GRE_centrerightcabinet
+icon = GFX_centrerightcabinet
+x = 38
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_repaytheking } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Centre-Left Cabinet
+focus = { 
+id = GRE_centreleftcabinet
+icon = GFX_centreleftcabinet
+x = 34
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_ignoretheking } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Repay the King
+focus = { 
+id = GRE_repaytheking
+icon = GFX_goal_generic_intelligence_exchange
+x = 38
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_apredictableresult } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fight Extremism
+focus = { 
+id = GRE_fightextremism
+icon = GFX_goal_support_democracy
+x = 36
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_aminoritygovernment focus = GRE_apredictableresult } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ignore the King
+focus = { 
+id = GRE_ignoretheking
+icon = GFX_focus_rom_abdicate
+x = 34
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_aminoritygovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arrest Communist Sympathisers
+focus = { 
+id = GRE_arrestcommunistsympathisers
+icon = GFX_arrestcommunistsympathisers
+x = 36
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekaramanliscabinet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Investigate the Centre Union
+focus = { 
+id = GRE_investigatethecentreunion
+icon = GFX_investigatethecentreunion
+x = 34
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekaramanliscabinet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Karamanlis Cabinet
+focus = { 
+id = GRE_thekaramanliscabinet
+icon = GFX_thekaramanliscabinet
+x = 36
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Prison Islands
+focus = { 
+id = GRE_prisonislands
+icon = GFX_prisonislands
+x = 30
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_discouragemonarchism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Extend Conscription
+focus = { 
+id = GRE_extendconscription
+icon = GFX_extendconscription
+x = 30
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_prisonislands } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Discourage Monarchism
+focus = { 
+id = GRE_discouragemonarchism
+icon = GFX_discouragemonarchism
+x = 30
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_militaristpropaganda } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Militarist Propaganda
+focus = { 
+id = GRE_militaristpropaganda
+icon = GFX_militaristpropaganda
+x = 30
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecolonelscoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for All Behind the King
+focus = { 
+id = GRE_allbehindtheking
+icon = GFX_allbehindtheking
+x = 26
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_electionmonitoring } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Royal Cadets
+focus = { 
+id = GRE_royalcadets
+icon = GFX_focus_rom_royal_dictatorship
+x = 26
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_reininthemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Election Monitoring
+focus = { 
+id = GRE_electionmonitoring
+icon = GFX_focus_usa_voter_registration_act
+x = 26
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_royalcadets } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rein in the Military
+focus = { 
+id = GRE_reininthemilitary
+icon = GFX_goal_generic_political_pressure
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_reassurethepopulace } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The General's Coup
+focus = { 
+id = GRE_thegeneralscoup
+icon = GFX_thegeneralscoup
+x = 26
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecoupsucceeds } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Coup Succeeds!
+focus = { 
+id = GRE_thecoupsucceeds
+icon = GFX_thecoupsucceeds
+x = 28
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enosis
+focus = { 
+id = GRE_enosis
+icon = GFX_goal_generic_demand_territory
+x = 28
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_americanadvisers } 
+prerequisite = { focus = GRE_electionmonitoring focus = GRE_militariseindustries } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for American Advisers
+focus = { 
+id = GRE_americanadvisers
+icon = GFX_americanadvisers
+x = 28
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_economicliberalisation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Economic Liberalisation
+focus = { 
+id = GRE_economicliberalisation
+icon = GFX_economicliberalisation
+x = 28
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_militaryyouth } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Military Youth
+focus = { 
+id = GRE_militaryyouth
+icon = GFX_goal_generic_axis_build_infantry
+x = 28
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_obliteratethecommunists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Obliterate the Communists
+focus = { 
+id = GRE_obliteratethecommunists
+icon = GFX_obliteratethecommunists
+x = 28
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_destroypoliticaldivisions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy Political Divisions
+focus = { 
+id = GRE_destroypoliticaldivisions
+icon = GFX_destroypoliticaldivisions
+x = 28
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecolonelscoup focus = GRE_thegeneralscoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Abolition of the Monarchy
+focus = { 
+id = GRE_abolitionofthemonarchy
+icon = GFX_abolitionofthemonarchy
+x = 30
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_militariseindustries } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Militarise Industries
+focus = { 
+id = GRE_militariseindustries
+icon = GFX_militariseindustries
+x = 30
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_extendconscription } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Colonel's Coup
+focus = { 
+id = GRE_thecolonelscoup
+icon = GFX_thecolonelscoup
+x = 30
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecoupsucceeds } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Royalist Propaganda
+focus = { 
+id = GRE_royalistpropaganda
+icon = GFX_royalistpropaganda
+x = 26
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thegeneralscoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reassure the Populace
+focus = { 
+id = GRE_reassurethepopulace
+icon = GFX_goal_generic_national_unity
+x = 26
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_royalistpropaganda } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Parliament Dissolved
+focus = { 
+id = GRE_parliamentdissolved
+icon = GFX_parliamentdissolved
+x = 38
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thekingschoice } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for ASPIDA Scandal
+focus = { 
+id = GRE_aspidascandal
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 36
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_anewking } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Free Greece
+focus = { 
+id = GRE_afreegreece
+icon = GFX_goal_unknown
+x = 42
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_interventionism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Communist Congress
+focus = { 
+id = GRE_thecommunistcongress
+icon = GFX_thecommunistcongress
+x = 46
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_rebuildthestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Fate of Traitors
+focus = { 
+id = GRE_thefateoftraitors
+icon = GFX_goal_unknown
+x = 44
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_promotethepublicsector } 
+prerequisite = { focus = GRE_interventionism focus = GRE_rebuildthestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Seize the Means of Production
+focus = { 
+id = GRE_seizethemeansofproduction
+icon = GFX_seizethemeansofproduction
+x = 46
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_politicalcommissars } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish Labour Camps
+focus = { 
+id = GRE_establishlabourcamps
+icon = GFX_establishlabourcamps
+x = 46
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_seizethemeansofproduction } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rebuild the State
+focus = { 
+id = GRE_rebuildthestate
+icon = GFX_goal_generic_soviet_construction
+x = 46
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_establishlabourcamps } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Deal with Extremists
+focus = { 
+id = GRE_dealwithextremists
+icon = GFX_goal_unknown
+x = 42
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_themonarchyreferendum } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fight Partisanship
+focus = { 
+id = GRE_fightpartisanship
+icon = GFX_goal_unknown
+x = 42
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_dealwithextremists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote Democratic Values
+focus = { 
+id = GRE_promotedemocraticvalues
+icon = GFX_goal_unknown
+x = 42
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_fightpartisanship } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Interventionism
+focus = { 
+id = GRE_interventionism
+icon = GFX_goal_unknown
+x = 42
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_promotedemocraticvalues } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Welfare Reforms
+focus = { 
+id = GRE_welfarereforms
+icon = GFX_goal_unknown
+x = 44
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_defangthemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Redistribute the Land
+focus = { 
+id = GRE_redistributetheland
+icon = GFX_goal_generic_construct_civilian
+x = 44
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_welfarereforms } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalise Failing Industries
+focus = { 
+id = GRE_nationalisefailingindustries
+icon = GFX_focus_generic_the_giant_wakes
+x = 44
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_redistributetheland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote the Public Sector
+focus = { 
+id = GRE_promotethepublicsector
+icon = GFX_goal_unknown
+x = 44
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_nationalisefailingindustries } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Defang the Military
+focus = { 
+id = GRE_defangthemilitary
+icon = GFX_goal_unknown
+x = 44
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_democracytriumphs focus = GRE_thecommunistsseizecontrol } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Monarchy Referendum
+focus = { 
+id = GRE_themonarchyreferendum
+icon = GFX_themonarchyreferendum
+x = 42
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_democracytriumphs } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Communists Seize Control
+focus = { 
+id = GRE_thecommunistsseizecontrol
+icon = GFX_thecommunistsseizecontrol
+x = 46
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecoupfails } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Coup Fails!
+focus = { 
+id = GRE_thecoupfails
+icon = GFX_thecoupfails
+x = 44
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Democracy Triumphs!
+focus = { 
+id = GRE_democracytriumphs
+icon = GFX_democracytriumphs
+x = 42
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecoupfails } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy the Monarchy
+focus = { 
+id = GRE_destroythemonarchy
+icon = GFX_destroythemonarchy
+x = 46
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_thecommunistsseizecontrol } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Political Commissars
+focus = { 
+id = GRE_politicalcommissars
+icon = GFX_politicalcommissars
+x = 46
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GRE_destroythemonarchy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

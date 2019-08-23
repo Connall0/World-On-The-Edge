@@ -1,0 +1,25 @@
+focus_tree = { 
+id = usa_lbj
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = USA 
+} 
+} 
+#Focus for The Johnson Presidency
+focus = { 
+id = USA_thejohnsonpresidency
+icon = GFX_thejohnsonpresidency
+x = 12
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

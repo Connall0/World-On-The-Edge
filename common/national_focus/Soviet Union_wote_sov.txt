@@ -1,0 +1,1115 @@
+focus_tree = { 
+id = wote_sov
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = Soviet Union 
+} 
+} 
+#Focus for Research for the Revolution
+focus = { 
+id = Soviet Union_researchfortherevolution
+icon = GFX_focus_generic_socialist_science
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thepoweroftheirarsenal } 
+prerequisite = { focus = Soviet Union_aloomingthreat } 
+prerequisite = { focus = Soviet Union_forthepeople } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for For the People
+focus = { 
+id = Soviet Union_forthepeople
+icon = GFX_focus_YUG_pan_slavic_congress
+x = 8
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_forthemotherland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Modernised Arms
+focus = { 
+id = Soviet Union_modernisedarms
+icon = GFX_goal_unknown
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_ourfirepower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for First Secretary Khrushchev
+focus = { 
+id = Soviet Union_firstsecretarykhrushchev
+icon = GFX_firstsecretarykhrushchev
+x = 16
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Birth of The Warsaw Pact
+focus = { 
+id = Soviet Union_birthofthewarsawpact
+icon = GFX_birthofthewarsawpact
+x = 3
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_firstsecretarykhrushchev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Exporting the Revolution
+focus = { 
+id = Soviet Union_exportingtherevolution
+icon = GFX_focus_jap_strike_south
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_firstsecretarykhrushchev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Defending the Revolution
+focus = { 
+id = Soviet Union_defendingtherevolution
+icon = GFX_goal_generic_defence
+x = 8
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_firstsecretarykhrushchev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Friend Castro
+focus = { 
+id = Soviet Union_ourfriendcastro
+icon = GFX_ourfriendcastro
+x = 19
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_exportingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destalinistion
+focus = { 
+id = Soviet Union_destalinistion
+icon = GFX_destalinistion
+x = 24
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_firstsecretarykhrushchev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy the Cult of Personality
+focus = { 
+id = Soviet Union_destroythecultofpersonality
+icon = GFX_destroythecultofpersonality
+x = 25
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_destalinistion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Lighter Hand
+focus = { 
+id = Soviet Union_alighterhand
+icon = GFX_alighterhand
+x = 23
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_destalinistion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Polish Steel
+focus = { 
+id = Soviet Union_polishsteel
+icon = GFX_goal_unknown
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_birthofthewarsawpact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Station Missiles in Cuba
+focus = { 
+id = Soviet Union_stationmissilesincuba
+icon = GFX_goal_generic_occupy_start_war
+x = 19
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_ourfriendcastro } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Cuban Missile Crisis
+focus = { 
+id = Soviet Union_thecubanmissilecrisis
+icon = GFX_goal_generic_secret_weapon
+x = 19
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_stationmissilesincuba } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for No Surrender
+focus = { 
+id = Soviet Union_nosurrender
+icon = GFX_goal_generic_demand_territory
+x = 21
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thecubanmissilecrisis } 
+mutually_exclusive = { focus = Soviet Union_calmthehelldown } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ready the Military
+focus = { 
+id = Soviet Union_readythemilitary
+icon = GFX_goal_generic_air_doctrine
+x = 21
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_nosurrender } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy the Capitalists
+focus = { 
+id = Soviet Union_destroythecapitalists
+icon = GFX_focus_generic_strike_at_democracy3
+x = 21
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_readythemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Railways of the Revolution
+focus = { 
+id = Soviet Union_railwaysoftherevolution
+icon = GFX_goal_generic_construct_infrastructure
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_birthofthewarsawpact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Calm the Hell Down
+focus = { 
+id = Soviet Union_calmthehelldown
+icon = GFX_goal_generic_improve_relations
+x = 17
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thecubanmissilecrisis } 
+mutually_exclusive = { focus = Soviet Union_nosurrender } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Grazed by the Apocalypse
+focus = { 
+id = Soviet Union_grazedbytheapocalypse
+icon = GFX_focus_wonderweapons
+x = 17
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_calmthehelldown } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Spy on the Americans
+focus = { 
+id = Soviet Union_spyontheamericans
+icon = GFX_spyontheamericans
+x = 6
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_defendingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sino-Soviet Split
+focus = { 
+id = Soviet Union_sinosovietsplit
+icon = GFX_focus_chi_one_china_policy
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_defendingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Khrushchev Thaw
+focus = { 
+id = Soviet Union_khrushchevthaw
+icon = GFX_goal_generic_national_unity
+x = 25
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_freetheimprisoned } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for ...But Remain Vigilant
+focus = { 
+id = Soviet Union_butremainvigilant
+icon = GFX_goal_generic_political_pressure
+x = 23
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_alighterhand } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Free the Imprisoned
+focus = { 
+id = Soviet Union_freetheimprisoned
+icon = GFX_focus_generic_support_the_left_right
+x = 25
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_destroythecultofpersonality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Secret Speech
+focus = { 
+id = Soviet Union_thesecretspeech
+icon = GFX_focus_generic_soviet_politics
+x = 23
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_butremainvigilant } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Subvert the population
+focus = { 
+id = Soviet Union_subvertthepopulation
+icon = GFX_goal_unknown
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_spyontheamericans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A New Dawn
+focus = { 
+id = Soviet Union_anewdawn
+icon = GFX_anewdawn
+x = 24
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thesecretspeech } 
+prerequisite = { focus = Soviet Union_khrushchevthaw } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for They Won't Listen
+focus = { 
+id = Soviet Union_theywontlisten
+icon = GFX_goal_unknown
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_subvertthepopulation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Vigilance in Germany
+focus = { 
+id = Soviet Union_vigilanceingermany
+icon = GFX_vigilanceingermany
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_railwaysoftherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for We Need to Build a Wall
+focus = { 
+id = Soviet Union_weneedtobuildawall
+icon = GFX_goal_generic_fortify_city
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_vigilanceingermany } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A change of strategy
+focus = { 
+id = Soviet Union_achangeofstrategy
+icon = GFX_goal_unknown
+x = 6
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_theywontlisten } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The power of their arsenal
+focus = { 
+id = Soviet Union_thepoweroftheirarsenal
+icon = GFX_goal_unknown
+x = 6
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_achangeofstrategy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for the Belgrade Declaration
+focus = { 
+id = Soviet Union_thebelgradedeclaration
+icon = GFX_focus_generic_soviet_politics
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_exportingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Infiltrating the Chinese Administration
+focus = { 
+id = Soviet Union_infiltratingthechineseadministration
+icon = GFX_focus_hol_the_foundations_of_defense
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_sinosovietsplit } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Strengthening Power
+focus = { 
+id = Soviet Union_astrengtheningpower
+icon = GFX_focus_generic_join_comintern
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_infiltratingthechineseadministration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Their thoughts on the crisis
+focus = { 
+id = Soviet Union_theirthoughtsonthecrisis
+icon = GFX_goal_unknown
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_astrengtheningpower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A looming threat
+focus = { 
+id = Soviet Union_aloomingthreat
+icon = GFX_goal_unknown
+x = 10
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_theirthoughtsonthecrisis } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Romanian Oil
+focus = { 
+id = Soviet Union_romanianoil
+icon = GFX_goal_unknown
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_polishsteel } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strengthening trade
+focus = { 
+id = Soviet Union_strengtheningtrade
+icon = GFX_goal_unknown
+x = 2
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_romanianoil } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Revolution of Integrity
+focus = { 
+id = Soviet Union_arevolutionofintegrity
+icon = GFX_goal_unknown
+x = 3
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_strengtheningtrade } 
+prerequisite = { focus = Soviet Union_weneedtobuildawall } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Soviet Army
+focus = { 
+id = Soviet Union_thesovietarmy
+icon = GFX_goal_unknown
+x = 31
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_firstsecretarykhrushchev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Red Armoured Corps
+focus = { 
+id = Soviet Union_redarmouredcorps
+icon = GFX_goal_unknown
+x = 28
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thesovietarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Experienced Ski Troops
+focus = { 
+id = Soviet Union_experiencedskitroops
+icon = GFX_goal_unknown
+x = 34
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thesovietarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mother Russia
+focus = { 
+id = Soviet Union_motherrussia
+icon = GFX_motherrussia
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_defendingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Root Out Spies
+focus = { 
+id = Soviet Union_rootoutspies
+icon = GFX_goal_unknown
+x = 8
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_motherrussia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Firepower
+focus = { 
+id = Soviet Union_ourfirepower
+icon = GFX_goal_unknown
+x = 31
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thesovietarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New tactics
+focus = { 
+id = Soviet Union_newtactics
+icon = GFX_goal_unknown
+x = 34
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_experiencedskitroops } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Armoured Wall
+focus = { 
+id = Soviet Union_armouredwall
+icon = GFX_goal_unknown
+x = 28
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_redarmouredcorps } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Greater Devastation
+focus = { 
+id = Soviet Union_greaterdevastation
+icon = GFX_goal_unknown
+x = 28
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_armouredwall } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Red Storm
+focus = { 
+id = Soviet Union_redstorm
+icon = GFX_goal_unknown
+x = 28
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_greaterdevastation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Additional Equipment
+focus = { 
+id = Soviet Union_additionalequipment
+icon = GFX_goal_unknown
+x = 31
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_modernisedarms } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Thousand Flashes
+focus = { 
+id = Soviet Union_thousandflashes
+icon = GFX_goal_unknown
+x = 31
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_additionalequipment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Develop our skills
+focus = { 
+id = Soviet Union_developourskills
+icon = GFX_goal_unknown
+x = 34
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_experiencedskitroops } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Red Dawn
+focus = { 
+id = Soviet Union_reddawn
+icon = GFX_goal_generic_war_with_comintern
+x = 34
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_developourskills } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Efforts Combined
+focus = { 
+id = Soviet Union_oureffortscombined
+icon = GFX_goal_unknown
+x = 31
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_reddawn } 
+prerequisite = { focus = Soviet Union_thousandflashes } 
+prerequisite = { focus = Soviet Union_redstorm } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Denounce the Yugoslavs
+focus = { 
+id = Soviet Union_denouncetheyugoslavs
+icon = GFX_denouncetheyugoslavs
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_crisisinhungary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Propaganda
+focus = { 
+id = Soviet Union_newpropaganda
+icon = GFX_focus_ger_great_red_menace
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_rootoutspies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Equality in the Pact
+focus = { 
+id = Soviet Union_equalityinthepact
+icon = GFX_equalityinthepact
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_thebelgradedeclaration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for For the Motherland
+focus = { 
+id = Soviet Union_forthemotherland
+icon = GFX_goal_generic_demand_territory
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_newpropaganda } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crisis in Hungary
+focus = { 
+id = Soviet Union_crisisinhungary
+icon = GFX_goal_generic_war_with_comintern
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_equalityinthepact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Remind the Pact
+focus = { 
+id = Soviet Union_remindthepact
+icon = GFX_goal_generic_propaganda
+x = 12
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_denouncetheyugoslavs } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Make an Example of Hungary
+focus = { 
+id = Soviet Union_makeanexampleofhungary
+icon = GFX_focus_generic_strike_at_democracy1
+x = 12
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_remindthepact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Back to Normal
+focus = { 
+id = Soviet Union_backtonormal
+icon = GFX_focus_generic_join_comintern
+x = 13
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_butsomearemoreequal } 
+prerequisite = { focus = Soviet Union_makeanexampleofhungary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Neo-Imperalism
+focus = { 
+id = Soviet Union_neoimperalism
+icon = GFX_focus_generic_join_comintern
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_fundcommunistsinafrica } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy Capitalist Influence
+focus = { 
+id = Soviet Union_destroycapitalistinfluence
+icon = GFX_focus_ger_great_red_menace
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_neoimperalism } 
+prerequisite = { focus = Soviet Union_advisersabroad } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Peace with the Americans
+focus = { 
+id = Soviet Union_peacewiththeamericans
+icon = GFX_peacewiththeamericans
+x = 16
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_grazedbytheapocalypse } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Cooling Down the War
+focus = { 
+id = Soviet Union_coolingdownthewar
+icon = GFX_coolingdownthewar
+x = 18
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_grazedbytheapocalypse } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fund Communists in Africa
+focus = { 
+id = Soviet Union_fundcommunistsinafrica
+icon = GFX_fundcommunistsinafrica
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_exportingtherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Advisers Abroad
+focus = { 
+id = Soviet Union_advisersabroad
+icon = GFX_goal_rhineland
+x = 17
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_fundcommunistsinafrica } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for ...But Some Are More Equal
+focus = { 
+id = Soviet Union_butsomearemoreequal
+icon = GFX_goal_generic_war_with_comintern
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_allnationsareequal } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for All Nations are Equal
+focus = { 
+id = Soviet Union_allnationsareequal
+icon = GFX_goal_generic_territory_or_war
+x = 14
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_anirongrip } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Iron Grip
+focus = { 
+id = Soviet Union_anirongrip
+icon = GFX_goal_generic_political_pressure
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Soviet Union_crisisinhungary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

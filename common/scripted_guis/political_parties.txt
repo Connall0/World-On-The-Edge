@@ -1,0 +1,47 @@
+scripted_gui = {
+
+	party_popularity_number = {
+		window_name = "party_popularity_number_container"
+	}
+
+	party_auth_soc = {
+		window_name = "auth_soc_container"
+		visible = { has_government = auth_soc }
+		}
+
+	party_lib_soc = {
+		window_name = "lib_soc_container"
+		visible = { has_government = lib_soc }
+	}
+
+	party_social_democrat = {
+		window_name = "social_democrat_container"
+		visible = { has_government = social_democrat }
+	}
+
+	party_social_liberal = {
+		window_name = "social_liberal_container"
+		visible = { has_government = social_liberal }
+	}
+
+	party_social_conservative = {
+		window_name = "social_conservative_container"
+		visible = { has_government = social_conservative }
+	}
+
+	party_authoritarian_democrat = {
+		window_name = "authoritarian_democrat_container"
+		visible = { has_government = authoritarian_democrat }
+	}
+
+	party_despotism = {
+		window_name = "despotism_container"
+		visible = { has_government = despotism }
+	}
+
+	party_fascism = {
+		window_name = "fascism_container"
+		visible = { has_government = fascism }
+	}
+}
+

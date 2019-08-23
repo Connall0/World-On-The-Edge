@@ -1,0 +1,70 @@
+focus_tree = { 
+id = wgr
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = WGR 
+} 
+} 
+#Focus for The Status Quo
+focus = { 
+id = WGR_thestatusquo
+icon = GFX_goal_unknown
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = WGR_looktotheeast } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Look to the East
+focus = { 
+id = WGR_looktotheeast
+icon = GFX_goal_unknown
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = WGR_anationdivided } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Detente with the East
+focus = { 
+id = WGR_detentewiththeeast
+icon = GFX_goal_unknown
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = WGR_looktotheeast } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Nation Divided
+focus = { 
+id = WGR_anationdivided
+icon = GFX_goal_unknown
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

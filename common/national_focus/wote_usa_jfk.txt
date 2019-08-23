@@ -1,0 +1,1450 @@
+focus_tree = { 
+id = coldwar_usa
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = USA 
+} 
+} 
+#Focus for Efficient Training
+focus = { 
+id = USA_efficienttraining
+icon = GFX_goal_generic_more_territorial_claims
+x = 38
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Officer Training Programmes
+focus = { 
+id = USA_officertrainingprogrammes
+icon = GFX_officertrainingprogrammes
+x = 38
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_acapablearmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Further Mechanisation
+focus = { 
+id = USA_furthermechanisation
+icon = GFX_goal_generic_construct_mil_factory
+x = 36
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_automotiveindustry } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The US Military
+focus = { 
+id = USA_theusmilitary
+icon = GFX_focus_usa_recruit_the_free_corps
+x = 44
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thekennedypresidency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for US Air Force
+focus = { 
+id = USA_usairforce
+icon = GFX_usairforce
+x = 44
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theusmilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for US Army
+focus = { 
+id = USA_usarmy
+icon = GFX_usarmy
+x = 38
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theusmilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for US Navy
+focus = { 
+id = USA_usnavy
+icon = GFX_usnavy
+x = 50
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theusmilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Let's be Realistic
+focus = { 
+id = USA_letsberealistic
+icon = GFX_focus_generic_self_management
+x = 31
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_strategichamletprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for They're too Damn Stubborn
+focus = { 
+id = USA_theyretoodamnstubborn
+icon = GFX_goal_generic_war_with_comintern
+x = 33
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_fundanticommunistmovementsinthepact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for This Isn't Working
+focus = { 
+id = USA_thisisntworking
+icon = GFX_goal_generic_secret_weapon
+x = 29
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thecongocrisis } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Let's Not Get Ahead of Ourselves
+focus = { 
+id = USA_letsnotgetaheadofourselves
+icon = GFX_goal_generic_position_armies
+x = 31
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_letsberealistic } 
+prerequisite = { focus = USA_theyretoodamnstubborn } 
+prerequisite = { focus = USA_thisisntworking } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Realistic Foreign Policy
+focus = { 
+id = USA_realisticforeignpolicy
+icon = GFX_realisticforeignpolicy
+x = 31
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_letsnotgetaheadofourselves } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Containment Policy
+focus = { 
+id = USA_containmentpolicy
+icon = GFX_containmentpolicy
+x = 31
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_foreignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Foreign Policy
+focus = { 
+id = USA_foreignpolicy
+icon = GFX_foreignpolicy
+x = 25
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thekennedypresidency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reassure the South
+focus = { 
+id = USA_reassurethesouth
+icon = GFX_reassurethesouth
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_neutrality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Neutrality
+focus = { 
+id = USA_neutrality
+icon = GFX_neutrality
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thecivilrightsissue } 
+mutually_exclusive = { focus = USA_enforcesegregation } 
+mutually_exclusive = { focus = USA_forceintegration } 
+mutually_exclusive = { focus = USA_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Civil Rights Issue
+focus = { 
+id = USA_thecivilrightsissue
+icon = GFX_thecivilrightsissue
+x = 8
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thekennedypresidency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Force Integration
+focus = { 
+id = USA_forceintegration
+icon = GFX_forceintegration
+x = 3
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thecivilrightsissue } 
+mutually_exclusive = { focus = USA_neutrality } 
+mutually_exclusive = { focus = USA_enforcesegregation } 
+mutually_exclusive = { focus = USA_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Kennedy Presidency
+focus = { 
+id = USA_thekennedypresidency
+icon = GFX_thekennedypresidency
+x = 25
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Weaken the Pact
+focus = { 
+id = USA_weakenthepact
+icon = GFX_weakenthepact
+x = 33
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_containmentpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Special Relationship
+focus = { 
+id = USA_ourspecialrelationship
+icon = GFX_focus_chi_british_cooperation
+x = 25
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_europeanfriends } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote German Unity
+focus = { 
+id = USA_promotegermanunity
+icon = GFX_promotegermanunity
+x = 27
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_europeanfriends } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for World Police
+focus = { 
+id = USA_worldpolice
+icon = GFX_worldpolice
+x = 22
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thesouthafricaissue } 
+prerequisite = { focus = USA_ourfriendsinkorea } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Splendid Isolation
+focus = { 
+id = USA_splendidisolation
+icon = GFX_goal_generic_demand_territory
+x = 18
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theendofnato } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The South Africa Issue
+focus = { 
+id = USA_thesouthafricaissue
+icon = GFX_focus_generic_treaty
+x = 23
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thelanddownunder } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Gun for Every Hand
+focus = { 
+id = USA_agunforeveryhand
+icon = GFX_focus_secret_rearmament
+x = 40
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_researchnewguns } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Army Exercises
+focus = { 
+id = USA_armyexercises
+icon = GFX_goal_generic_axis_build_infantry
+x = 40
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_agunforeveryhand } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enforce Segregation
+focus = { 
+id = USA_enforcesegregation
+icon = GFX_enforcesegregation
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thecivilrightsissue } 
+mutually_exclusive = { focus = USA_forceintegration } 
+mutually_exclusive = { focus = USA_neutrality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Calm the People
+focus = { 
+id = USA_calmthepeople
+icon = GFX_goal_generic_national_unity
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_meetwithcivilrightsleaders } 
+prerequisite = { focus = USA_reassurethesouth } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Meet with Civil Rights Leaders
+focus = { 
+id = USA_meetwithcivilrightsleaders
+icon = GFX_meetwithcivilrightsleaders
+x = 7
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_neutrality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for America First
+focus = { 
+id = USA_americafirst
+icon = GFX_americafirst
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_statusofnato } 
+mutually_exclusive = { focus = USA_ourallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Status of NATO
+focus = { 
+id = USA_statusofnato
+icon = GFX_statusofnato
+x = 21
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_foreignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Free at Last
+focus = { 
+id = USA_freeatlast
+icon = GFX_freeatlast
+x = 3
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_breakuptheriots } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Integration in the South
+focus = { 
+id = USA_integrationinthesouth
+icon = GFX_integrationinthesouth
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_protecttheprotesters } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for It's Gonna be Okay
+focus = { 
+id = USA_itsgonnabeokay
+icon = GFX_goal_generic_national_unity
+x = 3
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_demonizesegregationists } 
+prerequisite = { focus = USA_integrationinthesouth } 
+prerequisite = { focus = USA_ourfriendmlk } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Riots
+focus = { 
+id = USA_theriots
+icon = GFX_theriots
+x = 3
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_itsgonnabeokay } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Break up the Riots
+focus = { 
+id = USA_breakuptheriots
+icon = GFX_goal_generic_military_sphere
+x = 3
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theriots } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Demonize Segregationists
+focus = { 
+id = USA_demonizesegregationists
+icon = GFX_demonizesegregationists
+x = 5
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_protecttheprotesters } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Friend MLK
+focus = { 
+id = USA_ourfriendmlk
+icon = GFX_ourfriendmlk
+x = 1
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_protecttheprotesters } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crack Down on Protests
+focus = { 
+id = USA_crackdownonprotests
+icon = GFX_crackdownonprotests
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_enforcesegregation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Segregation Forever
+focus = { 
+id = USA_segregationforever
+icon = GFX_focus_CZE_german_puppet
+x = 13
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_sendinthenationalguard } 
+prerequisite = { focus = USA_bantheirprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Protect the Protesters
+focus = { 
+id = USA_protecttheprotesters
+icon = GFX_goal_generic_defence
+x = 3
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_forceintegration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ban their Protests
+focus = { 
+id = USA_bantheirprotests
+icon = GFX_bantheirprotests
+x = 12
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_RdEzQFqK } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Send in the National Guard
+focus = { 
+id = USA_sendinthenationalguard
+icon = GFX_sendinthenationalguard
+x = 14
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_RdEzQFqK } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arrest the Leaders
+focus = { 
+id = USA_arresttheleaders
+icon = GFX_arresttheleaders
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_crackdownonprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Peaceful Protests
+focus = { 
+id = USA_peacefulprotests
+icon = GFX_peacefulprotests
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_calmthepeople } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crack Down on Violence
+focus = { 
+id = USA_crackdownonviolence
+icon = GFX_goal_demand_sudetenland
+x = 7
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_peacefulprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote Tolerance
+focus = { 
+id = USA_promotetolerance
+icon = GFX_goal_generic_improve_relations
+x = 9
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_peacefulprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for I Have a Dream
+focus = { 
+id = USA_ihaveadream
+icon = GFX_ihaveadream
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_promotetolerance } 
+prerequisite = { focus = USA_crackdownonviolence } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Unite White Americans
+focus = { 
+id = USA_unitewhiteamericans
+icon = GFX_goal_generic_national_unity
+x = 11
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_crackdownonprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Discourage Black Education
+focus = { 
+id = USA_discourageblackeducation
+icon = GFX_discourageblackeducation
+x = 15
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_crackdownonprotests } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Riots
+focus = { 
+id = USA_RdEzQFqK
+icon = GFX_RdEzQFqK
+x = 13
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_discourageblackeducation } 
+prerequisite = { focus = USA_unitewhiteamericans } 
+prerequisite = { focus = USA_arresttheleaders } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for American Pride
+focus = { 
+id = USA_americanpride
+icon = GFX_focus_usa_guarantee_the_american_dream
+x = 17
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_withdrawfromeurope } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Allies Around the World
+focus = { 
+id = USA_alliesaroundtheworld
+icon = GFX_alliesaroundtheworld
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_ourallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for American Exceptionalism
+focus = { 
+id = USA_americanexceptionalism
+icon = GFX_americanexceptionalism
+x = 19
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_withdrawfromeurope } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ohayo Japan!
+focus = { 
+id = USA_ohayojapan
+icon = GFX_focus_jap_pacific_guardian
+x = 21
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_alliesaroundtheworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Allies
+focus = { 
+id = USA_ourallies
+icon = GFX_goal_generic_national_unity
+x = 24
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_statusofnato } 
+mutually_exclusive = { focus = USA_americafirst } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Isolate the Pact
+focus = { 
+id = USA_isolatethepact
+icon = GFX_isolatethepact
+x = 26
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theneutrals } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Neutrals
+focus = { 
+id = USA_theneutrals
+icon = GFX_theneutrals
+x = 26
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_promotegermanunity } 
+prerequisite = { focus = USA_ourspecialrelationship } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for European Friends
+focus = { 
+id = USA_europeanfriends
+icon = GFX_goal_generic_improve_relations
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_ourallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for More Advisers in Vietnam
+focus = { 
+id = USA_moreadvisersinvietnam
+icon = GFX_moreadvisersinvietnam
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_containmentpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strategic Hamlet Program
+focus = { 
+id = USA_strategichamletprogram
+icon = GFX_goal_generic_demand_territory
+x = 31
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_moreadvisersinvietnam } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Withdraw from Europe
+focus = { 
+id = USA_withdrawfromeurope
+icon = GFX_goal_generic_position_armies
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_americafirst } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The End of NATO
+focus = { 
+id = USA_theendofnato
+icon = GFX_theendofnato
+x = 18
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_americanpride } 
+prerequisite = { focus = USA_americanexceptionalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fund Anti-Communist Movements in Africa
+focus = { 
+id = USA_fundanticommunistmovementsinafrica
+icon = GFX_fundanticommunistmovementsinafrica
+x = 29
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_containmentpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Land Down Under
+focus = { 
+id = USA_thelanddownunder
+icon = GFX_thelanddownunder
+x = 23
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_alliesaroundtheworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fund Anti-Communist Movements in the Pact
+focus = { 
+id = USA_fundanticommunistmovementsinthepact
+icon = GFX_fundanticommunistmovementsinthepact
+x = 33
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_weakenthepact } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Our Friends in Korea
+focus = { 
+id = USA_ourfriendsinkorea
+icon = GFX_ourfriendsinkorea
+x = 21
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_ohayojapan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Congo Crisis
+focus = { 
+id = USA_thecongocrisis
+icon = GFX_thecongocrisis
+x = 29
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_fundanticommunistmovementsinafrica } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Increased Tank Production
+focus = { 
+id = USA_increasedtankproduction
+icon = GFX_goal_continuous_armor_production
+x = 36
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Research New Guns
+focus = { 
+id = USA_researchnewguns
+icon = GFX_goal_generic_small_arms
+x = 40
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Capable Army
+focus = { 
+id = USA_acapablearmy
+icon = GFX_goal_generic_secret_weapon
+x = 38
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_furthermechanisation } 
+prerequisite = { focus = USA_paratroopers } 
+prerequisite = { focus = USA_armyexercises } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fighter Development
+focus = { 
+id = USA_fighterdevelopment
+icon = GFX_goal_generic_air_fighter2
+x = 44
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usairforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bomb Our Enemies!
+focus = { 
+id = USA_bombourenemies
+icon = GFX_goal_generic_occupy_start_war
+x = 46
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usairforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sink Their Subs
+focus = { 
+id = USA_sinktheirsubs
+icon = GFX_goal_generic_navy_anti_submarine
+x = 50
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_submarinewarfare } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for We Will Fight
+focus = { 
+id = USA_wewillfight
+icon = GFX_goal_generic_demand_territory
+x = 44
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_efficientproduction } 
+prerequisite = { focus = USA_officertrainingprogrammes } 
+prerequisite = { focus = USA_thebestairforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Efficient Production
+focus = { 
+id = USA_efficientproduction
+icon = GFX_focus_generic_navy_battleship2
+x = 50
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_navalsupremacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bases in the Pacific
+focus = { 
+id = USA_basesinthepacific
+icon = GFX_goal_generic_construct_naval_dockyard
+x = 52
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_funddockyardconstruction } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Naval Supremacy
+focus = { 
+id = USA_navalsupremacy
+icon = GFX_goal_generic_navy_doctrines_tactics
+x = 50
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_amphibiouswarfare } 
+prerequisite = { focus = USA_merchantmarine } 
+prerequisite = { focus = USA_basesinthepacific } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fund Dockyard Construction
+focus = { 
+id = USA_funddockyardconstruction
+icon = GFX_goal_generic_construction2
+x = 52
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_expandourbases } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Death From Above
+focus = { 
+id = USA_deathfromabove
+icon = GFX_goal_generic_secret_weapon
+x = 46
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_bombourenemies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Best Airforce
+focus = { 
+id = USA_thebestairforce
+icon = GFX_goal_generic_CAS
+x = 44
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_airfieldconstruction } 
+prerequisite = { focus = USA_navalbombardment } 
+prerequisite = { focus = USA_deathfromabove } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Submarine Warfare
+focus = { 
+id = USA_submarinewarfare
+icon = GFX_goal_generic_navy_submarine
+x = 50
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usnavy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Carrier Programmes
+focus = { 
+id = USA_carrierprogrammes
+icon = GFX_goal_generic_navy_carrier
+x = 48
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usnavy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Naval Bombardment
+focus = { 
+id = USA_navalbombardment
+icon = GFX_goal_poland_goal
+x = 42
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_airsupport } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Capital Ships
+focus = { 
+id = USA_capitalships
+icon = GFX_goal_generic_navy_battleship
+x = 48
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_carrierprogrammes } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Amphibious Warfare
+focus = { 
+id = USA_amphibiouswarfare
+icon = GFX_goal_generic_amphibious_assault
+x = 48
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_capitalships } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Merchant Marine
+focus = { 
+id = USA_merchantmarine
+icon = GFX_goal_generic_navy_cruiser
+x = 50
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_sinktheirsubs } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Automotive Industry
+focus = { 
+id = USA_automotiveindustry
+icon = GFX_automotiveindustry
+x = 36
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_increasedtankproduction } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Paratroopers
+focus = { 
+id = USA_paratroopers
+icon = GFX_focus_generic_paratrooper
+x = 38
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_efficienttraining } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Air Support
+focus = { 
+id = USA_airsupport
+icon = GFX_goal_generic_air_fighter2
+x = 42
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usairforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Air Field Construction
+focus = { 
+id = USA_airfieldconstruction
+icon = GFX_goal_generic_build_airforce
+x = 44
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_fighterdevelopment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand our Bases
+focus = { 
+id = USA_expandourbases
+icon = GFX_goal_generic_construct_naval_dockyard
+x = 52
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_usnavy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Experienced Military
+focus = { 
+id = USA_anexperiencedmilitary
+icon = GFX_focus_generic_little_entente
+x = 44
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_wewillfight } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

@@ -1,0 +1,22 @@
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no 
+	focus = {
+		id = blank_focus
+		icon =
+		x = 1
+		y = 0
+		cost = 10
+		allow_branch = {
+			has_country_flag = blank_focus
+		}
+		available_if_capitulated = yes
+	}
+
+}
