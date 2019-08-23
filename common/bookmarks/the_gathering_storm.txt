@@ -1,0 +1,301 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1963.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		##MAJORS
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+				SPR_empty_throne
+				SPR_lighter_hand
+				SPR_spanish_miracle	
+			}
+			
+			focuses = {
+				#
+				}			
+			}		
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+					ENG_declining_empire
+					ENG_experienced_troubles
+					ENG_elizabeth_ii
+			}
+			focuses = {
+				ENG_imperial_federation
+				ENG_the_kings_party
+				ENG_organize_the_blackshirts
+			}
+		}
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"IND"={
+			history = "IND_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}			
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+					
+			}
+			focuses = {
+				
+			}
+		}
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"WGR"={
+			history = "WGR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"DDR"={
+			history = "DDR_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}			
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"CZE"={
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"ISR"={
+			history = "ISR_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"HOL"={
+			history = "HOL_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"YUG"={
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"MAD"={
+			history = "MAD_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"GRE"={
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			GRE_divided_politics
+			GRE_meddlesome_monarch	
+			GRE_disloyal_military
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"ROM"={
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"PER"={
+			history = "PER_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			PER_islamic_resistance
+			PER_white_revolution
+			PER_us_influence			
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"TUR"={
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"NVN"={
+			history = "NVN_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}			
+		"SVN"={
+			history = "SVN_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"BEL"={
+			history = "BEL_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}
+		"NKR"={
+			history = "NKR_GATHERING_STORM_DESC"
+			ideology = auth_soc
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}			
+		"SKR"={
+			history = "HOL_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			
+			focuses = {
+				#
+				}			
+			}			
+		}
+	}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
