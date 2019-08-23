@@ -1,0 +1,196 @@
+###################################
+#####SPANISH CIVIL WAR EVENTS######
+###################################
+
+country_event = {
+	id = 2ndspanishcivilwar.1
+	title = 2ndspanishcivilwar.1.t
+	desc = 2ndspanishcivilwar.1.d
+	picture = GFX_report_event_2nd_spanish_civil_war
+	is_triggered_only = yes 
+	fire_only_once = yes
+		immediate = {
+			hidden_effect = {
+		CAT = {
+			transfer_state = 165
+			transfer_state = 167
+			transfer_state = 177
+			}
+		CAT = {
+			add_state_core  = 165
+			add_state_core  = 167
+			add_state_core  = 177
+			}
+			
+		BSQ = {
+			transfer_state = 172
+			transfer_state = 795
+			}
+		SPA = {
+			transfer_state = 169
+			transfer_state = 173
+			transfer_state = 168
+			transfer_state = 794
+			}
+		KSP = {
+			transfer_state = 170
+			transfer_state = 41
+			transfer_state = 175
+			transfer_state = 797
+			}
+		GAL = {
+			transfer_state = 171
+			}
+		BSQ = {
+			inherit_technology = PREV
+				}
+		CAT = {
+			inherit_technology = PREV
+				}
+		SPA = {
+			inherit_technology = PREV
+				}
+		KSP = {
+			inherit_technology = PREV
+				}
+		GAL = {
+			inherit_technology = PREV
+				}				
+		SPR = {
+			set_politics = {
+					ruling_party = despotism
+					elections_allowed = no
+				}
+			SPR = {
+				add_opinion_modifier = {
+						target = BSQ
+						modifier = SPR_2nd_Civil_War_Contender
+					}
+				add_opinion_modifier = {
+						target = GAL
+						modifier = SPR_2nd_Civil_War_Contender
+					}
+				add_opinion_modifier = {
+						target = SPR
+						modifier = SPR_2nd_Civil_War_Contender
+					}
+				add_opinion_modifier = {
+						target = KSP
+						modifier = SPR_2nd_Civil_War_Contender
+					}
+				add_opinion_modifier = {
+						target = CAT
+						modifier = SPR_2nd_Civil_War_Contender
+					}
+		SPR = {
+		declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = KSP
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPA
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = BSQ
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = CAT
+				type = annex_everything
+			}
+		}
+				GAL = {
+		declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = KSP
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPA
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = BSQ
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = CAT
+				type = annex_everything
+			}
+		}
+		KSP = {
+		declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPA
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = BSQ
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = CAT
+				type = annex_everything
+			}
+		}
+		SPA = {
+		declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = KSP
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+		}
+		BSQ = {
+		declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = KSP
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+		}
+		CAT = {
+		declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = KSP
+				type = annex_everything
+			}
+		declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+		}		
+		set_global_flag = 2nd_spanish_civil_war
+		}
+	}
+}

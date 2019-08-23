@@ -1,0 +1,84 @@
+###################################
+####MADAGASCAR CIVIL WAR EVENTS####
+###################################
+
+add_namespace = madagascarcivilwar
+
+country_event = {
+	id = madagascarcivilwar.1
+	title = madagascarcivilwar.1.t
+	desc = madagascarcivilwar.1.d
+	picture = GFX_report_event_english_civil_war
+	is_triggered_only = yes 
+	fire_only_once = yes
+		immediate = {
+			hidden_effect = {
+				
+		set_global_flag = madagascar_civil_war
+			
+			}
+		}
+		
+			option = {
+		name = madagascarcivilwar.1.a
+		hidden_effect = {
+		ai_chance = { factor = 05}				
+		MJU = {
+		add_opinion_modifier = {
+		target = DRM
+		modifier = Civil_War_Contender
+		}
+		transfer_state = 812
+		transfer_state = 543
+		inherit_technology = PREV
+		change_tag_from = MAD		
+		declare_war_on = {
+				target = DRM
+				type = annex_everything
+				}	
+			}
+			
+		DRM = {
+		transfer_state = 810
+		transfer_state = 811
+		transfer_state = 809
+		transfer_state = 808
+		inherit_technology = PREV
+		declare_war_on = {
+				target = MJU
+				type = annex_everything
+					}
+				}
+			}
+		}	
+
+			option = {
+		name = madagascarcivilwar.1.b
+		hidden_effect = {
+		ai_chance = { factor = 05}
+		MJU = {
+		add_opinion_modifier = {
+		target = DRM
+		modifier = Civil_War_Contender
+		}
+		transfer_state = 812
+		transfer_state = 543
+		inherit_technology = PREV			
+			}
+		
+		DRM = {
+		transfer_state = 810
+		transfer_state = 811
+		transfer_state = 809
+		transfer_state = 808
+		inherit_technology = PREV
+		declare_war_on = {
+				target = MJU
+				type = annex_everything
+				}		
+		change_tag_from = MAD	
+				}
+			}
+		}
+	}		
+	

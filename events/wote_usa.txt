@@ -1,0 +1,38 @@
+add_namespace = usa
+
+##Event: Assassination of JFK
+country_event = {
+ id = usa.1
+ title = usa.1.t
+ desc = usa.1.desc
+ picture = GFX_assassinationofjfk
+ fire_only_once = yes
+ major = yes
+	option = {
+		name = usa.1.a
+		ai_chance = { factor = 1}
+		kill_country_leader= yes
+		load_focus_tree = usa_lbj
+		complete_national_focus = USA_thejohnsonpresidency	
+	}
+}
+
+##Event: US Boots on the Ground in Vietnam
+country_event = {
+ id = usa.2
+ title = usa.2.title
+ desc = usa.2.desc
+ picture = GFX_news_event_us_vietnamwar
+ fire_only_once = yes
+ major = yes
+ immediate = {
+ 	news_event = {
+		id = WORLD.1
+		days = 1
+				}
+			}
+	option = {
+		name = usa.2.a
+		ai_chance = { factor = 1}
+	}
+}

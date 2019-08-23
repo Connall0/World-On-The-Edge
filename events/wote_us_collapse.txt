@@ -1,0 +1,261 @@
+###################################
+########USA COLLAPSE EVENTS########
+###################################
+
+add_namespace = uscollapse
+
+country_event = {
+	id = uscollapse.1
+	title = uscollapse.1.t
+	desc = uscollapse.1.desc
+	picture = GFX_report_event_american_collapse
+	is_triggered_only = yes 
+	fire_only_once = yes
+		immediate = {
+			hidden_effect = {
+		
+		USA = {
+		set_cosmetic_tag = AMR
+		dismantle_faction = yes
+		set_capital = 345
+			}
+		
+		CAL = {
+			transfer_state = 819
+			transfer_state = 817
+			transfer_state = 378
+			transfer_state = 818
+			}		
+		CAL = {
+			add_state_core  = 819
+			add_state_core  = 817
+			add_state_core  = 378
+			add_state_core  = 818
+			}
+			
+		TEX = {
+			transfer_state = 375
+			transfer_state = 821
+			transfer_state = 820
+			transfer_state = 376
+			}		
+		TEX = {
+			add_state_core  = 375
+			add_state_core  = 821
+			add_state_core  = 820
+			add_state_core  = 376
+			}			
+			
+		FLO = {
+			transfer_state = 366
+			}		
+		FLO = {
+			add_state_core = 366
+			}
+
+		LOU = {
+			transfer_state = 371
+			}		
+		LOU = {
+			add_state_core = 371
+			}			
+			
+		NEA = {
+			transfer_state = 357
+			transfer_state = 358
+			}		
+		NEA = {
+			add_state_core = 357
+			add_state_core = 358
+			}			
+
+		AJU = {
+			transfer_state = 361
+			transfer_state = 362
+			transfer_state = 363
+			transfer_state = 368
+			transfer_state = 369
+			}		
+		AJU = {
+			add_state_core = 361
+			add_state_core = 362
+			add_state_core = 363
+			add_state_core = 368
+			add_state_core = 369
+			}
+			
+		USR = {
+			transfer_state = 393
+			transfer_state = 261
+			transfer_state = 396
+			transfer_state = 395
+			transfer_state = 394
+			transfer_state = 392
+			transfer_state = 391
+			transfer_state = 360
+			transfer_state = 359
+			}		
+		USR = {
+			add_state_core  = 393
+			add_state_core  = 261
+			add_state_core  = 396
+			add_state_core  = 395
+			add_state_core  = 394
+			add_state_core  = 392
+			add_state_core  = 391
+			add_state_core  = 360
+			add_state_core  = 359
+			}			
+			
+		NAF = {
+			transfer_state = 370
+			transfer_state = 367
+			transfer_state = 365
+			transfer_state = 364
+			}		
+		NAF = {
+			add_state_core  = 370
+			add_state_core  = 367
+			add_state_core  = 365
+			add_state_core  = 364
+			}
+			
+		CAL = {
+			inherit_technology = PREV
+				}
+		
+		NAF = {
+			inherit_technology = PREV
+				}
+
+		USR = {
+			inherit_technology = PREV
+				}
+
+		TEX = {
+			inherit_technology = PREV
+				}				
+				
+		set_global_flag = us_collapse
+			
+			}
+		}
+
+			option = {
+		name = uscollapse.1.a
+		hidden_effect = {
+		USA = {
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}					
+			}
+		
+		USR = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}					
+			}
+		
+		AJU = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}	
+			}
+		}
+	}
+		
+			option = {
+		name = uscollapse.1.b
+		hidden_effect = {
+		
+		USA = {
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}					
+			}
+		
+		USR = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}
+				change_tag_from = USA				
+			}
+		
+		AJU = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}	
+			}
+		}		
+	}
+	
+			option = {
+		name = uscollapse.1.c
+		hidden_effect = {
+		
+		USA = {
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}					
+			}
+		
+		USR = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = AJU
+				type = annex_everything
+				}		
+			}
+		
+		AJU = {
+		declare_war_on = {
+				target = USA
+				type = annex_everything
+				}
+		declare_war_on = {
+				target = USR
+				type = annex_everything
+				}
+		change_tag_from = USA						
+			}
+		}		
+	}
+}	
