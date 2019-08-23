@@ -1,0 +1,39 @@
+ideas = {
+
+		country = {
+		YUG_brotherhood_unity = {
+			picture = GFX_idea_YUG_brotherhood_unity
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.15
+			army_core_defence_factor = 0.1 
+			}
+		}
+		YUG_market_socialism = {
+			picture = GFX_idea_YUG_market_socialism
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.05 
+			production_factory_max_efficiency_factor = 0.1 
+			}
+		}		

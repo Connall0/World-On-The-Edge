@@ -1,0 +1,22 @@
+ideas = {
+
+		country = {
+		USA_jim_crow_laws = {
+			picture = GFX_idea_USA_jim_crow_laws
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10 
+			}
+		}
+		
+	}		

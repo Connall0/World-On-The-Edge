@@ -1,0 +1,21 @@
+ideas = {
+
+		country = {
+		GER_divided_nation = {
+			picture = GFX_idea_GER_divided_nation
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10 
+			}
+		}
+	}

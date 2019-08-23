@@ -1,0 +1,22 @@
+ideas = {
+
+		country = {
+		PRC_legacy_of_great_leap_forward = {
+			picture = GFX_idea_PRC_legacy_of_great_leap_forward
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.25 				
+			}
+		}
+		

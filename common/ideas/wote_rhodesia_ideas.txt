@@ -1,0 +1,59 @@
+ideas = {
+
+		country = {
+		RHO_minority_rule = {
+			picture = GFX_idea_RHO_minority_rule
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+			political_power_factor = -0.1				
+			}
+		}
+
+		RHO_guerilla_activity = {
+			picture = GFX_idea_RHO_guerilla_activity
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.2
+				conscription_factor = 0.1
+				production_speed_buildings_factor = -0.5 
+			}
+		}
+
+		RHO_illegitimate_state = {
+			picture = GFX_idea_RHO_illegitimate_state
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			trade_opinion_factor = -0.9
+			}
+		}

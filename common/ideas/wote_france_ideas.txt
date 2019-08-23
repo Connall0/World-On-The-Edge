@@ -1,0 +1,42 @@
+ideas = {
+
+		country = {
+		FRA_independent_power = {
+			picture = GFX_idea_FRA_independent_power
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05 
+				stability_factor = 0.10
+			}
+		}
+		
+		FRA_fifth_republic = {
+			picture = GFX_idea_FRA_fifth_republic
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.10				
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+ideas = {
+
+		country = {
+		SOV_home_of_revolution = {
+			picture = "GFX_idea_SOV_revolution"
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.15
+			army_core_defence_factor = 0.1 
+			}
+		}
+		SOV_khruschev_thaw = {
+			picture = GFX_idea_SOV_khruschev_thaw
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.05 
+			drift_defence_factor = -0.15 
+			}
+		}		

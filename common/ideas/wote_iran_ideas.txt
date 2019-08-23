@@ -1,0 +1,58 @@
+ideas = {
+
+		country = {
+		PER_islamic_resistance = {
+			picture = GFX_idea_PER_islamic_resistance
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.2 				
+			}
+		}
+		PER_white_revolution = {
+			picture = GFX_idea_PER_white_revolution
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.10 
+			production_speed_buildings_factor = 0.1 
+			political_power_gain = 0.2
+			stability_factor = -0.1
+			}
+		}			
+		PER_us_influence = {
+			picture = GFX_idea_PER_us_influence
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			min_export = 0.25 
+			}
+		}		

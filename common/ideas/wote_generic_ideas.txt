@@ -1,0 +1,97 @@
+ideas = {
+		
+		country = {
+		generic_warsaw_pact = {
+			picture = GFX_idea_generic_warsaw_pact
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10 
+				war_support_factor = 0.05 
+			}
+		}
+		
+		generic_nuclear_arsenal = {
+			picture = GFX_idea_generic_nuclear_arsenal
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#
+			}
+		}
+		
+		generic_space_program = {
+			picture = "GFX_idea_generic_space_program"
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#
+			}
+		}
+
+		generic_european_economic_community = {
+			picture = GFX_idea_generic_european_economic_community
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				local_resources_factor = 0.10 
+				war_support_factor = -0.20 
+			}
+		}
+		
+		generic_non_alligned = {
+			picture = GFX_idea_generic_non_alligned
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = { 
+				war_support_factor = -0.20
+				ai_get_ally_desire_factor = -100
+				ai_join_ally_desire_factor = -100 
+			}
+		}		

@@ -1,0 +1,24 @@
+ideas = {
+
+		country = {
+		SWI_neutrality = {
+			picture = GFX_idea_SWI_neutrality
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = 1.00
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				ai_badass_factor = 0.01
+				ai_get_ally_desire_factor = -100  
+			}
+		}	

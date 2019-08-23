@@ -1,0 +1,58 @@
+ideas = {
+
+		country = {
+		CHI_republic_in_exile = {
+			picture = GFX_idea_CHI_republic_in_exile
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			conscription_factor = 0.1 
+			war_support_factor = 0.2 
+			drift_defence_factor = 0.25 
+			}
+		}
+		CHI_us_financial_aid = {
+			picture = GFX_idea_CHI_financial_aid
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.1
+			production_speed_buildings_factor = 0.1 
+			}
+		}			
+		CHI_republic_in_name = {
+			picture = GFX_idea_chi_republic_in_name
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = 0.5
+			stability_factor = -0.10 			
+			}
+		}		

@@ -1,0 +1,531 @@
+ideas = {
+
+##CYPRUS
+
+	head_of_government = {
+		CYP_makarios_hog = {
+			picture "GFX_idea_CYP_makarios_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CYP_makarios_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		CYP_kyprianou_fm = {
+			picture "GFX_idea_CYP_kyprianou_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CYP_kyprianou_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		CYP_solomides_em = {
+			picture "GFX_idea_CYP_solomides_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CYP_solomides_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		CYP_georkadjis_sm = {
+			picture "GFX_idea_CYP_georkadjis_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CYP_georkadjis_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##IRAN
+
+	head_of_government = {
+		PER_alam_hog = {
+			picture "GFX_idea_PER_alam_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_alam_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		PER_aram_fm = {
+			picture "GFX_idea_PER_aram_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_aram_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		PER_amuzegar_em = {
+			picture "GFX_idea_PER_amuzegar_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_amuzegar_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		PER_khoshbin_sm = {
+			picture "GFX_idea_PER_khoshbin_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_khoshbin_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##YUGOSLAVIA
+
+	head_of_government = {
+		YUG_tito_hog = {
+			picture "GFX_idea_YUG_tito_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUG_tito_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		YUG_popovic_fm = {
+			picture "GFX_idea_YUG_popovic_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUG_popovic_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		YUG_gligorov_em = {
+			picture "GFX_idea_YUG_gligorov_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUG_gligorov_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		YUG_stefanovic_sm = {
+			picture "GFX_idea_YUG_stefanovic_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUG_stefanovic_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##GREECE
+
+	head_of_government = {
+		GRE_karamanlis_hog = {
+			picture "GFX_idea_GRE_karamanlis_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_karamanlis_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		GRE_averoff_fm = {
+			picture "GFX_idea_GRE_averoff_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_averoff_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		GRE_zolotas_em = {
+			picture "GFX_idea_GRE_zolotas_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_zolotas_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		GRE_mitsou_sm = {
+			picture "GFX_idea_GRE_mitsou_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_mitsou_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##TAIWAN
+
+	head_of_government = {
+		CHI_cheng_hog = {
+			picture "GFX_idea_CHI_cheng_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_cheng_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		CHI_changhuan_fm = {
+			picture "GFX_idea_CHI_changhuan_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_changhuan_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		CHI_jizeng_em = {
+			picture "GFX_idea_CHI_jizeng_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_jizeng_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		CHI_zhutong_sm = {
+			picture "GFX_idea_CHI_zhutong_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_zhutong_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##USA
+
+	head_of_government = {
+		USA_johnson_hog = {
+			picture "GFX_idea_USA_johnson_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_johnson_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		USA_rusk_fm = {
+			picture "GFX_idea_USA_rusk_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_rusk_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		USA_dillon_em = {
+			picture "GFX_idea_USA_dillon_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_dillon_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		USA_RFK_sm = {
+			picture "GFX_idea_USA_RFK_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_RFK_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##UNITED KINGDOM
+
+	head_of_government = {
+		ENG_macmillan_hog = {
+			picture "GFX_idea_ENG_macmillan_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_macmillan_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		ENG_alec_douglas_home_fm = {
+			picture "GFX_idea_ENG_home_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_alec_douglas_home_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		ENG_maudling_em = {
+			picture "GFX_idea_ENG_maudling_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_maudling_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		ENG_brooke_sm = {
+			picture "GFX_idea_ENG_brooke_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_brooke_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
+##SPAIN
+
+	head_of_government = {
+		SPR_franco_hog = {
+			picture "GFX_idea_SPR_franco_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_franco_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+				hog_respected_war_hero
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		SPR_maiz_fm = {
+			picture "GFX_idea_SPR_maiz_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_maiz_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		SPR_rubio_em = {
+			picture "GFX_idea_SPR_rubio_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_rubio_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		SPR_vega_sm = {
+			picture "GFX_idea_SPR_vega_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_vega_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+	}

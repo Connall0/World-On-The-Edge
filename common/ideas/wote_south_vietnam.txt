@@ -1,0 +1,60 @@
+ideas = {
+		
+		country = {
+		svn_corrupt_government = {
+			picture = GFX_idea_corruption
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_factor = -0.05
+			consumer_goods_factor = 0.1 
+			}
+		}
+		
+		svn_unpopular_government = {
+			picture = GFX_idea_svn_unpopular_government
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_factor = -0.25
+			}
+		}
+		
+		svn_guerilla_activity = {
+			picture = GFX_idea_svn_guerilla_activity
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.20 
+				auth_soc_drift = 0.02 
+			}
+		}
+	}
+}		

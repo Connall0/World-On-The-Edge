@@ -1,0 +1,58 @@
+ideas = {
+
+		country = {
+		MAD_nationwide_illiteracy = {
+			picture = GFX_idea_MAD_nationwide_illiteracy
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.2
+			}
+		}
+
+		MAD_french_economic_dominance = {
+			picture = GFX_idea_MAD_french_economic_dominance
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		MAD_high_corruption = {
+			picture = GFX_idea_corruption
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_factor = -0.05
+			consumer_goods_factor = 0.1 
+			}
+		}

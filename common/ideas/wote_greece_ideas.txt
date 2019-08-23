@@ -1,0 +1,74 @@
+ideas = {
+
+		country = {
+		GRE_divided_politics = {
+			picture = GFX_idea_GRE_divided_politics
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.1
+			political_power_factor = -0.05 
+			}
+		}
+		GRE_meddlesome_monarch = {
+			picture = GFX_idea_GRE_meddlesome_monarch
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = -0.25 
+			}
+		}			
+		GRE_disloyal_military = {
+			picture = GFX_idea_GRE_disloyal_military
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			max_command_power = -10
+			war_support_factor = -0.10 
+			army_org = -5
+			}
+		}
+		GRE_king_paul = {
+			picture = GFX_idea_GRE_king_paul
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			trade_opinion_factor = 0.1 			
+			}
+		}		

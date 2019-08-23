@@ -1,0 +1,58 @@
+ideas = {
+
+		country = {
+		SPR_empty_throne = {
+			picture = GFX_idea_spr_empty_throne
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#
+			}
+		}
+		SPR_lighter_hand = {
+			picture = GFX_idea_SPR_lighter_hand
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			drift_defence_factor = -0.1
+			stability_factor = 0.2
+			war_support_factor = -0.1
+			}
+		}			
+		SPR_spanish_miracle = {
+			picture = GFX_idea_SPR_spanish_miracle
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = 0.2
+			consumer_goods_factor = -0.1
+			drift_defence_factor = -0.1
+			}
+		}		

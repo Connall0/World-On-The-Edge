@@ -1,0 +1,57 @@
+ideas = {
+
+		country = {
+		ENG_declining_empire = {
+			picture = GFX_idea_ENG_declining_empire
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10 
+			}
+		}
+
+		ENG_experienced_troubles = {
+			picture = GFX_idea_ENG_experienced_troubles
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+
+		ENG_elizabeth_ii = {
+			picture = GFX_idea_ENG_elizabeth_ii
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05 
+			}
+		}
