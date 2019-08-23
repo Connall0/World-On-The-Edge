@@ -1,0 +1,114 @@
+﻿l_english:
+generic_space_program:0 "Space Program"
+generic_nuclear_arsenal:0 "Nuclear Arsenal"
+generic_nuclear_arsenal_desc:0 "We are a nation with a large nuclear arsenal. We wield the power to destroy the world, this power should only be used completely as a last resort though due to the fact our enemies also have this power."
+generic_warsaw_pact:0 "Warsaw Pact"
+generic_warsaw_pact_desc:0 "Formed after the end of the Second World War, the Warsaw Pact was formed by the Eastern Bloc as a defensive pact against NATO and acts as a method for the Soviet Union to maintain control over Central and Eastern Europe, should this collapse it would certainly weaken Russian control over the Eastern Bloc countries."
+generic_european_economic_community:0 "European Economic Community"
+generic_non_alligned:0 "Non-Aligned Movement"
+generic_non_alligned_desc:0 "As a member state of the Non-Aligned Movement we have agreed to stay out of all conflicts between the two major powers in the world in order to protect our people from the horrors of war between the powers."
+
+#ROMANIA IDEAS
+ROM_securitate2:0 "Securitate"
+ROM_securitate2_desc:0 "Nothing escapes the eye of the Securitate, Romania's massive secret police agency. Modeled after the Stalin-era NKVD, the Securitate uses omnipresent surveillance coupled with harsh punishment and silencing of dissidents to crush any attempt by foreign agents or troublemakers to corrupt the minds of Romanians."
+ROM_decree_770:0 "Decree 770"
+ROM_decree_770_long:0 "The worrying decline in our nation's birth rate required immediate action. By outlawing abortion and making contraceptives all but impossible to acquire, we have ensured that our population will have the means to carry on our work into the next century."
+ROM_personality_cult:0 "Ceaușescu Cult of Personality"
+ROM_personality_cult_long:0 "Nicolae Ceaușescu is the greatest man to have ever lead Romania, outshining even the heroes of old. Through the use of both physical and digital media, we can help the people understand the importance of Ceaușescu's contributions to Science, Literature, Art, and Marxism as a whole. Premier Ceaușescu's place in the hearts of the people must be unrivaled if he is to lead Romania to his fullest potential. "
+
+##YUGOSLAVIA IDEAS
+YUG_brotherhood_unity:0 "Brotherhood and Unity"
+YUG_brotherhood_unity_desc:0 "Brotherhood and unity, a slogan first uttered during the Liberation War representing how the Serbs, Croats, Slovenes and other groups of people in Yugoslavia should unite under socialism and the Yugoslav state. Yugoslavia has faced hardships before and we will stay united as Slavic Brothers no matter what."
+YUG_market_socialism:0 "Market Socialism"
+YUG_market_socialism_desc:0 "Market Socialism is quite a unique economic policy akin to that of Yugoslavia. It combines many capitalist and socialist policies with a limited free market in a mostly socialist economy. Because of this the people of Yugoslavia have been able to live in a much stronger economy than citizens of other Eastern Bloc countries."
+
+##IRAN IDEAS
+PER_islamic_resistance:0 "Islamic Resistance"
+PER_islamic_resistance_desc:0 "Due to the Shah's more liberal policies, many islamists, traditionalists and conservatives have begun to resist the new reforms in Iran. Should these extremists gain too much support within the populace this could spell disaster for the Shah's regime and everything he hopes to do for Iran."
+PER_white_revolution:0 "White Revolution"
+PER_white_revolution_desc:0 "Starting in 1963, the Shah of Iran decided to do a series of far reaching liberal reforms in the once staunchly traditionalist country such as lessening class divide, land reform, privitisation, eradication of disease and greater rights for women.The majority of conservatives in the nation disagree with such reforms meanwhile many liberals celebrate them."
+PER_us_influence:0 "High US Influence"
+PER_us_influence_desc:0 "Iran as a country is heavily influenced by the United States, economically, culturally ever since the coup d'etat in 1953 and much like with the white revolution many conservatives are staunchly against such influence over our nation."
+
+##SOVIET_IDEAS
+SOV_home_of_revolution:0 "Home of the Revolution"
+SOV_khruschev_thaw:0 "The Khruschev Thaw"
+
+##SWITZERLAND IDEAS
+SWI_neutrality:0 "Swiss Neutrality"
+
+##PORTUGAL IDEAS
+POR_estado_novo:0 "Estado Novo"
+POR_salazar:0 "Salazar's Influence"
+
+##FRANCE IDEAS
+FRA_independent_power:0 "Independent Power"
+FRA_fifth_republic:0 "Fifth Republic"
+
+##SHARED GERMAN IDEAS
+GER_divided_nation:0 "Divided Nation"
+
+## GREECE IDEAS
+GRE_divided_politics:0 "Divided Politics"
+GRE_divided_politics_desc:0 "Following World War 2 and the subsequent Greek Civil War, a political trichotomy developed in Greece, that of the Left-Centre-Right. Each of these groups has its own power block in an increasingly polarized parliament, with rumors swirling about the exact nature of the political structure. Greece remains sharply divided between these three groupings and nobody can effectively be a part of politics without aligning oneself to one of the power blocs. In spite of this, more extremist organizations plot a violent end to the aggressively partisan politics plaguing the Greek nation."
+GRE_meddlesome_monarch:0 "Meddlesome Monarch"
+GRE_meddlesome_monarch_desc:0 "The Greek constitution awards strong powers to both the monarch and the conservative elite, in a bid to combat revolutionary socialism. Because of this, Greek monarchs have routinely used their royal perogitives to either undermine or simply ignore democratic procedure and it remains to be seen whether or not Greece can effectively remain a constitutional monarchy in this time of rapid change."
+GRE_disloyal_military:0 "Disloyal Military"
+GRE_disloyal_military_desc:0 "The Greek military is unique in Europe in that it has a degree of independence almost unparalleled. The military has consistently resisted attempts to control it by either parliament or the monarch and the Greek government has been forced to be content with a military that is disloyal to any authority in Greece apart from itself. Furthermore, a disproportionate amount of influence in the armed forces is held by mid-ranking officers- Captains, Majors, Colonels- and these men are strongly anti-communist and will not hesitate to act if they believe their beloved Greece to be in danger."
+GRE_king_paul:0 "King Paul I"
+GRE_king_paul_desc:0 "Succeeding to the throne in 1947 after the death of his childless elder brother George II, Paul oversaw Greece's recovery from its devestating clivil war and the economic prosperity of the 1950s and diplomatic and trade links were strengthened by Paul's many state visits abroad. However, the king has drawn heavy criticism in recent years over his continued interference in politics."
+
+## TAIWAN IDEAS
+CHI_republic_in_exile:0 "Republic in Exile"
+CHI_us_financial_aid:0 "American Financial Aid"
+CHI_republic_in_name:0 "Republic in Name Only"
+
+##COMMIE CHINA IDEAS
+PRC_legacy_of_great_leap_forward:0 "Legacy of the Great Leap Forward"
+
+##AMERICAN IDEAS
+USA_jim_crow_laws:0 "Jim Crow Laws"
+USA_limited_vietnam:0 "Limited Involvement in Vietnam"
+
+##RHODESIA IDEAS
+RHO_minority_rule:0 "Minority Rule"
+RHO_guerilla_activity:0 "Guerilla Activity"
+RHO_illegitimate_state:0 "Illegitimate State"
+
+##SPAIN IDEAS
+SPR_empty_throne:0 "An Empty Throne"
+SPR_empty_throne_desc:0 "Despite Franco restoring the Kingdom of Spain in 1947, the Kingdom has only been restored in name. No pretenders are allowed to reign as the King of Spain and Franco holds absolute authority as Caudillo."
+SPR_lighter_hand:0 "A Lighter Hand"
+SPR_lighter_hand_desc:0 "During the 1950s, the Francoist Government of Spain decided to push more reforms such as abandoning autarky and opening to the outside world somewhat as well as offering the people more civil liberties. While the regime is still authoritarian in nature, it is clear that a lighter hand is now governing Spain."
+SPR_spanish_miracle:0 "The Spanish Miracle"
+SPR_spanish_miracle_desc:0 "Ever since 1957, Spain has been going through a period of economic boom initiated by technocratic reforms approved by the Caudillo himself. The Spanish Economy is rapidly growing and mass industrialisation programmes are developing much of the country. However this new, freer Spain has it's downsides, the free market means the free exchange of ideas and this could undermine the Caudillo's authority."
+
+##BRITISH IDEAS
+ENG_declining_empire:0 "The Sun is Setting"
+ENG_declining_empire_desc:0 "The sun never sets on the British Empire, or rather, the sun is setting on the British Empire. After World War 2 the British Empire began a rapid downward spiral due to exhaustion from the brutal war and lack of money due to the extremely high cost of fighting such a tough war for so long. Many of our colonies are now independent states of their own with us even losing the jewel in the crown of the empire, India. It seems the age of British dominance on the globe is at an end."
+ENG_experienced_troubles:0 "Experienced Troubles"
+ENG_experienced_troubles_desc:0 "The Second World War was absolutely disastrous for the British homefront with the Luftwaffe destroying cities and wreaking havoc on the British population however during all of this morale never faltered, we never surrendered and continued fighting. Britain has experienced many troubles in the past and they will not take us down."
+ENG_elizabeth_ii:0 "HM Elizabeth II"
+ENG_elizabeth_ii_desc:0 "Coronated in 1953 after the death of her father, the late King George VI, Queen Elizabeth is a very popular figurehead with the people of the United Kingdom. Invoking nationalistic pride in most people in the country, the Queen is very important to the stability of the UK to the point where she has the power to dissolve parliament should things go badly enough in the government."
+
+##NORTH VIETNAM IDEAS
+nvn_southern_guerillas:0 "Southern Guerillas"
+nvn_southern_guerillas_desc:0 "The guerillas of the National Liberation Front in the south, loyal to our cause are wreaking havoc against the southern state as well as recruiting more and more of the people to our noble cause."
+nvn_chinese_support:0 "Chinese Support"
+nvn_chinese_support_desc:0 "Our comrades to the north, the Chinese are in support of our cause against the imperalists and with their help there's no way we can lose, we will free all of Vietnam."
+nvn_peoples_government:0 "People's Government"
+nvn_peoples_government_desc:0 "Unlike the vile southern government which is just a mere puppet to the capitalist Americans, our government is there in order to serve the people of Vietnam and will break the chains of capitalism, imperialism and colonialism from them."
+
+##SOUTH VIETNAM IDEAS
+svn_guerilla_activity:0 "Guerilla Activity"
+svn_guerilla_activity_desc:0 "The terroristic guerillas of the Vietcong, loyal to the Communists of the north keep attacking our people and our soldiers who want nothing more than to keep the peace and to defend Vietnam from the horrors of Communism."
+svn_corrupt_government:0 "Corrupt Government"
+svn_corrupt_government_desc:0 "Despite being a "republic" in name, South Vietnam is a dictatorship where corruption runs wild. Our politicians can be bought and disloyalty and disunity is rampant throughout the government."
+svn_unpopular_government:0 "Unpopular Government"
+svn_unpopular_government_desc:0 "Due to President Diem's policies the current administration of South Vietnam is extremely unpopular with the people and because of this the communist threat and their relative unity seems much more powerful."
+
+##MADAGASCAR IDEAS
+MAD_nationwide_illiteracy:0 "Nationwide Illiteracy"
+MAD_french_economic_dominance:0 "French Economic Dominance"
+MAD_high_corruption:0 "Government Corruption"
+

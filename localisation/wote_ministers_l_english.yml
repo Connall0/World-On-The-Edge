@@ -1,0 +1,53 @@
+﻿l_english:
+ minister:0 "Government"
+ 
+ ### Ministers ###
+ head_of_government:0 "Head of Government"
+ foreign_minister:0 "Foreign Minister"
+ economy_minister:0 "Economy Minister"
+ security_minister:0 "Minister of Interior"
+ 
+ ### TRAITS ###
+ hog_respected_war_hero:0 "War Hero" 
+
+ ##YUGOSLAVIA
+ YUG_tito_hog:0 "Josip Broz Tito"
+ YUG_popovic_fm:0 "Koča Popović"
+ YUG_gligorov_em:0 "Kiro Gligorov"
+ YUG_stefanovic_sm:0 "Svetislav Stefanović" 
+ 
+ ##GREECE
+ GRE_karamanlis_hog:0 "Konstantinos Karamanlis"
+ GRE_averoff_fm:0 "Evangelos Averoff"
+ GRE_zolotas_em:0 "Xenophon Zolotas"
+ GRE_mitsou_sm:0 "Konstantinos Mitsou"
+ 
+ ##IRAN
+ PER_alam_hog:0 "Asadollah Alam"
+ PER_aram_fm:0 "Abbas Aram"
+ PER_amuzegar_em:0 "Jahangir Amuzegar"
+ PER_khoshbin_sm:0 "Gholamhusein Khoshbin" 
+ 
+ ##TAIWAN
+ CHI_cheng_hog:0 "Chen Cheng"
+ CHI_changhuan_fm:0 "Shen Chang-huan"
+ CHI_jizeng_em:0 "Yang Jizeng"
+ CHI_zhutong_sm:0 "Gu Zhutong"
+ 
+ ##USA
+ USA_johnson_hog:0 "Lyndon B. Johnson"
+ USA_rusk_fm:0 "Dean Rusk"
+ USA_dillon_em:0 "C. Douglas Dillon"
+ USA_RFK_sm:0 "Robert F. Kennedy"
+ 
+ ##UNITED KINGDOM
+ ENG_macmillan_hog:0 "Harold Macmillan"
+ ENG_alec_douglas_home_fm:0 "Alec Douglas-Home"
+ ENG_maudling_em:0 "Reginald Maudling"
+ ENG_brooke_sm:0 "Henry Brooke"
+ 
+ ##SPAIN
+ SPR_franco_hog:0 "Francisco Franco"
+ SPR_maiz_fm:0 "Fernando María Castiella y Maíz"
+ SPR_rubio_em:0 "Mariano Navarro Rubio"
+ SPR_vega_sm:0 "Camilo Alonso Vega"

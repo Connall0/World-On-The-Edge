@@ -1,0 +1,427 @@
+﻿#Ideologies
+l_english:
+ auth_soc:0 "Authoritarian Socialist"
+ auth_soc_noun:0 "Authoritarian Socialism"
+ lib_soc:0 "Libertarian Socialist"
+ lib_soc_noun:0 "Libertarian Socialism"
+ social_democrat:0 "Social Democracy"
+ social_democrat_noun:0 "Social Democracy"
+ social_liberal:0 "Liberal Democracy"
+ social_liberal_noun:0 "Liberal Democracy"
+ social_conservative:0 "Conservative Democracy"
+ social_conservative_noun:0 "Conservative Democracy"
+ authoritarian_democrat:0 "Authoritarian Democracy"
+ authoritarian_democrat_noun:0 "Authoritarian Democracy"
+ despotism:0 "Despotism"
+ despotism_noun:0 "Despotism"
+ fascism:0 "Fascist"
+ fascism_noun:0 "Fascism"
+ auth_soc_desc:0 "Authoritarian Socialism"
+ lib_soc_desc:0 "Libertarian Socialism"
+ social_democrat_desc:0 "Social Democracy"
+ social_liberal_desc:0 "Liberal Democracy"
+ social_conservative_desc:0 "Conservative Democracy"
+ authoritarian_democrat_desc:0 "Authoritarian Democracy"
+ despotism_desc:0 "Despotism"
+ fascism_desc:0 "Fascism"
+
+###PARTIES 
+
+#SAUDI ARABIA
+ SAU_despotism_party:0 "Saud"
+ SAU_despotism_party_long:0 "The House of Saud"
+
+#JAPAN
+ JAP_social_conservative_party:0 "LDP " 
+ JAP_social_conservative_party_long:0 "Jiyū-Minshutō"  
+ JAP_social_democrat_party:0 "SDPJ"  
+ JAP_social_democrat_party_long:0 "Shakai Minshu-tō"  
+ JAP_auth_soc_party:0 "JCP"  
+ JAP_auth_soc_party_long:0 "Nihon Kyōsan-tō"  
+
+#BRITISH_PARTIES
+ ENG_social_conservative_party:0 "Tories"
+ ENG_social_conservative_party_long:0 "Conservative Party"
+ ENG_social_democrat_party:0 "Labour Party"
+ ENG_social_liberal_party:0 "Liberal Party"
+ ENG_despotism_party:0 "Royalists"
+ ENG_despotism_party_long:0 "House of Windsor"
+ 
+#SOUTH AFRICA
+ SAF_authoritarian_democrat_party:0 "NP"
+ SAF_authoritarian_democrat_party_long:0 "National Party"
+ SAF_social_conservative_party:0 "UP"
+ SAF_social_conservative_party_long:0 "United Party"
+ SAF_social_liberal_party:0 "PP"
+ SAF_social_liberal_party_long:0 "Progressive Party"
+ SAF_social_democrat_party:0 "CWP"
+ SAF_social_democrat_party_long:0 "Conservative Worker's Party"
+ SAF_lib_soc_party:0 "ANC"
+ SAF_lib_soc_party_long:0 "African National Congress" 
+ 
+#ITALY
+ ITA_social_conservative_party:0 "DC" 
+ ITA_social_conservative_party_long:0 "Democrazia Cristiana"
+ ITA_auth_soc_party:0 "PCI"
+ ITA_auth_soc_party_long:0 "Partito Comunista Italiano"
+ ITA_lib_soc_party:0 "PSI"
+ ITA_lib_soc_party_long:0 "Partito Socialista Italiano"
+ ITA_fascism_party:0 "MSI"
+ ITA_fascism_party_long:0 "Movimento Sociale Italiano"
+ ITA_social_democrat_party:0 "PSDI"
+ ITA_social_democrat_party_long:0 "Partito Socialista Democratico Italiano"
+ ITA_social_liberal_party:0 "PLI"
+ ITA_social_liberal_party_long:0 "Partito Liberale Italiano"    
+ 
+##ISRAEL
+ ISR_social_democrat_party:0 "Mapai" 
+ ISR_social_liberal_party:0 "ILP" 
+ ISR_social_liberal_party_long:0 "Israeli Liberal Party" 
+ ISR_social_conservative_party:0 "Herut"
+ ISR_lib_soc_party:0 "Mapam"
+ ISR_auth_soc_party:0 "Maki"
+ 
+##INDIA
+ IND_social_democrat_party:0 "INC" 
+ IND_social_democrat_party_long:0 "Indian National Congress" 
+ IND_social_liberal_party:0 "SP" 
+ IND_social_liberal_party_long:0 "Swatantra Party" 
+ IND_auth_soc_party:0 "CPI"
+ IND_auth_soc_party_long:0 "Communist Party of India"
+ IND_lib_soc_party:0 "PSP"
+ IND_lib_soc_party_long:0 "Praja Socialist Party"
+ 
+##SWITZERLAND
+ SWI_social_democrat_party:0 "SP" 
+ SWI_social_democrat_party_long:0 "Social Democratic Party of Switzerland" 
+ SWI_social_liberal_party:0 "FDP" 
+ SWI_social_liberal_party_long:0 "Free Democratic Party of Switzerland" 
+ SWI_social_conservative_party:0 "CVP" 
+ SWI_social_conservative_party_long:0 "Christian Democratic People's Party of Switzerland" 
+ 
+#BELGIUM
+ BEL_social_conservative_party:0 "PSC-CVP" 
+ BEL_social_conservative_party_long:0 "Christelijke Volkspartij"  
+ BEL_social_democrat_party:0 "BSP "  
+ BEL_social_democrat_party_long:0 "Parti Socialiste Belge"  
+ BEL_social_liberal_party:0 "LP"  
+ BEL_social_liberal_party_long:0 "Liberale Partij"  
+ BEL_auth_soc_party:0 "KPB"  
+ BEL_auth_soc_party_long:0 "Kommunistische Partij van België"   
+ 
+#LUXEMBOURG
+ LUX_social_conservative_party:0 "CSV" 
+ LUX_social_conservative_long:0 "Chrëschtlech Sozial Vollekspartei"  
+ LUX_social_democrat_party:0 "LSAP "  
+ LUX_social_democrat_party_long:0 "Lëtzebuerger Sozialistesch Aarbechterpartei"  
+ LUX_social_liberal_party:0 "DP"  
+ LUX_social_liberal_party_long:0 "Demokratesch Partei"  
+ LUX_auth_soc_party:0 "KPL"  
+ LUX_auth_soc_party_long:0 "Kommunistesch Partei vu Lëtzebuerg"  
+ 
+#PORTUGAL
+ POR_despotism_party:0 "UN" 
+ POR_despotism_party_long:0 "União Nacional" 
+ 
+#ALBANIA
+ ALB_auth_soc_party:0 "PPSH"
+ ALB_auth_soc_party_long:0 "Partia e Punës e Shqipërisë"
+ 
+#YUGOSLAVIA
+ YUG_auth_soc_party:0 "SKJ"
+ YUG_auth_soc_party_long:0 "Savez Komunista Jugoslavije"
+ YUG_lib_soc_party:0 "SKJ"
+ YUG_lib_soc_party_long:0 "Savez Komunista Jugoslavije - Anarhisti"
+ YUG_despotism_party:0 "Rojalista"
+ YUG_authoritarian_democrat_party:0 "Separatista"
+ YUG_authoritarian_democrat_party_long:0 "Raznih Separatista"
+ 
+#GREECE
+ GRE_social_liberal_party:0 "EK"
+ GRE_social_liberal_party_long:0 "Énosis Kéntrou"
+ GRE_social_conservative_party:0 "ERE"
+ GRE_social_conservative_party_long:0 "Ethnikí Rizospastikí Énosis"
+ GRE_social_democrat_party:0 "EDA"
+ GRE_social_democrat_party_long:0 "Eniéa Dimokratikí Aristerá"
+ GRE_auth_soc_party:0 "KKE"
+ GRE_auth_soc_party_long:0 "Kommounistikó Kómma Elládas"
+ GRE_despotism_party:0 "Military Junta"
+ GRE_despotism_party_long:0 "Military Junta - Despots"
+ GRE_authoritarian_democrat_party:0 "Military Junta"
+ GRE_authoritarian_democrat_party_long:0 "Military Junta - Monarchists"
+ 
+#SPAIN
+ SPR_fascism_party:0 "FET y de las JONS - Fascists"
+ SPR_fascism_party_long:0 "Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista"
+ SPR_despotism_party:0 "FET y de las JONS"
+ SPR_despotism_party_long:0 "Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista" 
+ SPR_lib_soc_party:0 "CNT-FAI"
+ SPR_lib_soc_party_long:0 "Federación Anarquista Ibérica" 
+ SPR_auth_soc_party:0 "PCE"
+ SPR_auth_soc_party_long:0 "Communist Party of Spain"
+ SPR_social_democrat_party:0 "UCD"
+ SPR_social_democrat_party_long:0 "Union of the Democratic Centre"
+
+#DENMARK
+ DEN_social_conservative_party:0 "DKF"
+ DEN_social_conservative_party_long:0 "Det Konservative Folkeparti"
+ DEN_social_democrat_party:0 "SD"
+ DEN_social_democrat_party_long:0 "Socialdemokraterne"
+ DEN_social_liberal_party:0 "VDLP"
+ DEN_social_liberal_party_long:0 "Venstre"
+ DEN_lib_soc_party:0 "SF"
+ DEN_lib_soc_party_long:0 "Socialistisk Folkeparti"
+ 
+#IRELAND
+ IRE_social_conservative_party:0 "FF"
+ IRE_social_conservative_party_long:0 "Fianna Fáil"
+ IRE_social_democrat_party:0 "LP"
+ IRE_social_democrat_party_long:0 "Labour Party"
+ IRE_social_liberal_party:0 "FG"
+ IRE_social_liberal_party_long:0 "Fine Gael"
+ 
+#FRANCE
+ FRA_social_conservative_party:0 "UNR"
+ FRA_social_conservative_party_long:0 "L'Union pour la Nouvelle République"
+ FRA_social_liberal_party:0 "PR"
+ FRA_social_liberal_party_long:0 "Parti Radical"
+ FRA_auth_soc_party:0 "PCF"
+ FRA_auth_soc_party_long:0 "Parti Communiste Français"
+ FRA_social_democrat_party:0 "SFIO"
+ FRA_social_democrat_party_long:0 "Section Française de l'Internationale Ouvrière (Social Democrats)"
+ FRA_lib_soc_party:0 "SFIO"
+ FRA_lib_soc_party_long:0 "Section Française de l'Internationale Ouvrière"
+ FRA_authoritarian_democrat_party:0 "AF"
+ FRA_authoritarian_democrat_party_long:0 "Action Française"
+ FRA_despotism_party:0 "AF"
+ FRA_despotism_party_long:0 "Action Française"
+ FRA_fascism_party:0 "Far Right Movements"
+
+#WEST GERMANY
+ WGR_social_conservative_party:0 "CDU/CSU" 
+ WGR_social_conservative_party_long:0 "Unionsparteien" 
+ WGR_social_democrat_party:0 "SPD" 
+ WGR_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands" 
+ WGR_social_liberal_party:0 "FDP" 
+ WGR_social_liberal_party_long:0 "Freie Demokratische Partei" 
+ WGR_despotism_party:0 "House of Hohenzollern" 
+ WGR_authoritarian_democrat_party:0 "TUL" 
+ WGR_authoritarian_democrat_party_long:0 "Tradition und Leben" 
+ WGR_fascism_party:0 "DRP" 
+ WGR_fascism_party_long:0 "Deutsche Reichspartei" 
+ 
+#EAST GERMANY 
+ DDR_auth_soc_party:0 "SED"
+ DDR_auth_soc_party_long:0 "Sozialistische Einheitspartei Deutschlands"
+
+#AUSTRIA
+ AUS_social_democrat_party:0 "SPÖ" 
+ AUS_social_democrat_party_long:0 "Sozialdemokratische Partei Österreichs" 
+ AUS_social_conservative_party:0 "ÖVP" 
+ AUS_social_conservative_party_long:0 "Österreichische Volkspartei" 
+
+#NORWAY
+ NOR_social_conservative_party:0 "H"
+ NOR_social_conservative_party_long:0 "Høyre"
+ NOR_social_democrat_party:0 "AP"
+ NOR_social_democrat_party_long:0 "Arbeiderpartiet"
+ NOR_social_liberal_party:0 "V"
+ NOR_social_liberal_party_long:0 "Venstre"
+ NOR_despotism_party:0 "House of Schleswig-Holstein-Sonderburg-Glücksburg"
+ NOR_auth_soc_party:0 "NKP"
+ NOR_auth_soc_party_long:0 "Norges Kommunistiske Parti"
+ NOR_lib_soc_party:0 "SF"
+ NOR_lib_soc_party_long:0 "Sosialistisk Folkeparti"
+
+#SWEDEN
+ SWE_social_democrat_party:0 "SAP"
+ SWE_social_democrat_party_long:0 "Sveriges Socialdemokratiska Arbetareparti"
+ SWE_social_liberal_party:0 "L"
+ SWE_social_liberal_party_long:0 "Liberalerna"
+ SWE_despotism_party:0 "House of Bernadotte"
+ SWE_lib_soc_party:0 "V"
+ SWE_lib_soc_party_long:0 "Vänsterpartiet"
+ 
+#FINLAND
+ FIN_social_liberal_party:0 "SK"
+ FIN_social_liberal_party_long:0 "Suomen Keskusta"
+ FIN_lib_soc_party:0 "SKDL"
+ FIN_lib_soc_party_long:0 "Suomen Kansan Demokraattinen Liitto - Kommunistit"
+ FIN_auth_soc_party:0 "SKDL"
+ FIN_auth_soc_party_long:0 "Suomen Kansan Demokraattinen Liitto - Sosialistit" 
+ 
+#DUTCH PARTIES
+ HOL_social_conservative_party:0 "KVP"
+ HOL_social_conservative_party_long:0 "Katholieke Volkspartij"
+ HOL_social_democrat_party:0 "PVDA"
+ HOL_social_democrat_party_long:0 "Partij van de Arbeid"
+ HOL_social_liberal_party:0 "VVD"
+ HOL_social_liberal_party_long:0 "Volkspartij voor Vrijheid en Democratie"
+ HOL_despotism_party:0 "House of Orange-Nassau"
+ HOL_auth_soc_party:0 "CPN"
+ HOL_auth_soc_party_long:0 "Communistische Partij Nederland"
+ HOL_lib_soc_party:0 "PSP"
+ HOL_lib_soc_party_long:0 "Pacifistisch Socialistische Partij"
+
+#INDONESIA
+ INS_authoritarian_democrat_party:0 "PNI"
+ INS_authoritarian_democrat_party_long:0 "Partai Nasional Indonesia" 
+ INS_auth_soc_party:0 "PKI"
+ INS_auth_soc_democrat_party_long:0 "Partai Komunis Indonesia"
+#CYPRUS
+ CYP_authoritarian_democrat_party:0 "PF"
+ CYP_authoritarian_democrat_party_long:0 "Patriotikó Métopo"
+ CYP_auth_soc_party:0 "AKEL"
+ CYP_auth_soc_party_long:0 "Anorthotikó Kómma Ergazómenou Laoú" 
+ 
+#EGYPT
+ EGY_despotism_party:0 "ASU"
+ EGY_despotism_party_long:0 "Arab Socialist Union"
+ 
+#AUSTRALIA
+ AST_social_conservative_party:0 "L-N" 
+ AST_social_conservative_party_long:0 "Liberal National Coalition" 
+ AST_social_democrat_party:0 "ALP" 
+ AST_social_democrat_party_long:0 "Australian Labor Party" 
+ AST_auth_soc_party:0 "CPA" 
+ AST_auth_soc_party_long:0 "Communist Party of Australia" 
+
+#NEW ZEALAND
+ NZL_social_conservative_party:0 "NZNP" 
+ NZL_social_conservative_party_long:0 "New Zealand National Party" 
+ NZL_social_democrat_party:0 "NZLP" 
+ NZL_social_democrat_party_long:0 "New Zealand Labour Party" 
+ NZL_authoritarian_democrat_party:0 "SCP" 
+ NZL_authoritarian_democrat_party_long:0 "Social Credit Party" 
+ NZL_auth_soc_party:0 "CPNZ" 
+ NZL_auth_soc_party_long:0 "Communist Party of New Zealand" 
+ 
+#SOUTH VIETNAM
+ SVN_despotism_party:0 "Can Lao"
+ SVN_authoritarian_democrat_party:0 "Military Junta"
+ SVN_auth_soc_party:0 "VC"
+ SVN_auth_soc_party_long:0 "Viet Cong"
+ 
+#NORTH VIETNAM
+ NVN_auth_soc_party:0 "CPV"
+ NVN_auth_soc_party_long:0 "Dang Cong san Viet Nam" 
+ NVN_lib_soc_party:0 "CPV"
+ NVN_lib_soc_party_long:0 "Dang Cong san Viet Nam"
+ 
+#CUBA PARTIES
+ CUB_auth_soc_party:0 "PCC"
+ CUB_auth_soc_party_long:0 "Partido Comunista de Cuba"
+ 
+#SOUTH KOREA PARTIES
+ SKR_authoritarian_democrat_party:0 "DRP"
+ SKR_authoritarian_democrat_party_long:0 "Minju Gonghwadang" 
+ 
+#NORTH KOREA PARTIES
+ NKR_auth_soc_party:0 "WPK"
+ NKR_auth_soc_party_long:0 "Chosŏn Rodongdang"
+ 
+#RHODESIA PARTIES
+ RHO_social_conservative_party:0 "RF"
+ RHO_social_conservative_party_long:0 "Rhodesian Front"
+ RHO_social_liberal_party:0 "CP"
+ RHO_social_liberal_party_long:0 "Centre Party" 
+ RHO_auth_soc_party:0 "ZANU"
+ RHO_auth_soc_party_long:0 "Zimbabwe African National Union"
+ RHO_lib_soc_party:0 "ZAPU"
+ RHO_lib_soc_party_long:0 "Zimbabwe African People's Union" 
+ 
+#AMERICAN_PARTIES
+ USA_social_conservative_party:0 "Republicans"
+ USA_social_conservative_party_long:0 "Republican Party"
+ USA_social_liberal_party:0 "Democrats"
+ USA_social_liberal_party_long:0 "Democratic Party"
+ USA_social_democrat_party:0 "SPA"
+ USA_social_democrat_party_long:0 "Socialist Party of America"
+ USA_auth_soc_party:0 "CPUSA"
+ USA_auth_soc_party_long:0 "Communist Party USA"
+ USA_lib_soc_party:0 "CPUSA"
+ USA_lib_soc_party_long:0 "Communist Party USA - Anarchists"
+ USA_fascism_party:0 "ANP"
+ USA_fascism_party_long:0 "American Nazi Party"
+ USA_despotism_party:0 "Military Junta"
+ USA_authoritarian_democrat_party:0 "AIP"
+ USA_authoritarian_democrat_party_long:0 "American Independent Party"
+
+#AMERICAN_JUNTA PARTIES
+ AJU_social_conservative_party:0 "Republicans"
+ AJU_social_conservative_party_long:0 "Republican Party"
+ AJU_social_liberal_party:0 "Democrats"
+ AJU_social_liberal_party_long:0 "Democratic Party"
+ AJU_social_democrat_party:0 "SPA"
+ AJU_social_democrat_party_long:0 "Socialist Party of America"
+ AJU_auth_soc_party:0 "CPUSA"
+ AJU_auth_soc_party_long:0 "Communist Party USA"
+ AJU_lib_soc_party:0 "CPUSA"
+ AJU_lib_soc_party_long:0 "Communist Party USA - Anarchists"
+ AJU_fascism_party:0 "ANP"
+ AJU_fascism_party_long:0 "American Nazi Party"
+ AJU_despotism_party:0 "Military Junta"
+ AJU_authoritarian_democrat_party:0 "Military Junta"
+ 
+#COMMIE AMERICAN PARTIES
+ USR_social_conservative_party:0 "Republicans"
+ USR_social_conservative_party_long:0 "Republican Party"
+ USR_social_liberal_party:0 "Democrats"
+ USR_social_liberal_party_long:0 "Democratic Party"
+ USR_social_democrat_party:0 "SPA"
+ USR_social_democrat_party_long:0 "Socialist Party of America"
+ USR_auth_soc_party:0 "CPUSA"
+ USR_auth_soc_party_long:0 "Communist Party USA"
+ USR_lib_soc_party:0 "CPUSA"
+ USR_lib_soc_party_long:0 "Communist Party USA - Anarchists"
+ USR_fascism_party:0 "ANP"
+ USR_fascism_party_long:0 "American Nazi Party"
+ USR_despotism_party:0 "Military Junta"
+ USR_authoritarian_democrat_party:0 "Military Junta" 
+
+#HUNGARY
+ HUN_auth_soc_party:0 "MSZMP"
+ HUN_auth_soc_party_long:0 "Magyar Szocialista Munkáspárt"   
+
+#BULGARIA
+ BUL_auth_soc_party:0 "BKP"
+ BUL_auth_soc_party_long:0 "Bâlgarska Komunisticheska Partiya"   
+ 
+#ROMANIA
+ ROM_auth_soc_party:0 "PCR"
+ ROM_auth_soc_party_long:0 "Partidul Comunist Român"   
+ 
+#CZECHOSLOVAKA
+ CZE_auth_soc_party:0 "KSČ"
+ CZE_auth_soc_party_long:0 "Komunistická Strana Československa"  
+ 
+#POLAND
+ POL_auth_soc_party:0 "PUWP"
+ POL_auth_soc_party_long:0 "Polska Zjednoczona Partia Robotnicza" 
+ 
+#COMMIE CHINA
+ PRC_auth_soc_party:0 "CCP"
+ PRC_auth_soc_party_long:0 "Communist Party of China"
+ 
+#TAIWAN
+ CHI_authoritarian_democrat_party:0 "KMT"
+ CHI_authoritarian_democrat_party_long:0 "Kuomintang" 
+ 
+#IRAN
+ PER_despotism_party:0 "Pahlavi Dynasty"
+ PER_social_liberal_party:0 "HM" 
+ PER_social_liberal_party_long:0 "Ḥezb-e Mardom" 
+ PER_auth_soc_party:0 "HTI" 
+ PER_auth_soc_party_long:0 "Ḥezb-e Tūde-ye Īrān" 
+ PER_lib_soc_party:0 "JSNMI" 
+ PER_lib_soc_party_long:0 "Jāmeʿa-ye Sōsīalīsthā-ye Nahżat-e Mellī-e Īrān" 
+ PER_social_democrat_party:0 "JMI" 
+ PER_social_democrat_party_long:0 "Jebhe-ye Melli-ye Irān" 
+ 
+#SOVIET UNION
+ SOV_auth_soc_party:0 "KPSS" 
+ SOV_auth_soc_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza" 
+ 
+#MADAGASCAR
+ MAD_social_democrat_party:0 "PSD"
+ MAD_social_democrat_party_long:0 "Parti Social Démocrate"
