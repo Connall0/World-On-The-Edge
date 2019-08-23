@@ -1,0 +1,18 @@
+leader_traits = {
+
+	undistinguished_suit = {
+		random = yes
+	}
+
+	########################################
+	## HEAD of GOVERNMENT
+	########################################
+
+	hog_respected_war_hero = {
+		political_power_gain = 0.06
+		army_morale = 0.1
+		training_time_factor = -0.12
+
+		random = no
+	}
+}

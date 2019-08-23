@@ -1,0 +1,31 @@
+
+leader_traits = {
+
+#####################
+# Minister
+#####################
+
+	decision = {}
+
+#####################
+# Minister
+#####################
+
+	head_of_government = {}
+	foreign_minister = {}
+	economy_minister = {}
+	security_minister = {}
+
+#####################
+# Political ideologies
+#####################
+
+	auth_soc = {}
+	lib_soc = {}
+	fascism = {}
+	social_democrat = {}
+	social_liberal = {}
+	social_conservative = {}
+	authoritarian_democrat = {}
+	despotism = {}
+}

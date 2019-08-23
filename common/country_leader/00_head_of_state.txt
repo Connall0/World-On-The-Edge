@@ -1,0 +1,23 @@
+#####################
+# Head of State traits
+#####################
+
+leader_traits = {
+
+	father_of_nation = {
+		random = no
+		stability_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	secular_despot = {
+		random = no
+		stability_factor = -0.05
+		political_power_gain = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}	
