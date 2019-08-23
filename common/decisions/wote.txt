@@ -1,0 +1,22 @@
+WOTE_nukes = {
+nuclear_war = {
+firethewarheads = {
+icon = GFX_decision_icon_nuke
+allowed = {
+always = no
+}
+available = {
+has_idea = generic_nuclear_arsenal
+has_war_with = USA
+has_war_with = SOV
+has_war_with = PRC
+}
+visible = {
+has_idea = generic_nuclear_arsenal
+}
+ai_will_do = {
+factor = 0.5
+}
+}
+}
+}
