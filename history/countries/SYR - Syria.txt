@@ -1,0 +1,30 @@
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+	}
+	set_popularities = {
+		social_liberal = 46
+		despotism = 54
+	}
+
+create_country_leader = {
+	name = "Nazim al-Kudsi"
+	desc = ""
+	picture = "gfx/leaders/SYR/kudsi.tga"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

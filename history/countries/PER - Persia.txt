@@ -1,0 +1,75 @@
+﻿capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 10
+
+add_ideas = {
+	#MINISTERS
+	PER_alam_hog
+	PER_aram_fm
+	PER_amuzegar_em
+	PER_khoshbin_sm
+	#IDEAS
+	PER_islamic_resistance
+	PER_white_revolution
+	PER_us_influence
+	}
+	
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+	}
+
+	set_popularities = {
+		despotism = 50
+		social_liberal = 23
+		social_democrat = 17
+		auth_soc = 6
+		lib_soc = 4
+	}
+
+set_stability = 0.5
+set_war_support = 0.3	
+	
+create_country_leader = {
+	name = "Mohammed Reza Shah"
+	desc = "POLITICS_REZA_SHAH_DESC"
+	picture = "gfx/leaders/PER/pahlavi.tga"
+	ideology = despotism_subtype
+	traits = {
+		secular_despot
+	}
+}
+
+create_country_leader = {
+	name = "Asadollah Alam"
+	desc = "POLITICS_ALAM_DESC"
+	picture = "gfx/leaders/PER/alam.tga"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Hasan Arfa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

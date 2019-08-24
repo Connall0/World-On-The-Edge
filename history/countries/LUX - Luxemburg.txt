@@ -1,0 +1,43 @@
+﻿capital = 8
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+add_ideas = {
+	generic_european_economic_community
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1959.1.2"
+	election_frequency = 50
+	elections_allowed = no
+	}
+	
+	set_popularities = {
+		social_conservative = 39
+		social_democrat = 33
+		social_liberal = 20
+		auth_soc = 8
+	}
+
+create_country_leader = {
+	name = "Pierre Werner"
+	desc = "POLITICS_PIERRE_WERNER_DESC"
+	picture = "gfx/leaders/Europe/lux_werner.tga"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
