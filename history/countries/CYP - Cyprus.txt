@@ -1,0 +1,40 @@
+﻿capital = 183
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+CYP_makarios_hog
+CYP_kyprianou_fm
+CYP_solomides_em
+CYP_georkadjis_sm
+	}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+	}
+	
+	set_popularities = {
+		authoritarian_democrat = 65
+		auth_soc = 35
+	}
+	
+create_country_leader = {
+	name = "Makarios III"
+	desc = ""
+	picture = "gfx/leaders/CYP/makarios.tga"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		father_of_nation
+	}
+}
+	
