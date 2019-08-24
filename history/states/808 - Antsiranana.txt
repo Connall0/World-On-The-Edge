@@ -1,0 +1,24 @@
+state=
+{
+	id=808
+	name="STATE_808"
+	manpower = 132105
+	
+	state_category = rural
+	history=
+	{
+		owner = MAD
+		buildings = {
+			infrastructure = 4
+			5222 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = MAD
+
+	}
+	provinces={
+		 13250 5222 13249 13251 13252 13253 13254 13255 13256 13247 13245
+	}
+}

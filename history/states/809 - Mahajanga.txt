@@ -1,0 +1,21 @@
+state=
+{
+	id=809
+	name="STATE_809"
+	manpower = 132105
+	
+	state_category = rural
+	history=
+	{
+		owner = MAD
+		buildings = {
+			infrastructure = 4
+		}
+
+		add_core_of = MAD
+
+	}
+	provinces={
+		 13248 13246 13240 5185 13242 13237 13233 13243 13244 13235 13231
+	}
+}

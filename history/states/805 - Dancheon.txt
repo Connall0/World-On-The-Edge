@@ -1,0 +1,26 @@
+state=
+{
+	id=805
+	name="STATE_805"
+	manpower = 484105
+	
+	state_category = city
+	history=
+	{
+		owner = NKR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = {
+			6922 2
+		}
+
+		add_core_of = NKR
+
+	}
+	provinces={
+		 3852 6922 3904 9899 3803 11878 959 6822 3860 898 6944
+	}
+}

@@ -1,0 +1,21 @@
+state=
+{
+	id=810
+	name="STATE_810"
+	manpower = 132105
+	
+	state_category = town
+	history=
+	{
+		owner = MAD
+		buildings = {
+			infrastructure = 4
+		}
+
+		add_core_of = MAD
+
+	}
+	provinces={
+		 13238 8188 5128 13229 13228 11015 13232
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=821
+	name="STATE_821"
+	manpower = 977248
+	
+	state_category = city
+	
+	resources={
+		#
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			#
+		}
+	}
+
+	provinces={
+		4955 1998 8064 12728 6798 2019 5061 6785 12369 6987 2042 4884 1927 12782 6798
+	}
+}

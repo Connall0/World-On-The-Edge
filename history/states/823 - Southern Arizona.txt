@@ -1,0 +1,28 @@
+
+state={
+	id=823
+	name="STATE_823"
+	manpower = 977248
+	
+	state_category = rural
+	
+	resources={
+		#
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			#
+		}
+	}
+
+	provinces={
+		5044 7920 3834 10783
+	}
+}

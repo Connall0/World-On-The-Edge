@@ -1,0 +1,36 @@
+state={
+	id=828
+	name="STATE_828"
+	manpower = 728000
+	
+	state_category = town
+	
+	resources={
+		#
+	}
+
+
+	history={
+		add_core_of = SVN
+		add_core_of = NVN
+		owner = NVN
+		victory_points = {
+			4119 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			4119 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4119 1157 7093 9948 7015 12048 1073 12065 7518 12008
+	}
+}

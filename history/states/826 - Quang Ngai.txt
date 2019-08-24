@@ -1,0 +1,29 @@
+state={
+	id=826
+	name="STATE_826"
+	resources={
+		rubber=68 # was: 94.000
+	}
+
+	history={
+		add_core_of = NVN
+		add_core_of = SVN
+		owner = SVN
+		victory_points = {
+			4334 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		 10162 4405 12109 1400 7380 4334 1300 1328 4363
+	}
+	manpower=523000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
