@@ -1,0 +1,178 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_corruption"
+		texturefile = "gfx/interface/ideas/gfx_idea_corruption.tga"
+		}
+
+	spriteType = {
+		name = "GFX_idea_generic_space_program"
+		texturefile = "gfx/interface/ideas/gfx_idea_generic_space_program.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_generic_non_alligned"
+		texturefile = "gfx/interface/ideas/generic_non_alligned.dds"
+		}		
+	
+##SHARED GERMAN
+	spriteType = {
+		name = "GFX_idea_GER_divided_nation"
+		texturefile = "gfx/interface/ideas/ger_divided_nation.dds"
+		}
+
+##USA
+	spriteType = {
+		name = "GFX_idea_USA_jim_crow_laws"
+		texturefile = "gfx/interface/ideas/usa_jim_crow_laws.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_USA_limited_vietnam"
+		texturefile = "gfx/interface/ideas/USA_limited_vietnam.dds"
+		}		
+##MALAGASY
+	spriteType = {
+		name = "GFX_idea_MAD_nationwide_illiteracy"
+		texturefile = "gfx/interface/ideas/mad_nationwide_illiteracy.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_MAD_government_corruption"
+		texturefile = "gfx/interface/ideas/mad_government_corruption.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_MAD_french_economic_dominance"
+		texturefile = "gfx/interface/ideas/mad_french_economic_dominance.dds"
+		}
+##SOVIET UNION
+	spriteType = {
+		name = "GFX_idea_SOV_revolution"
+		texturefile = "gfx/interface/ideas/sov_revolution.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_SOV_khruschev_thaw"
+		texturefile = "gfx/interface/ideas/sov_khrushchev_thaw.dds"
+		}
+##ROMANIA
+	spriteType = {
+		name = "GFX_idea_ROM_securitate2"
+		texturefile = "gfx/interface/ideas/rom_secret_police.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_ROM_decree_770"
+		texturefile = "gfx/interface/ideas/rom_decree_770.dds"
+		}		
+##FRANCE
+	spriteType = {
+		name = "GFX_idea_FRA_independent_power"
+		texturefile = "gfx/interface/ideas/FRA_independent_power.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_FRA_fifth_republic"
+		texturefile = "gfx/interface/ideas/fra_fifth_republic.dds"
+		}
+##SWITZERLAND
+	spriteType = {
+		name = "GFX_idea_SWI_neutrality"
+		texturefile = "gfx/interface/ideas/swi_neutrality.dds"
+		}
+		
+##PORTUGAL
+	spriteType = {
+		name = "GFX_idea_POR_estado_novo"
+		texturefile = "gfx/interface/ideas/por_estado_novo.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_POR_salazar"
+		texturefile = "gfx/interface/ideas/por_salazar.dds"
+		}	
+##IRAN
+	spriteType = {
+		name = "GFX_idea_PER_islamic_resistance"
+		texturefile = "gfx/interface/ideas/per_islamic_resistance.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_PER_white_revolution"
+		texturefile = "gfx/interface/ideas/per_white_revolution.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_PER_us_influence"
+		texturefile = "gfx/interface/ideas/per_us_influence.dds"
+		}
+##SPAIN
+	spriteType = {
+		name = "GFX_idea_SPR_spanish_miracle"
+		texturefile = "gfx/interface/ideas/spr_spanish_miracle.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_SPR_empty_throne"
+		texturefile = "gfx/interface/ideas/spr_empty_throne.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_SPR_lighter_hand"
+		texturefile = "gfx/interface/ideas/spr_lighter_hand.dds"
+		}
+##YUGOSLAVIA
+	spriteType = {
+		name = "GFX_idea_YUG_brotherhood_unity"
+		texturefile = "gfx/interface/ideas/yug_brotherhood_unity.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_YUG_market_socialism"
+		texturefile = "gfx/interface/ideas/yug_market_socialism.dds"
+		}		
+##GREECE
+	spriteType = {
+		name = "GFX_idea_GRE_divided_politics"
+		texturefile = "gfx/interface/ideas/gre_divided_politics.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_GRE_meddlesome_monarch"
+		texturefile = "gfx/interface/ideas/gre_meddlesome_monarch.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_GRE_disloyal_military"
+		texturefile = "gfx/interface/ideas/gre_disloyal_military.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_GRE_king_paul"
+		texturefile = "gfx/interface/ideas/gre_paul.dds"
+		}			
+##TAIWAN		
+		spriteType = {
+		name = "GFX_idea_CHI_republic_in_exile"
+		texturefile = "gfx/interface/ideas/chi_republic_in_exile.dds"
+		}
+		spriteType = {
+		name = "GFX_idea_CHI_us_financial_aid"
+		texturefile = "gfx/interface/ideas/chi_financial_aid.dds"
+		}		
+		spriteType = {
+		name = "GFX_idea_CHI_republic_in_name"
+		texturefile = "gfx/interface/ideas/chi_republic_in_name.dds"
+		}		
+##RHODESIA
+	spriteType = {
+		name = "GFX_idea_RHO_minority_rule"
+		texturefile = "gfx/interface/ideas/rho_minority_rule.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_idea_RHO_guerilla_activity"
+		texturefile = "gfx/interface/ideas/rho_guerilla_activity.dds"
+		}
+	spriteType = {
+		name = "GFX_idea_RHO_illegitimate_state"
+		texturefile = "gfx/interface/ideas/rho_illegitimate_state.dds"
+		}		
+##
+	}
