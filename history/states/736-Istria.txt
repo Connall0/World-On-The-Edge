@@ -1,0 +1,26 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		victory_points = {
+
+		}
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		599 11595 11735 
+	}
+	manpower=265000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

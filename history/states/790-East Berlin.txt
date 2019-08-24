@@ -1,0 +1,23 @@
+state={
+	id=790
+	name="STATE_790" # West Berlin
+	manpower = 3000000
+	
+	state_category = city
+
+	history={
+		owner = DDR
+		victory_points = {
+			6521 25
+		}
+		buildings = {
+			infrastructure = 8
+			}
+		add_core_of = WGR
+		add_core_of = DDR	
+	}
+
+	provinces={
+		6521
+	}
+}

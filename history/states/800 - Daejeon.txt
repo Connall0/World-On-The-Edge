@@ -1,0 +1,26 @@
+state=
+{
+	id=800
+	name="STATE_800"
+	manpower = 484105
+	
+	state_category = city
+	history=
+	{
+		owner = SKR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = {
+			1100 3
+		}
+
+		add_core_of = SKR
+
+	}
+	provinces={
+		 1100 7175 11992 7204 7221 10115
+	}
+}

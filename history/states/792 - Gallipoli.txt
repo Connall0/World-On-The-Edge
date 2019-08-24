@@ -1,0 +1,26 @@
+state= {
+	id=792
+	name="STATE_792"
+	manpower = 50000
+	resources={
+		#
+	}
+	
+	state_category = town
+
+	history= {
+		add_claim_by = GRE
+		owner = TUR
+		victory_points = {
+			#
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = TUR
+	}
+	provinces=
+	{
+	849	}
+}

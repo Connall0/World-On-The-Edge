@@ -1,0 +1,37 @@
+state={
+	id=798
+	name="STATE_798"
+	manpower = 654000
+	
+	state_category = town
+	
+	resources={
+		chromium=2
+		tungsten=16 
+	}
+
+
+	history={
+		add_core_of = NVN
+		add_core_of = SVN
+		owner = SVN
+		victory_points = {
+			10309 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			10309 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4379 10309 7229 10137 1248 10180 4255 
+	}
+}
