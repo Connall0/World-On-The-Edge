@@ -1,0 +1,178 @@
+spriteTypes = {
+
+##YUGOSLAVIA
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_YUG_tito_hog"
+		texturefile = "gfx/interface/ideas/ministers/YUG/YUG_minister_Tito.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_YUG_popovic_fm"
+		texturefile = "gfx/interface/ideas/ministers/YUG/YUG_minister_Popovic.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_YUG_gligorov_em"
+		texturefile = "gfx/interface/ideas/ministers/YUG/YUG_minister_Gligorov.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_YUG_stefanovic_sm"
+		texturefile = "gfx/interface/ideas/ministers/YUG/YUG_minister_Stefanovic.dds"
+		}
+
+##IRAN
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_PER_alam_hog"
+		texturefile = "gfx/interface/ideas/ministers/PER/PER_minister_alam.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_PER_aram_fm"
+		texturefile = "gfx/interface/ideas/ministers/PER/PER_minister_aram.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_PER_amuzegar_em"
+		texturefile = "gfx/interface/ideas/ministers/PER/PER_minister_amuzegar.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_PER_khoshbin_sm"
+		texturefile = "gfx/interface/ideas/ministers/PER/PER_minister_khoshbin.dds"
+		}		
+		
+##GREECE
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_GRE_karamanlis_hog"
+		texturefile = "gfx/interface/ideas/ministers/GRE/GRE_minister_Karamanlis.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_GRE_averoff_fm"
+		texturefile = "gfx/interface/ideas/ministers/GRE/GRE_minister_Averoff.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_GRE_zolotas_em"
+		texturefile = "gfx/interface/ideas/ministers/GRE/GRE_minister_Zolotas.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_GRE_mitsou_sm"
+		texturefile = "gfx/interface/ideas/ministers/GRE/GRE_minister_Mitsou.dds"
+		}
+
+##CYPRUS
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_CYP_makarios_hog"
+		texturefile = "gfx/interface/ideas/ministers/CYP/CYP_minister_Makarios.tga"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_CYP_kyprianou_fm"
+		texturefile = "gfx/interface/ideas/ministers/CYP/CYP_minister_Kyprianou.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_CYP_solomides_em"
+		texturefile = "gfx/interface/ideas/ministers/CYP/CYP_minister_Solomides.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_CYP_georkadjis_sm"
+		texturefile = "gfx/interface/ideas/ministers/CYP/CYP_minister_Georkadjis.dds"
+		}		
+		
+##TAIWAN
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_CHI_cheng_hog"
+		texturefile = "gfx/interface/ideas/ministers/CHI/CHI_minister_cheng.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_CHI_changhuan_fm"
+		texturefile = "gfx/interface/ideas/ministers/CHI/CHI_minister_changhuan.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_CHI_jizeng_em"
+		texturefile = "gfx/interface/ideas/ministers/CHI/CHI_minister_jizeng.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_CHI_zhutong_sm"
+		texturefile = "gfx/interface/ideas/ministers/CHI/CHI_minister_zhutong.dds"
+		}
+
+##USA
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_USA_johnson_hog"
+		texturefile = "gfx/interface/ideas/ministers/USA/USA_minister_Johnson.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_USA_rusk_fm"
+		texturefile = "gfx/interface/ideas/ministers/USA/USA_minister_Rusk.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_USA_dillon_em"
+		texturefile = "gfx/interface/ideas/ministers/USA/USA_minister_Dillon.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_USA_RFK_sm"
+		texturefile = "gfx/interface/ideas/ministers/USA/USA_minister_RFK.dds"
+		}
+	
+##UNITED KINGDOM
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_ENG_macmillan_hog"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Macmillan.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_ENG_home_fm"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Douglas_Home.tga"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_ENG_maudling_em"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Maudling.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_ENG_brooke_sm"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Brooke.dds"
+		}
+
+##SPAIN
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_SPR_franco_hog"
+		texturefile = "gfx/interface/ideas/ministers/SPR/SPR_minister_Franco.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_SPR_maiz_fm"
+		texturefile = "gfx/interface/ideas/ministers/SPR/SPR_minister_Maiz.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_SPR_rubio_em"
+		texturefile = "gfx/interface/ideas/ministers/SPR/SPR_minister_Rubio.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_SPR_vega_sm"
+		texturefile = "gfx/interface/ideas/ministers/SPR/SPR_minister_Vega.dds"
+		}		
+	}

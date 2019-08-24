@@ -1,0 +1,113 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_category_header_longer"
+		textureFile = "gfx/interface/category_header_longer.dds"
+	}
+	spriteType = {
+		name = "GFX_category_header_shorter"
+		textureFile = "gfx/interface/category_header_shorter.dds"
+	}
+	spriteType = {
+		name = "GFX_category_header_shorter_double"
+		textureFile = "gfx/interface/category_header_shorter_double.dds"
+	}
+	spriteType = {
+		name = "GFX_blank"
+		textureFile = "gfx/interface/blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_COMMONWEALTH"
+		textureFile = "gfx/interface/factions/COMMONWEALTH.dds"
+	}
+	spriteType = {
+		name = "GFX_coprosperity"
+		textureFile = "gfx/interface/factions/CP.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_faction"
+		textureFile = "gfx/interface/factions/GF.dds"
+	}
+	spriteType = {
+		name = "GFX_NATO"
+		textureFile = "gfx/interface/factions/NATO.dds"
+	}
+	spriteType = {
+		name = "GFX_WARSAW_PACT"
+		textureFile = "gfx/interface/factions/WARSAW_PACT.dds"
+	}
+	spriteType = {
+		name = "GFX_triumvirate"
+		textureFile = "gfx/interface/factions/T.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_single_up_arrow"
+		textureFile = "gfx/interface/single_up_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_double_up_arrow"
+		textureFile = "gfx/interface/double_up_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_triple_up_arrow"
+		textureFile = "gfx/interface/triple_up_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_single_down_arrow"
+		textureFile = "gfx/interface/single_down_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_double_down_arrow"
+		textureFile = "gfx/interface/double_down_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_triple_down_arrow"
+		textureFile = "gfx/interface/triple_down_arrow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_flat_line"
+		textureFile = "gfx/interface/flat_line.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dummy_idea_1"
+		textureFile = "gfx/interface/blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_categories_computer"
+		texturefile = "gfx/interface/idea_categories_computer.dds"
+		noOfFrames = 6
+	}
+
+	spriteType = {
+		name = "GFX_generic_checkbox3_2"
+		texturefile = "gfx/interface/generic_checkbox3_2.dds"
+		noOfFrames = 2
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_1b_no_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiled_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_idea_entry"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiled_idea_entry_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}		
+}

@@ -1,0 +1,15 @@
+spriteTypes = { 
+	spriteType = { 
+ name = "GFX_assassinationofjfk" 
+ texturefile = "gfx/interface/event_gfx/GFX_assassinationofjfk.dds" 
+	}
+	spriteType = {
+		name = "GFX_news_event_us_vietnamwar"
+		texturefile = "gfx/interface/event_gfx/GFX_news_event_american_vietnam_intervention.tga"
+		}
+	spriteType = {
+		name = "GFX_report_event_american_collapse"
+		texturefile = "gfx/interface/event_gfx/GFX_report_american_collapse.dds"
+		}
+	}
+}

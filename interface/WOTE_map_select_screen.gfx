@@ -1,0 +1,25 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_WOTE_map_select_bottomleft_bg"
+		textureFile = "gfx/interface/map_selection_screen/WOTE_map_select_bottomleft_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_WOTE_map_select_bottomleft_bg_overlay"
+		textureFile = "gfx/interface/map_selection_screen/WOTE_map_select_bottomleft_bg_overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_WOTE_map_select_bottomright_bg"
+		textureFile = "gfx/interface/map_selection_screen/WOTE_map_select_bottomright_bg.dds"
+	}	
+	spriteType = {
+		name = "GFX_WOTE_map_select_topright_bg"
+		textureFile = "gfx/interface/map_selection_screen/WOTE_map_select_topright_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_WOTE_map_select_topright_bg_blank"
+		textureFile = "gfx/interface/map_selection_screen/WOTE_map_select_topright_bg_blank.dds"
+	}
+	
+	######################
+}

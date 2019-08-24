@@ -1,0 +1,65 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_warsaw_pact"
+		texturefile = "gfx/interface/ideas/generic_warsaw_pact.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_nuclear_arsenal"
+		texturefile = "gfx/interface/ideas/generic_nuclear_arsenal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_declining_empire"
+		texturefile = "gfx/interface/ideas/eng_declining_empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_experienced_troubles"
+		texturefile = "gfx/interface/ideas/eng_experienced_troubles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_elizabeth_ii"
+		texturefile = "gfx/interface/ideas/eng_elizabeth_ii.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nvn_peoples_government"
+		texturefile = "gfx/interface/ideas/nvn_peoples_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nvn_chinese_support"
+		texturefile = "gfx/interface/ideas/nvn_chinese_support.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nvn_southern_guerillas"
+		texturefile = "gfx/interface/ideas/nvn_southern_guerillas.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_svn_guerilla_activity"
+		texturefile = "gfx/interface/ideas/svn_guerilla_activity.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_svn_unpopular_government"
+		texturefile = "gfx/interface/ideas/svn_unpopular_government.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_european_economic_community"
+		texturefile = "gfx/interface/ideas/gfx_idea_generic_european_economic_community.dds"
+		}
+	}
+	
+	

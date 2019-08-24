@@ -1,0 +1,76 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "WOTE_SG_politics_faction_leader_container"
+		position = { x = 63 y = 337 }
+		size = { width=193 height=20 }
+
+		instantTextboxType = {
+			name = "faction_subject"
+			position = {x=0 y=0}
+			font = "hoi_16mbs"
+			text = "[This.GetFactionName]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "faction_leader_member"
+			position = {x=20 y=2}
+			font = "hoi_16mbs"
+			text = "[This.GetFactionLeaderMember]"
+
+			maxWidth = 100
+			maxHeight = 20
+			format = left
+		}
+
+		iconType = {
+			name = "faction_icon_WARSAW_PACT"
+			position = {x=-42 y=-23}
+			quadTextureSprite = "GFX_WARSAW_PACT"
+		}
+		iconType = {
+			name = "faction_icon_COMMONWEALTH"
+			position = {x=-42 y=-23}
+			quadTextureSprite = "GFX_COMMONWEALTH"
+		}
+		iconType = {
+			name = "faction_icon_coprosperity"
+			position = {x=-46 y=-23}
+			quadTextureSprite = "GFX_coprosperity"
+			scale = 0.61334
+		}
+		iconType = {
+			name = "faction_icon_generic"
+			position = {x=-46 y=-23}
+			quadTextureSprite = "GFX_generic_faction"
+			scale = 0.61334
+		}
+		iconType = {
+			name = "faction_icon_NATO"
+			position = {x=-44 y=-24}
+			quadTextureSprite = "GFX_NATO"
+			scale = 1
+		}
+		iconType = {
+			name = "faction_icon_triumvirate"
+			position = {x=-46 y=-23}
+			quadTextureSprite = "GFX_triumvirate"
+			scale = 0.61334
+		}
+
+		instantTextboxType = {
+			name = "party_name"
+			position = {x=192 y=8} 
+			font = "hoi_18mbs"
+			text = "[This.GetRulingParty]"
+			fixedsize = yes
+			maxWidth = 85
+			maxHeight = 20
+			format = left
+		}		
+		
+	}
