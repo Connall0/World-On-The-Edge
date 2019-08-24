@@ -1,9 +1,9 @@
 state={
-	id=545
+	id=836
 	
 	state_category = rural
 	
-	name="STATE_545"
+	name="STATE_836"
 
 	history={
 		owner = ENG
@@ -12,14 +12,14 @@ state={
 
 		}
 		victory_points = {
-			10929 1 
+			4851 1 
 		}
 		add_core_of = ZIM
 		add_core_of = RHO
 	}
 
 	provinces={
-		2216 10929
+		4851 1874
 	}
 	manpower=1171336
 	buildings_max_level_factor=1.000

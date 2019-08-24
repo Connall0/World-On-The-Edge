@@ -1,25 +1,25 @@
 state={
-	id=545
+	id=831
 	
 	state_category = rural
 	
-	name="STATE_545"
+	name="STATE_831"
 
 	history={
-		owner = ENG
+		owner = POR
 		buildings = {
 			infrastructure = 3
 
 		}
 		victory_points = {
-			10929 1 
+			8245 1
+			5212 1			
 		}
-		add_core_of = ZIM
-		add_core_of = RHO
+		add_core_of = MZB
 	}
 
 	provinces={
-		2216 10929
+		8245 5212 2193 5177
 	}
 	manpower=1171336
 	buildings_max_level_factor=1.000
