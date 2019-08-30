@@ -42,8 +42,10 @@ l_english:
 #BRITISH_PARTIES
  ENG_social_conservative_party:0 "Tories"
  ENG_social_conservative_party_long:0 "Conservative Party"
- ENG_social_democrat_party:0 "Labour Party"
- ENG_social_liberal_party:0 "Liberal Party"
+ ENG_social_democrat_party:0 "Labour"
+ ENG_social_democrat_party_long:0 "Labour Party"
+ ENG_social_liberal_party:0 "Liberals"
+ ENG_social_liberal_party_long:0 "Liberal Party"
  ENG_despotism_party:0 "Royalists"
  ENG_despotism_party_long:0 "House of Windsor"
  
@@ -249,6 +251,16 @@ l_english:
  FIN_lib_soc_party_long:0 "Suomen Kansan Demokraattinen Liitto - Kommunistit"
  FIN_auth_soc_party:0 "SKDL"
  FIN_auth_soc_party_long:0 "Suomen Kansan Demokraattinen Liitto - Sosialistit" 
+ 
+#CANADA
+ CAN_social_conservative_party:0 "PC"
+ CAN_social_conservative_party_long:0 "Progressive Conservative Party of Canada"
+ CAN_social_democrat_party:0 "NDP"
+ CAN_social_democrat_party_long:0 "New Democratic Party"
+ CAN_social_liberal_party:0 "Liberals"
+ CAN_social_liberal_party_long:0 "Liberal Party of Canada"
+ CAN_authoritarian_democrat_party:0 "Socreds"
+ CAN_authoritarian_democrat_party_long:0 "Social Credit Party of Canada"
  
 #DUTCH PARTIES
  HOL_social_conservative_party:0 "KVP"

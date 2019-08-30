@@ -10,14 +10,14 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = auth_soc
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 	}
 
 	set_popularities = {
-		despotism = 46
+		auth_soc = 46
 		authoritarian_democrat = 18
 		social_democrat = 36
 	}
@@ -26,7 +26,7 @@ create_country_leader = {
 	name = "Ne Win"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
 	picture = "gfx/leaders/BRM/win.tga"
-	ideology = despotism_subtype
+	ideology = auth_soc_subtype
 	traits = {
 		#
 	}
