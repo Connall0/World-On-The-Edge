@@ -144,6 +144,20 @@ create_country_leader = {
 	ideology = social_conservative_subtype
 }
 
+create_country_leader = {
+	name = "John Gollan"
+	desc = "POLITICS_JOHN_GOLLAN_DESC"
+	picture = "/gfx/leaders/ENG/gollan.tga"
+	ideology = auth_soc_subtype
+}
+
+create_country_leader = {
+	name = "Jeffrey Hamm"
+	desc = "POLITICS_JEFFREY_HAMM_DESC"
+	picture = "/gfx/leaders/ENG/hamm.tga"
+	ideology = auth_soc_subtype
+}
+
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
 	id = 997
