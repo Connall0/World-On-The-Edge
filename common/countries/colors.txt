@@ -217,6 +217,14 @@ PHI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+ENS = {
+	color = rgb { 97 38 36 }
+	color_ui = rgb { 173 179 217 }
+}
+UOB = {
+	color = rgb { 216 74 67 }
+	color_ui = rgb { 216 74 67 }
+}
 PRU = {
 	color = rgb { 196 189 204 }
 	color_ui = rgb { 255 246 255 }
@@ -646,7 +654,7 @@ NKR = {
 	color = rgb { 214 128 128 }
 	color_ui = rgb { 214 128 128 }
 }
-UOB = {
+ENR = {
 	color = rgb { 255 112 112 }
 	color_ui = rgb { 255 112 112 }
 }

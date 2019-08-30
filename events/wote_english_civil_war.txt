@@ -19,7 +19,7 @@ country_event = {
 			transfer_state = 136
 			transfer_state = 120
 			}
-		UOB = {
+		ENR = {
 			transfer_state = 131
 			transfer_state = 130
 			transfer_state = 132
@@ -29,18 +29,28 @@ country_event = {
 		SCO = {
 			inherit_technology = PREV
 				}
-		UOB = {
+		ENR = {
+		set_global_flag = english_civil_war
 			inherit_technology = PREV
 				}	
 				
 			ENG = {
+			leave_faction = yes
+			set_global_flag = english_civil_war
+				
+				has_global_flag = {
+				flag = english_civil_war
+				days = 100
+				country_event = {
+				id = englishcivilwar.3
+					}
+				}
+				set_cosmetic_tag = ENG_DISUNIFIED	
 				add_opinion_modifier = {
-						target = UOB
+						target = ENR
 						modifier = Civil_War_Contender
 					}
 				}
-				
-		set_global_flag = english_civil_war
 			
 			}
 		}
@@ -48,19 +58,19 @@ country_event = {
 			option = {
 		name = englishcivilwar.1.a
 		hidden_effect = {
-		ai_chance = { factor = 05}
-		IRE = {
-			event = { 
-			id = englishcivilwar.2 days = 1
-				}
-			}	
+		ai_chance = { factor = 0.5}	
 		ENG = {
+		country_event = {
+		id = englishcivilwar.2 
+		days = 4
+			}
 		declare_war_on = {
-				target = UOB
+				target = ENR
 				type = annex_everything
 				}	
 			}
-		UOB = {
+			
+		ENR = {
 		declare_war_on = {
 				target = ENG
 				type = annex_everything
@@ -72,18 +82,19 @@ country_event = {
 			option = {
 		name = englishcivilwar.1.b
 		hidden_effect = {
-		ai_chance = { factor = 05}
-		IRE = {
-			event = { 
-			id = englishcivilwar.2 days = 1
-				}
-			}
+		ai_chance = { factor = 0.5}
 		ENG = {
+		country_event = {
+		id = englishcivilwar.2 
+		days = 4
+			}
+			ENG = {
 		declare_war_on = {
-				target = UOB
+				target = ENR
 				type = annex_everything
 				}	
 			}
+		ENR = {	
 		declare_war_on = {
 				target = ENG
 				type = annex_everything
@@ -93,6 +104,7 @@ country_event = {
 			}
 		}
 	}
+}	
 
 	country_event = {
 	id = englishcivilwar.2
@@ -103,15 +115,52 @@ country_event = {
 		option = {
 			name = englishcivilwar.2.a
 			hidden_effect = {
-			ai_chance = { factor = 0.5}
+			ai_chance = { factor = 1}
 				IRE = {
 			transfer_state = 119
 					}
 			}
-		}
-		option = {
-			name = englishcivilwar.2.b
-			ai_chance = { factor = 0.5}
 		}		
-	}		
+	}
+
+	country_event = {
+	id = englishcivilwar.3
+	title = englishcivilwar.3.t
+	desc = englishcivilwar.3.d
+	picture = GFX_report_event_english_civil_war 
+	fire_only_once = yes
+			immediate = {
+			hidden_effect = {
+			ENS = {
+			transfer_state = 125
+			transfer_state = 129
+					}
+			UOB = {
+			transfer_state = 130
+			transfer_state = 131
+					}		
+				}					
+		}
+		
+		option = {
+			name = englishcivilwar.3.a
+			ai_chance = { factor = 1}
+			ENG = {
+			declare_war_on = {
+				target = ENS
+				type = annex_everything
+				}
+			declare_war_on = {
+				target = UOB
+				type = annex_everything
+				}					
+			}
+			ENS = {
+			declare_war_on = {
+				target = UOB
+				type = annex_everything
+				}				
+			}			
+	}
+	}
 	

@@ -18,24 +18,39 @@
  ENG_auth_soc_desc:0 "the Union of Britain"
  ENG_lib_soc:0 "United British Communes"
  ENG_lib_soc_DEF:0 "the United British Communes"
+ 
+ ENG_DISUNIFIED_authoritarian_democrat:0 "Kingdom of England"
+ ENG_DISUNIFIED_authoritarian_democrat_DEF:0 "the Kingdom of England"
+ ENG_DISUNIFIED_fascism:0 "English State"
+ ENG_DISUNIFIED_fascism_DEF:0 "the English State"
 
-  #UNION OF BRITAIN
- UOB_fascism:0 "British State"
- UOB_fascism_DEF:0 "the British State"
- UOB_social_conservative:0 "United Kingdom"
- UOB_social_conservative_DEF:0 "the United Kingdom"
- UOB_social_liberal:0 "United Kingdom"
- UOB_social_liberal_DEF:0 "the United Kingdom"
- UOB_social_democrat:0 "United Kingdom"
- UOB_social_democrat_DEF:0 "the United Kingdom"
- UOB_authoritarian_democrat:0 "United Kingdom"
- UOB_authoritarian_democrat_DEF:0 "the United Kingdom"
- UOB_despotism:0 "United Kingdom"
- UOB_despotism_DEF:0 "the United Kingdom"
- UOB_auth_soc:0 "Union of Britain"
- UOB_auth_soc_desc:0 "the Union of Britain"
- UOB_lib_soc:0 "United British Communes"
- UOB_lib_soc_DEF:0 "the United British Communes"
+ #REPUBLICAN_BRITAIN
+ ENR_fascism:0 "English State"
+ ENR_fascism_DEF:0 "the English State"
+ ENR_social_conservative:0 "English Republic"
+ ENR_social_conservative_DEF:0 "the English Republic"
+ ENR_social_liberal:0 "English Republic"
+ ENR_social_liberal_DEF:0 "the English Republic"
+ ENR_social_democrat:0 "English Republic"
+ ENR_social_democrat_DEF:0 "the English Republic"
+ ENR_authoritarian_democrat:0 "England"
+ ENR_authoritarian_democrat_DEF:0 "England"
+ ENR_despotism:0 "United Kingdom"
+ ENR_despotism_DEF:0 "the United Kingdom"
+ ENR_auth_soc:0 "Union of England"
+ ENR_auth_soc_DEF:0 "the Union of England"
+ ENR_lib_soc:0 "United English Communes"
+ ENR_lib_soc_DEF:0 "the United English Communes"
+ 
+ #FASCIST ENGLAND
+ ENS_fascism:0 "English State"
+ ENS_fascism_DEF:0 "the English State"
+ 
+ #COMMIE ENGLAND
+ UOB_auth_soc:0 "Union of England"
+ UOB_auth_soc_DEF:0 "the Union of England" 
+ UOB_lib_soc:0 "Union of England" 
+ UOB_lib_soc_DEF:0 "the Union of England" 
 
  #SCOTLAND
  SCO_fascism:0 "Scottish State"

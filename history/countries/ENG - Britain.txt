@@ -98,8 +98,6 @@ if = {
 	}
 }
 
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
 add_ideas = {
 	##MINISTERS
 	ENG_macmillan_hog
@@ -134,7 +132,7 @@ create_country_leader = {
 	name = "Elizabeth II"
 	desc = "POLITICS_ELIZABETH_II_DESC"
 	picture = "/gfx/leaders/ENG/elizabeth_ii.tga"
-	ideology = despotism_subtype
+	ideology = authoritarian_democrat_subtype
 }
 	
 create_country_leader = {

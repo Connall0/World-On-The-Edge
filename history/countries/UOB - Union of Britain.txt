@@ -2,7 +2,7 @@
 
 set_research_slots = 4
 
-set_stability = 0.6
+set_stability = 0.2
 set_war_support = 0.1
 
 # Starting tech
@@ -98,13 +98,17 @@ add_ideas = {
 set_convoys = 80
 
 set_politics = {
-	ruling_party = auth_soc
+	ruling_party = social_democrat
 	last_election = "1959.11.14"
 	election_frequency = 60
 	elections_allowed = no
 	}
 	
 	set_popularities = {
-			auth_soc = 80
-			lib_soc = 20
+			social_democrat = 40
+			social_liberal = 5
+			auth_soc = 25
+			lib_soc = 10
+			social_conservative = 3
+			authoritarian_democrat = 17
 		}
