@@ -155,7 +155,7 @@ create_country_leader = {
 	name = "Jeffrey Hamm"
 	desc = "POLITICS_JEFFREY_HAMM_DESC"
 	picture = "/gfx/leaders/ENG/hamm.tga"
-	ideology = auth_soc_subtype
+	ideology = fascism_subtype
 }
 
 create_field_marshal = {
