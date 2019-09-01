@@ -197,7 +197,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1936.1.25
+		date = 1963.3.20
 		}
 	}
 
@@ -207,7 +207,7 @@ country_event = {
 		name = wotedenmark.8.a
 		Add_political_power = -1
 		hidden_effect = {
-	DEN = { country_event = { hours = 6 id = wotedenmark.2 } }
+	DEN = { country_event = { days = 7 id = wotedenmark.9 } }
 		}
 	}
 }
