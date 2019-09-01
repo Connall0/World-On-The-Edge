@@ -5,7 +5,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_mona_case.dds"
 	}
 	spriteType = {
-		name = "Danish_conservative_party_leader"
-		texturefile = "Danish_conservative_party_leader.dds"
+		name = "GFX_report_event_danish_conservative_leader"
+		texturefile = "gfx/event_pictures/report_event_danish_conservative_leader.dds"
 	}
 }

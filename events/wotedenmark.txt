@@ -16,7 +16,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1963.1.25
+		date = 1964.8.24
 		}
 	}
 
@@ -117,7 +117,7 @@ country_event = {
 	id = wotedenmark.5
 	title = wotedenmark.5.t
 	desc = wotedenmark.5.d
-	picture = Danish_conservative_party_leader
+	picture = GFX_report_event_danish_conservative_leader
 
 	is_triggered_only = yes
 
@@ -126,7 +126,7 @@ country_event = {
 		name = wotedenmark.5.a
 		add_popularity = {
 			ideology = social_conservative
-			popularity = 0.05
+			popularity = 0.02
 		}
 		ai_chance = {
 			factor = 100
@@ -139,7 +139,7 @@ country_event = {
 	id = wotedenmark.6
 	title = wotedenmark.6.t
 	desc = wotedenmark.6.d
-	picture = Danish_conservative_party_leader
+	picture = GFX_report_event_danish_conservative_leader
 
 	is_triggered_only = yes
 
@@ -151,7 +151,7 @@ country_event = {
 		}
 		add_popularity = {
 			ideology = social_conservative
-			popularity = 0.10
+			popularity = 0.05
 		}
 		ai_chance = {
 			factor = 100
@@ -174,7 +174,7 @@ country_event = {
 		custom_effect_tooltip = wotedenmark2_tt
 		add_popularity = {
 			ideology = social_democrats
-			popularity = 0.03
+			popularity = 0.02
 		}
 		ai_chance = {
 			factor = 100
@@ -197,7 +197,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1963.3.20
+		date = 1964.10.20
 		}
 	}
 
@@ -207,7 +207,36 @@ country_event = {
 		name = wotedenmark.8.a
 		Add_political_power = -1
 		hidden_effect = {
-	DEN = { country_event = { days = 7 id = wotedenmark.9 } }
+	DEN = { country_event = { days = 14 id = wotedenmark.9 } }
+		}
+	}
+}
+
+#KRØYER 2
+country_event = {
+	id = wotedenmark.9
+	title = wotedenmark.9.t
+	desc = wotedenmark.9.d
+	picture = GFX_report_event_mona_case
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1963.1.20
+		}
+	}
+
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.8.a
+		Add_political_power = -1
+		hidden_effect = {
+	DEN = { country_event = { days = 7 id = wotedenmark.10 } }
 		}
 	}
 }
