@@ -1,0 +1,214 @@
+add_namespace = wotedenmark
+
+########### MONA CASE EVENT CHAIN ############
+
+# Mona Case one
+country_event = {
+	id = wotedenmark.1
+	title = wotedenmark.1.t
+	desc = wotedenmark.1.d
+	picture = GFX_report_event_mona_case
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1963.1.25
+		}
+	}
+
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.1.a
+		Add_political_power = -1
+		hidden_effect = {
+	DEN = { country_event = { hours = 6 id = wotedenmark.2 } }
+		}
+	}
+}
+
+# mona case two
+country_event = {
+	id = wotedenmark.2
+	title = wotedenmark.2.t
+	desc = wotedenmark.2.d
+	picture = GFX_report_event_mona_case
+
+	is_triggered_only = yes
+
+	# Send every cop available!
+	option = {
+		name = wotedenmark.2.a
+		custom_effect_tooltip = wotedenmark_tt
+		DEN = { country_event = { days = 1 id = wotedenmark.3 } }
+		ai_chance = {
+			factor = 40
+		}
+		effect_tooltip = {
+			Add_political_power = -2
+		}
+	}
+
+		# Keep the investigation small
+	option = {
+		name = wotedenmark.2.b
+		custom_effect_tooltip = wotedenmark_tt
+		DEN = { country_event = { days = 20 id = wotedenmark.4 } }
+		ai_chance = {
+			factor = 60
+		}
+		effect_tooltip = {
+			Add_political_power = -20	
+		}		
+	}
+}
+
+# Mona Case two a
+country_event = {
+	id = wotedenmark.3
+	title = wotedenmark.3.t
+	desc = wotedenmark.3.d
+	picture = GFX_report_event_mona_case
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.3.a
+		add_stability = -0.05
+		hidden_effect = {
+	DEN = { country_event = { days = 1 id = wotedenmark.5 } }
+		}
+	}
+}
+
+
+# mona case two b
+country_event = {
+	id = wotedenmark.4
+	title = wotedenmark.4.t
+	desc = wotedenmark.4.d
+	picture = GFX_report_event_mona_case
+
+	is_triggered_only = yes
+
+	option = {
+		name = wotedenmark.4.a
+		hidden_effect = {
+		add_stability = -0.1
+	DEN = { country_event = { days = 1 id = wotedenmark.6 } }
+		}
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			add_stability = -0.1
+		}
+	}
+}
+
+# mona case two a 2
+country_event = { 
+	id = wotedenmark.5
+	title = wotedenmark.5.t
+	desc = wotedenmark.5.d
+	picture = Danish_conservative_party_leader
+
+	is_triggered_only = yes
+
+	#conservatives speak out
+	option = {
+		name = wotedenmark.5.a
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.05
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# mona case two b 2
+country_event = { 
+	id = wotedenmark.6
+	title = wotedenmark.6.t
+	desc = wotedenmark.6.d
+	picture = Danish_conservative_party_leader
+
+	is_triggered_only = yes
+
+	#conservatives speak out
+	option = {
+		name = wotedenmark.6.a
+		hidden_effect = {
+	DEN = { country_event = { days = 14 id = wotedenmark.7 } }
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.10
+		}
+		ai_chance = {
+			factor = 100
+		}	
+	}	
+}
+
+# mona case two b 3
+country_event = { 
+	id = wotedenmark.7
+	title = wotedenmark.7.t
+	desc = wotedenmark.7.d
+	picture = GFX_report_event_mona_case
+
+	is_triggered_only = yes
+
+	#Suspect found
+	option = {
+		name = wotedenmark.7.a
+		custom_effect_tooltip = wotedenmark2_tt
+		add_popularity = {
+			ideology = social_democrats
+			popularity = 0.03
+		}
+		ai_chance = {
+			factor = 100
+		}	
+	}	
+}
+
+########KRØYER###########
+# Krøyer
+country_event = {
+	id = wotedenmark.8
+	title = wotedenmark.8.t
+	desc = wotedenmark.8.d
+	picture = GFX_report_event_mona_case
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1936.1.25
+		}
+	}
+
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.8.a
+		Add_political_power = -1
+		hidden_effect = {
+	DEN = { country_event = { hours = 6 id = wotedenmark.2 } }
+		}
+	}
+}
+

@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_mona_case"
+		texturefile = "gfx/event_pictures/report_event_mona_case.dds"
+	}
+	spriteType = {
+		name = "Danish_conservative_party_leader"
+		texturefile = "Danish_conservative_party_leader.dds"
+	}
+}
