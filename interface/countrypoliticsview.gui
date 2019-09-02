@@ -134,7 +134,7 @@ guiTypes = {
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= 15 y = 8 }
+				position = { x= 14 y = 7 }
 			}
 		}
 
