@@ -173,7 +173,7 @@ country_event = {
 		name = wotedenmark.7.a
 		custom_effect_tooltip = wotedenmark2_tt
 		add_popularity = {
-			ideology = social_democrats
+			ideology = social_democrat
 			popularity = 0.02
 		}
 		ai_chance = {

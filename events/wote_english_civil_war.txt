@@ -30,17 +30,17 @@ country_event = {
 			inherit_technology = PREV
 				}
 		ENR = {
-		set_global_flag = english_civil_war
+		set_country_flag = english_civil_war
 			inherit_technology = PREV
 				}	
 				
 			ENG = {
 			leave_faction = yes
-			set_global_flag = english_civil_war
+		    set_country_flag = english_civil_war
 				
-				has_global_flag = {
+				has_country_flag = {
 				flag = english_civil_war
-				days = 100
+				days = 10
 				country_event = {
 				id = englishcivilwar.3
 					}
