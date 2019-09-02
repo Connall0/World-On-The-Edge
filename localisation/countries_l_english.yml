@@ -70,7 +70,17 @@
  SCO_lib_soc:0 "Communes of Scotland"
  SCO_lib_soc_DEF:0 "the Communes of Scotland"
 
-  #IRELAND
+ #WALES
+ WLS_social_conservative:0 "Wales"
+ WLS_social_conservative_DEF:0 "Wales"
+ WLS_social_liberal:0 "Wales"
+ WLS_social_liberal_DEF:0 "Wales"
+ WLS_social_democrat:0 "Wales"
+ WLS_social_democrat_DEF:0 "Wales"
+ WLS_authoritarian_democrat:0 "Wales"
+ WLS_authoritarian_democrat_DEF:0 "Wales" 
+ 
+ #IRELAND
  IRE_fascism:0 "Éire State"
  IRE_fascism_DEF:0 "Éire"
  IRE_social_conservative:0 "Ireland"

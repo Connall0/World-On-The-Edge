@@ -74,6 +74,10 @@ l_english:
  ENR_despotism_party:0 "Royalists"
  ENR_despotism_party_long:0 "House of Windsor"
  
+ #WALES
+  WLS_social_democrat_party:0 "PC"
+  WLS_social_democrat_party_long:0 "Plaid Cymru"
+  
 #SOUTH AFRICA
  SAF_authoritarian_democrat_party:0 "NP"
  SAF_authoritarian_democrat_party_long:0 "National Party"

@@ -372,6 +372,14 @@ CHA = {
 	color = rgb { 107 177 179 }
 	color_ui = rgb { 97 122 104 }
 }
+SCO = {
+	color = rgb { 96 106 156 }
+	color_ui = rgb { 37 69 107 }
+}
+WLS = {
+	color = rgb { 173 160 93 }
+	color_ui = rgb { 173 179 217 }
+}
 
 PAL = {
 	color = rgb { 170  125  80 }
@@ -693,10 +701,6 @@ USR = {
 TEX = {
 	color = rgb { 136 148 226 }
 	color_ui = rgb { 136 148 226 }
-}
-PBL = {
-	color = rgb { 206 191 97 }
-	color_ui = rgb { 206 191 97 }
 }
 FLO = {
 	color = rgb { 219 151 125 }

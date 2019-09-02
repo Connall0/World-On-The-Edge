@@ -37,14 +37,6 @@ country_event = {
 			ENG = {
 			leave_faction = yes
 		    set_country_flag = english_civil_war
-				
-				has_country_flag = {
-				flag = english_civil_war
-				days = 10
-				country_event = {
-				id = englishcivilwar.3
-					}
-				}
 				set_cosmetic_tag = ENG_DISUNIFIED	
 				add_opinion_modifier = {
 						target = ENR
@@ -83,12 +75,11 @@ country_event = {
 		name = englishcivilwar.1.b
 		hidden_effect = {
 		ai_chance = { factor = 0.5}
-		ENG = {
+			ENG = {
 		country_event = {
 		id = englishcivilwar.2 
 		days = 4
 			}
-			ENG = {
 		declare_war_on = {
 				target = ENR
 				type = annex_everything
@@ -101,7 +92,6 @@ country_event = {
 					}
 				change_tag_from = ENG				
 				}
-			}
 		}
 	}
 }	
@@ -138,7 +128,10 @@ country_event = {
 			UOB = {
 			transfer_state = 130
 			transfer_state = 131
-					}		
+					}
+			WLS = {
+			transfer_state = 122
+					}					
 				}					
 		}
 		
@@ -162,5 +155,5 @@ country_event = {
 				}				
 			}			
 	}
-	}
+}
 	
