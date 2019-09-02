@@ -112,48 +112,4 @@ country_event = {
 			}
 		}		
 	}
-
-	country_event = {
-	id = englishcivilwar.3
-	title = englishcivilwar.3.t
-	desc = englishcivilwar.3.d
-	picture = GFX_report_event_english_civil_war 
-	fire_only_once = yes
-			immediate = {
-			hidden_effect = {
-			ENS = {
-			transfer_state = 125
-			transfer_state = 129
-					}
-			UOB = {
-			transfer_state = 130
-			transfer_state = 131
-					}
-			WLS = {
-			transfer_state = 122
-					}					
-				}					
-		}
-		
-		option = {
-			name = englishcivilwar.3.a
-			ai_chance = { factor = 1}
-			ENG = {
-			declare_war_on = {
-				target = ENS
-				type = annex_everything
-				}
-			declare_war_on = {
-				target = UOB
-				type = annex_everything
-				}					
-			}
-			ENS = {
-			declare_war_on = {
-				target = UOB
-				type = annex_everything
-				}				
-			}			
-	}
-}
 	
