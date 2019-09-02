@@ -75,7 +75,7 @@ set_convoys = 40
 
 create_country_leader = {
 	name = "Jens Otto Krag"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	desc = "POLITICS_JENS_OTTO_KRAG_DESC"
 	picture = "/gfx/leaders/Europe/den_krag.tga"
 	ideology = social_democrat_subtype
 	traits = { 
