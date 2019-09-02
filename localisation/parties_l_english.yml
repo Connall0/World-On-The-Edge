@@ -195,13 +195,26 @@ l_english:
 
 #DENMARK
  DEN_social_conservative_party:0 "DKF"
+ DEN_social_democrat_party:0 "A"
+ DEN_social_democrat_party_long:0 "Socialdemokratiet"
+ DEN_authoritarian_democrat_party:0 "B"
+ DEN_authoritarian_democrat_party_long:0 "Det Radikale Venstre"
+ DEN_social_conservative_party:0 "C"
  DEN_social_conservative_party_long:0 "Det Konservative Folkeparti"
  DEN_social_democrat_party:0 "SD"
  DEN_social_democrat_party_long:0 "Socialdemokraterne"
  DEN_social_liberal_party:0 "VDLP"
+ DEN_social_liberal_party:0 "V"
  DEN_social_liberal_party_long:0 "Venstre"
  DEN_lib_soc_party:0 "SF"
+ DEN_lib_soc_party:0 "F"
  DEN_lib_soc_party_long:0 "Socialistisk Folkeparti"
+ DEN_auth_soc_party:0 "K"
+ DEN_auth_soc_party_long:0 "Danmarks Kommunistiske Parti"
+ DEN_despotism_party:0 "U"
+ DEN_despotism_party_long:0 "De Uafhængige"
+ DEN_fascism_party:0 "E"
+ DEN_fascism_party:0 "Retsforbundet"
  
 #IRELAND
  IRE_social_conservative_party:0 "FF"

@@ -57,11 +57,19 @@ set_politics = {
 	}
 	
 	set_popularities = {
-		social_democrat = 48
-		social_liberal = 25
-		social_conservative = 19
-		lib_soc = 8
+		social_democrat = 39.4
+		social_liberal = 25.1
+		social_conservative = 16.6
+		lib_soc = 6.1
+		authoritarian_democrat = 5.8
+		despotism = 3.3
+		fascism = 2.2
+		auth_soc = 1.5
 	}
+
+add_ideas = {
+	#
+}
 
 set_convoys = 40
 
@@ -70,8 +78,8 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "/gfx/leaders/Europe/den_krag.tga"
 	ideology = social_democrat_subtype
-	traits = {
-		#
+	traits = { 
+		Yankofile
 	}
 }
 
