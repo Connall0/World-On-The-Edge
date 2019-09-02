@@ -45,7 +45,7 @@ set_war_support = 0.3
 	
 create_country_leader = {
 	name = "Mohammed Reza Shah"
-	desc = "POLITICS_REZA_SHAH_DESC"
+	desc = "politics_rezah_shah_desc"
 	picture = "gfx/leaders/PER/pahlavi.tga"
 	ideology = despotism_subtype
 	traits = {
