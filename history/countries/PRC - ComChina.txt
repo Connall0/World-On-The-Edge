@@ -31,7 +31,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Mao Zedong"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
+	desc = "POLITICS_MAO_DESC"
 	picture = "gfx/leaders/PRC/mao.tga"
 	ideology = auth_soc_subtype
 	traits = {
