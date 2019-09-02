@@ -144,3 +144,6 @@
  RELEASE_NATION_NOT_POSSIBLE:0 "§TLiberating $COUNTRY|H$ in $LIST|H$§! is not possible:\n\n"
  RETURN_TERRITORY_NOT_POSSIBLE:0 "§TReturning $LIST|H$ to $COUNTRY|H$§! is not possible:\n\n"
  RETURN_STATES_NOT_POSSIBLE_NOT_CONTROLLED:0 "The states in red are not being controlled by you."
+
+ POLITICS_JFK_DESC:0 "JOHN FORTNITE KENNEDY HAHAHHA LMAOOOOOOO" 
+ POLITICS_REZA_SHAH_DESC:0 "Coming to power after the abdication of his father in 1941, Reza Shah Pahlavi, Mohammad Reza Pahlavi is a huge modernising and westernising force in Imperial Iran who has a huge amount of support from the west due to the British and American support of the royalist coup d'etat against the liberal democratic government in 1953. However due to this western influence and support, many traditionalists and islamists are against the heavily rule of the Shah."
