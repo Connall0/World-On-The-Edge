@@ -20,4 +20,13 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+
+	yankofile = {
+		random = no
+		social_liberal_acceptance = 85
+		political_power_gain = 0.02
+		ai_will_do = {
+			factor = 1
+		}
 	}	
