@@ -172,10 +172,7 @@ country_event = {
 	option = {
 		name = wotedenmark.7.a
 		custom_effect_tooltip = wotedenmark2_tt
-		add_popularity = {
-			ideology = social_democrat
-			popularity = 0.02
-		}
+		add_stability = 0.07
 		ai_chance = {
 			factor = 100
 		}	
@@ -188,7 +185,7 @@ country_event = {
 	id = wotedenmark.8
 	title = wotedenmark.8.t
 	desc = wotedenmark.8.d
-	picture = GFX_report_event_mona_case
+	picture = GFX_report_event_krøyer_0
 	
 	is_triggered_only = no
 	
@@ -197,7 +194,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1964.10.20
+		date = 1964.11.4
 		}
 	}
 
@@ -205,9 +202,9 @@ country_event = {
 
 	option = { 
 		name = wotedenmark.8.a
-		Add_political_power = -1
+		Add_political_power = 10
 		hidden_effect = {
-	DEN = { country_event = { days = 14 id = wotedenmark.9 } }
+	DEN = { country_event = { hours = 3 id = wotedenmark.9 } }
 		}
 	}
 }
@@ -217,7 +214,63 @@ country_event = {
 	id = wotedenmark.9
 	title = wotedenmark.9.t
 	desc = wotedenmark.9.d
-	picture = GFX_report_event_mona_case
+	picture = GFX_report_event_krøyer
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.9.a
+		hidden_effect = {
+	DEN = { country_event = { days = 10 id = wotedenmark.13 } }
+		}
+	}
+}
+
+#KRØYER 3
+country_event = {
+	id = wotedenmark.13
+	title = wotedenmark.13.t
+	desc = wotedenmark.13.d
+	picture = GFX_report_event_krøyer_2
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.13.a
+		add_stability = 0.02
+		hidden_effect = {
+	DEN = { country_event = { days = 10 id = wotedenmark.14 } }
+		}
+	}
+}
+
+#KRØYER 4
+country_event = {
+	id = wotedenmark.14
+	title = wotedenmark.14.t
+	desc = wotedenmark.14.d
+	picture = GFX_report_event_krøyer_3
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.14.a
+		add_stability = 0.06
+	}
+}
+######NYTÅRSTALE###########
+# Jens otto krags nytårstale 1
+country_event = {
+	id = wotedenmark.10
+	title = wotedenmark.10.t
+	desc = wotedenmark.10.d
+	picture = GFX_report_event_jens_otto_kragh
 	
 	is_triggered_only = no
 	
@@ -226,18 +279,51 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1963.1.20
+		date = 1963.1.2
 		}
 	}
 
-	mean_time_to_happen = {days = 1}
-
 	option = { 
-		name = wotedenmark.8.a
-		Add_political_power = -1
+		name = wotedenmark.10.a
+		Add_political_power = 3
 		hidden_effect = {
-	DEN = { country_event = { days = 7 id = wotedenmark.10 } }
+	DEN = { country_event = { id = wotedenmark.11 } }
 		}
 	}
 }
 
+# Jens otto krags nytårstale 2
+country_event = {
+	id = wotedenmark.11
+	title = wotedenmark.11.t
+	desc = wotedenmark.11.d
+	picture = GFX_report_event_jens_otto_kragh
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = wotedenmark.11.a
+		Add_political_power = 2
+		hidden_effect = {
+	DEN = { country_event = { id = wotedenmark.12 } }
+		}
+	}
+}
+
+# Jens otto krags nytårstale 3
+country_event = {
+	id = wotedenmark.12
+	title = wotedenmark.12.t
+	desc = wotedenmark.12.d
+	picture = GFX_report_event_jens_otto_kragh
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = wotedenmark.12.a
+		Add_political_power = 1
+		custom_effect_tooltip = wotedenmark3_tt
+	}
+}
+
+########ELECTION SEASON###########

@@ -1,6 +1,58 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_report_event_krøyer_3"
+		texturefile = "gfx/event_pictures/report_event_krøyer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_krøyer_0"
+		texturefile = "gfx/event_pictures/report_event_krøyer_0.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_krøyer_2"
+		texturefile = "gfx/event_pictures/report_event_krøyer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_krøyer"
+		texturefile = "gfx/event_pictures/report_event_krøyer.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_7"
+		texturefile = "gfx/event_pictures/report_event_election_poster_7.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_6"
+		texturefile = "gfx/event_pictures/report_event_election_poster_6.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_5"
+		texturefile = "gfx/event_pictures/report_event_election_poster_5.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_4"
+		texturefile = "gfx/event_pictures/report_event_election_poster_4.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_3"
+		texturefile = "gfx/event_pictures/report_event_election_poster_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_3"
+		texturefile = "gfx/event_pictures/report_event_election_poster_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster_2"
+		texturefile = "gfx/event_pictures/report_event_election_poster_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_election_poster"
+		texturefile = "gfx/event_pictures/report_event_election_poster.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_jens_otto_kragh"
+		texturefile = "gfx/event_pictures/report_event_jens_otto_kragh.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_mona_case"
 		texturefile = "gfx/event_pictures/report_event_mona_case.dds"
 	}
