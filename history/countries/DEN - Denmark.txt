@@ -76,7 +76,7 @@ set_convoys = 40
 create_country_leader = {
 	name = "Jens Otto Krag"
 	desc = "POLITICS_JENS_OTTO_KRAG_DESC"
-	picture = "/gfx/leaders/Europe/den_krag.tga"
+	picture = "/gfx/leaders/DEN/krag.tga"
 	ideology = social_democrat_subtype
 	traits = { 
 		Yankofile
@@ -84,11 +84,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Erik Eriksen"
+	desc = "POLITICS_ERIK_ERIKSEN_DESC"
+	picture = "gfx/leaders/DEN/eriksen.tga"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aksel Larsen"
+	desc = "POLITICS_AKSEL_LARSEN_DESC"
+	picture = "gfx/leaders/DEN/larsen.tga"
+	ideology = lib_soc_subtype
 	traits = {
 		#
 	}
