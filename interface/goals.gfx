@@ -1,12 +1,13 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
-
+	####Danish_tree####
 	SpriteType = {
-	name = "GFX_goal_continuous_air_production"
-	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	name = "GFX_danmark_valg_focus"
+	texturefile = "gfx/interface/goals/goal_danmark_valg_focus.dds"			
 	}	
 	
+	#### Generic continuous goal icons
+
 	SpriteType = {
 	name = "GFX_goal_continuous_non_factory_construct"
 	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			

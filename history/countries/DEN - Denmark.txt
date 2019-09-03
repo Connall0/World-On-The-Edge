@@ -68,7 +68,9 @@ set_politics = {
 	}
 
 add_ideas = {
-	#
+	DEN_nordic_council
+	DEN_efta
+	DEN_the_sailor_king
 }
 
 set_convoys = 40
