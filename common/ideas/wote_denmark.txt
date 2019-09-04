@@ -1,0 +1,58 @@
+ideas = {
+
+		country = {
+		DEN_nordic_council = {
+			picture = GFX_idea_DEN_nordic_council
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = - 0.05
+			political_power_factor = -0.05
+			min_export = 0.05 
+			}
+		}
+		DEN_efta = {
+			picture = GFX_idea_efta
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = -0.25 
+			min_export = 0.05 
+			consumer_goods_factor = - 0.05
+			}
+		}			
+		DEN_the_sailor_king = {
+			picture = GFX_idea_DEN_king
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = 0.10 
+			}
+		}

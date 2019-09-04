@@ -16,7 +16,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1964.8.24
+		date = 1964.8.10
 		}
 	}
 
@@ -326,4 +326,50 @@ country_event = {
 	}
 }
 
+#######Zeitgeist København########
+country_event = {
+	id = wotedenmark.15
+	title = wotedenmark.15.t
+	desc = wotedenmark.15.d
+	picture = GFX_report_event_copenhagen
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1963.3.10
+		}
+	}
+
+	option = { 
+		name = wotedenmark.15.a
+		custom_effect_tooltip = wotedenmark4_tt
+	}
+}
+
 ########ELECTION SEASON###########
+country_event = {
+	id = wotedenmark.16
+	title = wotedenmark.16.t
+	desc = wotedenmark.16.d
+	picture = GFX_report_event_election_poster
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1964.4.10
+		}
+	}
+
+	option = { 
+		name = wotedenmark.16.a
+		custom_effect_tooltip = wotedenmark5_tt
+	}
+}

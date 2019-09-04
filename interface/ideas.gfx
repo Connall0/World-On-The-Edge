@@ -173,6 +173,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_RHO_illegitimate_state"
 		texturefile = "gfx/interface/ideas/rho_illegitimate_state.dds"
-		}		
+		}	
+##DENMARK
+	spriteType = {
+		name = "GFX_idea_nordic_council"
+		texturefile = "gfx/interface/ideas/generic_nordic_council.dds	"
+		}	
+	spriteType = {
+		name = "GFX_idea_DEN_king"
+		texturefile = "gfx/interface/ideas/den_king.dds	"
+		}	
+	spriteType = {
+		name = "GFX_idea_efta"
+		texturefile = "gfx/interface/ideas/generic_efta.dds	"
+		}	
 ##
 	}
