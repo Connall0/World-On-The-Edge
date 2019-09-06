@@ -22,7 +22,7 @@ set_politics = {
 create_country_leader = {
 	name = "Hassan II"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "gfx/leaders/MOR/hassan.tga"
 	ideology = despotism_subtype
 	traits = {
 		#

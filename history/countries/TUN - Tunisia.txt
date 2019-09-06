@@ -22,7 +22,7 @@ set_politics = {
 create_country_leader = {
 	name = "Habib Bourguiba"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	picture = "gfx/leaders/TUN/bourguiba.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#

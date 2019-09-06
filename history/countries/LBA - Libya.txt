@@ -23,7 +23,7 @@ set_politics = {
 create_country_leader = {
 	name = "Idris I"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_democratic1.dds"
+	picture = "gfx/leaders/LBA/idris.tga"
 	ideology = despotism_subtype
 	traits = {
 		#
