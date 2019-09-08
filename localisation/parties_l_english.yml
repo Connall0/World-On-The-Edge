@@ -479,3 +479,11 @@ l_english:
 #MADAGASCAR
  MAD_social_democrat_party:0 "PSD"
  MAD_social_democrat_party_long:0 "Parti Social Démocrate"
+ 
+#MEXICO
+ MEX_social_conservative_party:0 "PAN"
+ MEX_social_conservative_party_long:0 "Partido Acción Nacional"
+ MEX_social_democrat_party:0 "PRI"
+ MEX_social_democrat_party_long:0 "Partido Revolucionario Institucional"
+ MEX_auth_soc_party:0 "PPS"
+ MEX_auth_soc_party_long:0 "Partido Popular Socialista" 
