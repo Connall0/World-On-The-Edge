@@ -89,11 +89,10 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Klaus Klauser"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Ludwig Erhard"
+	desc = "POLITICS_ERHARD_DESC"
+	picture = "gfx/leaders/WGR/erhard.tga"
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
@@ -102,7 +101,6 @@ create_country_leader = {
 	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "gfx/leaders/WGR/wgr_adenauer.tga"
-	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 	}
