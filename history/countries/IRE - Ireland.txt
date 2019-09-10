@@ -26,9 +26,9 @@ set_politics = {
 		}
 
 create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "gfx/leaders/Europe/ire_valera.tga"
+	name = "Sean Lemass"
+	desc = "POLITICS_LEMASS_DESC"
+	picture = "gfx/leaders/IRE/lemass.tga"
 	ideology = social_conservative_subtype
 	traits = {
 		#
