@@ -1,0 +1,30 @@
+state= {
+	id=839
+	name="STATE_839"
+	manpower = 722350
+	resources={
+		aluminium=2 # was: 10
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = DEN
+		victory_points = {
+			399 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			air_base = 1
+			399 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = DEN
+	}
+	provinces=
+	{
+332 399 3277 11251 	}
+}

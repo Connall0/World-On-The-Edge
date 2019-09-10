@@ -1,0 +1,29 @@
+state={
+	id=838
+	
+	state_category = rural
+	
+	name="STATE_838"
+
+	history={
+		owner = DEN
+		victory_points = {
+			6361 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			6361 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		6361
+	}
+	manpower=44104
+	buildings_max_level_factor=1.000
+}
