@@ -157,11 +157,11 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Alan Brooke" # Aristocrat
+	name = "James Cassels"
 	id = 997
-	picture = "Portrait_Britain_Alan_Brooke.dds"
+	picture = "/gfx/leaders/ENG/military/cassels.tga"
 	traits = { defensive_doctrine trait_cautious career_officer }
-	skill = 5
+	skill = 4
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 5
