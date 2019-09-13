@@ -24,7 +24,7 @@ focus_tree = {
 	#Focus for Promote Further Education
 	focus = {
 		id = spr_promotefurthereducation
-		icon = GFX_goal_unknown
+		icon = GFX_promotefurthereducation
 		x = 8
 		y = 3
 		cost = 10
@@ -38,7 +38,7 @@ focus_tree = {
 	#Focus for Loyalty to the Caudillo
 	focus = {
 		id = spr_loyaltytothecaudillo
-		icon = GFX_goal_unknown
+		icon = GFX_loyaltytothecaudillo
 		x = 15
 		y = 0
 		cost = 10
@@ -51,7 +51,7 @@ focus_tree = {
 	#Focus for Empower the Church
 	focus = {
 		id = spr_empowerthechurch
-		icon = GFX_goal_unknown
+		icon = GFX_empowerthechurch
 		x = 2
 		y = 3
 		cost = 10
@@ -93,7 +93,7 @@ focus_tree = {
 	#Focus for The Matter of Reforms
 	focus = {
 		id = spr_thematterofreforms
-		icon = GFX_goal_unknown
+		icon = GFX_thematterofreforms
 		x = 5
 		y = 1
 		cost = 10
@@ -107,7 +107,7 @@ focus_tree = {
 	#Focus for Nationwide Regionalism
 	focus = {
 		id = spr_nationwideregionalism
-		icon = GFX_goal_unknown
+		icon = GFX_nationwideregionalism
 		x = 15
 		y = 1
 		cost = 10
@@ -163,7 +163,7 @@ focus_tree = {
 	#Focus for Spain on the Global Stage
 	focus = {
 		id = spr_spainontheglobalstage
-		icon = GFX_goal_unknown
+		icon = GFX_spainworld
 		x = 24
 		y = 1
 		cost = 10
@@ -177,7 +177,7 @@ focus_tree = {
 	#Focus for Flirt with NATO
 	focus = {
 		id = spr_flirtwithnato
-		icon = GFX_goal_unknown
+		icon = GFX_flirtwithnato
 		x = 26
 		y = 2
 		cost = 10
@@ -191,7 +191,7 @@ focus_tree = {
 	#Focus for Diplomatic Neutrality
 	focus = {
 		id = spr_diplomaticneutrality
-		icon = GFX_goal_unknown
+		icon = GFX_diplomaticneutrality
 		x = 22
 		y = 2
 		cost = 10
@@ -205,7 +205,7 @@ focus_tree = {
 	#Focus for Our Latin Ties
 	focus = {
 		id = spr_ourlatinties
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_alliance
 		x = 27
 		y = 3
 		cost = 10
@@ -233,7 +233,7 @@ focus_tree = {
 	#Focus for Crush Catalan Nationalism
 	focus = {
 		id = spr_crushcatalannationalism
-		icon = GFX_goal_unknown
+		icon = GFX_crushcatalannationalism
 		x = 18
 		y = 3
 		cost = 10
@@ -247,7 +247,7 @@ focus_tree = {
 	#Focus for Halt Galician Nationalism
 	focus = {
 		id = spr_haltgaliciannationalism
-		icon = GFX_goal_unknown
+		icon = GFX_haltgaliciannationalism
 		x = 16
 		y = 3
 		cost = 10
@@ -261,7 +261,7 @@ focus_tree = {
 	#Focus for Strengthen Spanish Identity
 	focus = {
 		id = spr_strengthenspanishidentity
-		icon = GFX_goal_unknown
+		icon = GFX_strengthenspanishidentity
 		x = 16
 		y = 4
 		cost = 10
@@ -275,7 +275,7 @@ focus_tree = {
 	#Focus for The Spanish Navy
 	focus = {
 		id = spr_thespanishnavy
-		icon = GFX_goal_unknown
+		icon = GFX_thespanishnavy
 		x = 46
 		y = 0
 		cost = 10
@@ -288,7 +288,7 @@ focus_tree = {
 	#Focus for The Spanish Airforce
 	focus = {
 		id = spr_thespanishairforce
-		icon = GFX_goal_unknown
+		icon = GFX_thespanishairforce
 		x = 54
 		y = 0
 		cost = 10
@@ -315,7 +315,7 @@ focus_tree = {
 	#Focus for Destroy the ETA
 	focus = {
 		id = spr_destroytheeta
-		icon = GFX_goal_unknown
+		icon = GFX_destroytheeta
 		x = 18
 		y = 4
 		cost = 10
@@ -329,7 +329,7 @@ focus_tree = {
 	#Focus for Spain, United?
 	focus = {
 		id = spr_spainunited
-		icon = GFX_goal_unknown
+		icon = GFX_spainunited
 		x = 17
 		y = 5
 		cost = 10
@@ -348,7 +348,7 @@ focus_tree = {
 	#Focus for Spanish Nationalist Propaganda
 	focus = {
 		id = spr_spanishnationalistpropaganda
-		icon = GFX_goal_unknown
+		icon = GFX_spanishnationalistpropaganda
 		x = 16
 		y = 6
 		cost = 10
@@ -362,7 +362,7 @@ focus_tree = {
 	#Focus for Placate the Catlans
 	focus = {
 		id = spr_placatethecatlans
-		icon = GFX_goal_unknown
+		icon = GFX_placatethecatlans
 		x = 12
 		y = 3
 		cost = 10
@@ -390,12 +390,67 @@ focus_tree = {
 	#Focus for A Tough Situation
 	focus = {
 		id = spr_atoughsituation
-		icon = GFX_goal_unknown
+		icon = GFX_atoughsituation
 		x = 12
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = spr_amultinationalstate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Crumbling Empire
+	focus = {
+		id = spr_ourcrumblingempire
+		icon = GFX_ourcrumblingempire
+		x = 16
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for It's no Longer Worth it
+	focus = {
+		id = spr_itsnolongerworthit
+		icon = GFX_goal_unknown
+		x = 20
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_ourcrumblingempire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fight the Collapse
+	focus = {
+		id = spr_fightthecollapse
+		icon = GFX_goal_unknown
+		x = 12
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_ourcrumblingempire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Foothold in Central Africa
+	focus = {
+		id = spr_ourfootholdincentralafrica
+		icon = GFX_goal_unknown
+		x = 8
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_fightthecollapse }
 		ai_will_do = {
 			factor = 1
 		}
@@ -423,7 +478,7 @@ focus_tree = {
 	#Focus for Negotiate with the ETA
 	focus = {
 		id = spr_negotiatewiththeeta
-		icon = GFX_goal_unknown
+		icon = GFX_negotiatewiththeeta
 		x = 14
 		y = 3
 		cost = 10
@@ -434,10 +489,80 @@ focus_tree = {
 		}
 	}
 
+	#Focus for The Spanish Sahara
+	focus = {
+		id = spr_thespanishsahara
+		icon = GFX_thespanishsahara
+		x = 14
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_fightthecollapse }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Demand Cape Juby
+	focus = {
+		id = spr_demandcapejuby
+		icon = GFX_goal_unknown
+		x = 12
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_thespanishsahara }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage Spanish Colonists
+	focus = {
+		id = spr_encouragespanishcolonists
+		icon = GFX_encouragespanishcolonists
+		x = 16
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_thespanishsahara }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinforce our Position
+	focus = {
+		id = spr_reinforceourposition
+		icon = GFX_goal_unknown
+		x = 11
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_demandcapejuby }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Return of the Northern Zone
+	focus = {
+		id = spr_returnofthenorthernzone
+		icon = GFX_goal_unknown
+		x = 13
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_demandcapejuby }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for The Spanish Army
 	focus = {
 		id = spr_thespanisharmy
-		icon = GFX_goal_unknown
+		icon = GFX_thespanisharmy
 		x = 35
 		y = 0
 		cost = 10
@@ -475,10 +600,85 @@ focus_tree = {
 		}
 	}
 
+	#Focus for A Model Colony
+	focus = {
+		id = spr_amodelcolony
+		icon = GFX_goal_unknown
+		x = 16
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = spr_encourageconversion 
+		}
+		prerequisite = { 
+			focus = spr_developthecolony 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop the Colony
+	focus = {
+		id = spr_developthecolony
+		icon = GFX_goal_unknown
+		x = 15
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_encouragespanishcolonists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage Conversion
+	focus = {
+		id = spr_encourageconversion
+		icon = GFX_encourageconversion
+		x = 17
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_encouragespanishcolonists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for An Integral State
+	focus = {
+		id = spr_anintegralstate
+		icon = GFX_goal_unknown
+		x = 16
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_amodelcolony }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nation Building
+	focus = {
+		id = spr_nationbuilding
+		icon = GFX_goal_unknown
+		x = 20
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_decolonisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for Splendid Isolation
 	focus = {
 		id = spr_splendidisolation
-		icon = GFX_goal_unknown
+		icon = GFX_splendidisolation
 		x = 4
 		y = 4
 		cost = 10
@@ -498,6 +698,48 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = spr_splendidisolation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Keeping our Head Above Water
+	focus = {
+		id = spr_keepingourheadabovewater
+		icon = GFX_keepingourheadabovewater
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_ourfootholdincentralafrica }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Decolonisation
+	focus = {
+		id = spr_decolonisation
+		icon = GFX_goal_unknown
+		x = 20
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_itsnolongerworthit }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Post Colonial Expansion
+	focus = {
+		id = spr_postcolonialexpansion
+		icon = GFX_goal_unknown
+		x = 8
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = spr_keepingourheadabovewater }
 		ai_will_do = {
 			factor = 1
 		}
@@ -548,7 +790,7 @@ focus_tree = {
 	#Focus for A New Inquisition
 	focus = {
 		id = spr_anewinquisition
-		icon = GFX_goal_unknown
+		icon = GFX_anewinquisition
 		x = 2
 		y = 4
 		cost = 10
@@ -557,6 +799,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
 
 	#Focus for Protectorate in Morocco
 	focus = {
@@ -575,7 +818,7 @@ focus_tree = {
 	#Focus for Trade with Both Sides
 	focus = {
 		id = spr_tradewithbothsides
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 21
 		y = 3
 		cost = 10
@@ -622,7 +865,7 @@ focus_tree = {
 	#Focus for A Liberal Economy
 	focus = {
 		id = spr_aliberaleconomy
-		icon = GFX_goal_unknown
+		icon = GFX_aliberaleconomy
 		x = 7
 		y = 6
 		cost = 10
@@ -641,7 +884,7 @@ focus_tree = {
 	#Focus for A New Spain
 	focus = {
 		id = spr_anewspain
-		icon = GFX_goal_unknown
+		icon = GFX_anewspain
 		x = 5
 		y = 7
 		cost = 10
@@ -658,7 +901,7 @@ focus_tree = {
 	#Focus for Unity Through Faith
 	focus = {
 		id = spr_unitythroughfaith
-		icon = GFX_goal_unknown
+		icon = GFX_unitythroughfaith
 		x = 2
 		y = 5
 		cost = 10
@@ -672,7 +915,7 @@ focus_tree = {
 	#Focus for Made in Spain
 	focus = {
 		id = spr_madeinspain
-		icon = GFX_goal_unknown
+		icon = GFX_madeinspain
 		x = 8
 		y = 5
 		cost = 10
@@ -705,7 +948,7 @@ focus_tree = {
 	#Focus for The Ways of Old
 	focus = {
 		id = spr_thewaysofold
-		icon = GFX_goal_unknown
+		icon = GFX_thewaysofold
 		x = 3
 		y = 6
 		cost = 10
@@ -738,7 +981,7 @@ focus_tree = {
 	#Focus for Regionalism Solved?
 	focus = {
 		id = spr_regionalismsolved
-		icon = GFX_goal_unknown
+		icon = GFX_regionalismsolved
 		x = 15
 		y = 8
 		cost = 10
@@ -755,7 +998,7 @@ focus_tree = {
 	#Focus for Join the Non-Aligned Movement
 	focus = {
 		id = spr_jointhenonalignedmovement
-		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		icon = GFX_goal_generic_neutrality_focus
 		x = 23
 		y = 3
 		cost = 10
@@ -769,7 +1012,7 @@ focus_tree = {
 	#Focus for Stand Against Communism
 	focus = {
 		id = spr_standagainstcommunism
-		icon = GFX_goal_unknown
+		icon = GFX_standagainstcommunism
 		x = 25
 		y = 3
 		cost = 10
@@ -783,7 +1026,7 @@ focus_tree = {
 	#Focus for A Latin Union?
 	focus = {
 		id = spr_alatinunion
-		icon = GFX_goal_unknown
+		icon = GFX_latinunion
 		x = 27
 		y = 4
 		cost = 10
@@ -797,7 +1040,7 @@ focus_tree = {
 	#Focus for Fight Communism Worldwide
 	focus = {
 		id = spr_fightcommunismworldwide
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		x = 25
 		y = 4
 		cost = 10
@@ -811,7 +1054,7 @@ focus_tree = {
 	#Focus for Look Inwards
 	focus = {
 		id = spr_lookinwards
-		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 23
 		y = 4
 		cost = 10
@@ -825,7 +1068,7 @@ focus_tree = {
 	#Focus for Influencing our Old Colonies
 	focus = {
 		id = spr_influencingouroldcolonies
-		icon = GFX_goal_unknown
+		icon = GFX_influencingouroldcolonies
 		x = 3
 		y = 11
 		cost = 10
@@ -839,7 +1082,7 @@ focus_tree = {
 	#Focus for Friendship with Both Sides
 	focus = {
 		id = spr_friendshipwithbothsides
-		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		icon = GFX_goal_generic_improve_relations
 		x = 21
 		y = 4
 		cost = 10
@@ -853,7 +1096,7 @@ focus_tree = {
 	#Focus for Revitalised Foreign Relations
 	focus = {
 		id = spr_revitalisedforeignrelations
-		icon = GFX_goal_unknown
+		icon = GFX_world
 		x = 24
 		y = 6
 		cost = 10
@@ -870,7 +1113,7 @@ focus_tree = {
 	#Focus for Safe Diplomacy
 	focus = {
 		id = spr_safediplomacy
-		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 22
 		y = 5
 		cost = 10
@@ -889,7 +1132,7 @@ focus_tree = {
 	#Focus for Active Diplomacy
 	focus = {
 		id = spr_activediplomacy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		x = 26
 		y = 5
 		cost = 10

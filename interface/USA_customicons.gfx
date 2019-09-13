@@ -1,184 +1,75 @@
 spriteTypes = { 
-##Icon For: 798227
+##Icon For: 904195
  SpriteType = { 
- name = "GFX_officertrainingprogrammes" 
- texturefile = "gfx/interface/goals/GFX_officertrainingprogrammes.tga" 
- }##Icon For: 798145
+ name = "GFX_promoteblackeducation" 
+ texturefile = "gfx/interface/goals/GFX_promoteblackeducation.tga" 
+ }##Icon For: 904192
  SpriteType = { 
- name = "GFX_usairforce" 
- texturefile = "gfx/interface/goals/GFX_usairforce.tga" 
- }##Icon For: 798146
+ name = "GFX_freedom" 
+ texturefile = "gfx/interface/goals/GFX_freedom.tga" 
+ }##Icon For: 904189
  SpriteType = { 
- name = "GFX_usarmy" 
- texturefile = "gfx/interface/goals/GFX_usarmy.tga" 
- }##Icon For: 798148
+ name = "GFX_peaceatlast" 
+ texturefile = "gfx/interface/goals/GFX_peaceatlast.tga" 
+ }##Icon For: 904187
  SpriteType = { 
- name = "GFX_usnavy" 
- texturefile = "gfx/interface/goals/GFX_usnavy.tga" 
- }##Icon For: 797633
+ name = "GFX_mlkdidntwantthis" 
+ texturefile = "gfx/interface/goals/GFX_mlkdidntwantthis.tga" 
+ }##Icon For: 904183
  SpriteType = { 
- name = "GFX_realisticforeignpolicy" 
- texturefile = "gfx/interface/goals/GFX_realisticforeignpolicy.tga" 
- }##Icon For: 766211
+ name = "GFX_peacebutatwhatcost" 
+ texturefile = "gfx/interface/goals/GFX_peacebutatwhatcost.tga" 
+ }##Icon For: 905296
  SpriteType = { 
- name = "GFX_containmentpolicy" 
- texturefile = "gfx/interface/goals/GFX_containmentpolicy.tga" 
- }##Icon For: 766208
+ name = "GFX_continuethepolicyofcontainment" 
+ texturefile = "gfx/interface/goals/GFX_continuethepolicyofcontainment.tga" 
+ }##Icon For: 905284
  SpriteType = { 
  name = "GFX_foreignpolicy" 
  texturefile = "gfx/interface/goals/GFX_foreignpolicy.tga" 
- }##Icon For: 764730
+ }##Icon For: 904181
  SpriteType = { 
- name = "GFX_reassurethesouth" 
- texturefile = "gfx/interface/goals/GFX_reassurethesouth.tga" 
- }##Icon For: 764450
+ name = "GFX_theywontstop" 
+ texturefile = "gfx/interface/goals/GFX_theywontstop.tga" 
+ }##Icon For: 904182
  SpriteType = { 
- name = "GFX_neutrality" 
- texturefile = "gfx/interface/goals/GFX_neutrality.tga" 
- }##Icon For: 764445
+ name = "GFX_astrictapproach" 
+ texturefile = "gfx/interface/goals/GFX_astrictapproach.tga" 
+ }##Icon For: 904179
  SpriteType = { 
- name = "GFX_thecivilrightsissue" 
- texturefile = "gfx/interface/goals/GFX_thecivilrightsissue.tga" 
- }##Icon For: 764447
+ name = "GFX_diditwork" 
+ texturefile = "gfx/interface/goals/GFX_diditwork.tga" 
+ }##Icon For: 904160
  SpriteType = { 
- name = "GFX_forceintegration" 
- texturefile = "gfx/interface/goals/GFX_forceintegration.tga" 
- }##Icon For: 758247
+ name = "GFX_chaosinthesouth" 
+ texturefile = "gfx/interface/goals/GFX_chaosinthesouth.tga" 
+ }##Icon For: 904156
  SpriteType = { 
- name = "GFX_thekennedypresidency" 
- texturefile = "gfx/interface/goals/GFX_thekennedypresidency.tga" 
- }##Icon For: 769072
+ name = "GFX_pushforintegration" 
+ texturefile = "gfx/interface/goals/GFX_pushforintegration.tga" 
+ }##Icon For: 904150
  SpriteType = { 
- name = "GFX_weakenthepact" 
- texturefile = "gfx/interface/goals/GFX_weakenthepact.tga" 
- }##Icon For: 769070
+ name = "GFX_meetwithmlk" 
+ texturefile = "gfx/interface/goals/GFX_meetwithmlk.tga" 
+ }##Icon For: 904149
  SpriteType = { 
- name = "GFX_promotegermanunity" 
- texturefile = "gfx/interface/goals/GFX_promotegermanunity.tga" 
- }##Icon For: 769067
+ name = "GFX_thestatusquo" 
+ texturefile = "gfx/interface/goals/GFX_thestatusquo.tga" 
+ }##Icon For: 904147
  SpriteType = { 
- name = "GFX_worldpolice" 
- texturefile = "gfx/interface/goals/GFX_worldpolice.tga" 
- }##Icon For: 764729
+ name = "GFX_calmdownthesouth" 
+ texturefile = "gfx/interface/goals/GFX_calmdownthesouth.tga" 
+ }##Icon For: 904140
  SpriteType = { 
- name = "GFX_enforcesegregation" 
- texturefile = "gfx/interface/goals/GFX_enforcesegregation.tga" 
- }##Icon For: 764824
+ name = "GFX_solutiontosegregation" 
+ texturefile = "gfx/interface/goals/GFX_solutiontosegregation.tga" 
+ }##Icon For: 904141
  SpriteType = { 
- name = "GFX_meetwithcivilrightsleaders" 
- texturefile = "gfx/interface/goals/GFX_meetwithcivilrightsleaders.tga" 
- }##Icon For: 766214
- SpriteType = { 
- name = "GFX_americafirst" 
- texturefile = "gfx/interface/goals/GFX_americafirst.tga" 
- }##Icon For: 766212
- SpriteType = { 
- name = "GFX_statusofnato" 
- texturefile = "gfx/interface/goals/GFX_statusofnato.tga" 
- }##Icon For: 765042
- SpriteType = { 
- name = "GFX_freeatlast" 
- texturefile = "gfx/interface/goals/GFX_freeatlast.tga" 
- }##Icon For: 765036
- SpriteType = { 
- name = "GFX_integrationinthesouth" 
- texturefile = "gfx/interface/goals/GFX_integrationinthesouth.tga" 
- }##Icon For: 765039
- SpriteType = { 
- name = "GFX_theriots" 
- texturefile = "gfx/interface/goals/GFX_theriots.tga" 
- }##Icon For: 765034
- SpriteType = { 
- name = "GFX_demonizesegregationists" 
- texturefile = "gfx/interface/goals/GFX_demonizesegregationists.tga" 
- }##Icon For: 765035
- SpriteType = { 
- name = "GFX_ourfriendmlk" 
- texturefile = "gfx/interface/goals/GFX_ourfriendmlk.tga" 
- }##Icon For: 765022
- SpriteType = { 
- name = "GFX_crackdownonprotests" 
- texturefile = "gfx/interface/goals/GFX_crackdownonprotests.tga" 
- }##Icon For: 765029
- SpriteType = { 
- name = "GFX_bantheirprotests" 
- texturefile = "gfx/interface/goals/GFX_bantheirprotests.tga" 
- }##Icon For: 765030
- SpriteType = { 
- name = "GFX_sendinthenationalguard" 
- texturefile = "gfx/interface/goals/GFX_sendinthenationalguard.tga" 
- }##Icon For: 765025
- SpriteType = { 
- name = "GFX_arresttheleaders" 
- texturefile = "gfx/interface/goals/GFX_arresttheleaders.tga" 
- }##Icon For: 765015
- SpriteType = { 
- name = "GFX_peacefulprotests" 
- texturefile = "gfx/interface/goals/GFX_peacefulprotests.tga" 
- }##Icon For: 765018
- SpriteType = { 
- name = "GFX_ihaveadream" 
- texturefile = "gfx/interface/goals/GFX_ihaveadream.tga" 
- }##Icon For: 765024
- SpriteType = { 
- name = "GFX_discourageblackeducation" 
- texturefile = "gfx/interface/goals/GFX_discourageblackeducation.tga" 
- }##Icon For: 765027
- SpriteType = { 
- name = "GFX_RdEzQFqK" 
- texturefile = "gfx/interface/goals/GFX_RdEzQFqK.tga" 
- }##Icon For: 767899
- SpriteType = { 
- name = "GFX_alliesaroundtheworld" 
- texturefile = "gfx/interface/goals/GFX_alliesaroundtheworld.tga" 
- }##Icon For: 767901
- SpriteType = { 
- name = "GFX_americanexceptionalism" 
- texturefile = "gfx/interface/goals/GFX_americanexceptionalism.tga" 
- }##Icon For: 769075
- SpriteType = { 
- name = "GFX_isolatethepact" 
- texturefile = "gfx/interface/goals/GFX_isolatethepact.tga" 
- }##Icon For: 769076
- SpriteType = { 
- name = "GFX_theneutrals" 
- texturefile = "gfx/interface/goals/GFX_theneutrals.tga" 
- }##Icon For: 767890
- SpriteType = { 
- name = "GFX_moreadvisersinvietnam" 
- texturefile = "gfx/interface/goals/GFX_moreadvisersinvietnam.tga" 
- }##Icon For: 767967
- SpriteType = { 
- name = "GFX_theendofnato" 
- texturefile = "gfx/interface/goals/GFX_theendofnato.tga" 
- }##Icon For: 768089
- SpriteType = { 
- name = "GFX_fundanticommunistmovementsinafrica" 
- texturefile = "gfx/interface/goals/GFX_fundanticommunistmovementsinafrica.tga" 
- }##Icon For: 768851
- SpriteType = { 
- name = "GFX_thelanddownunder" 
- texturefile = "gfx/interface/goals/GFX_thelanddownunder.tga" 
- }##Icon For: 770173
- SpriteType = { 
- name = "GFX_fundanticommunistmovementsinthepact" 
- texturefile = "gfx/interface/goals/GFX_fundanticommunistmovementsinthepact.tga" 
- }##Icon For: 769063
- SpriteType = { 
- name = "GFX_ourfriendsinkorea" 
- texturefile = "gfx/interface/goals/GFX_ourfriendsinkorea.tga" 
- }##Icon For: 769088
- SpriteType = { 
- name = "GFX_thecongocrisis" 
- texturefile = "gfx/interface/goals/GFX_thecongocrisis.tga" 
- }##Icon For: 798206
- SpriteType = { 
- name = "GFX_automotiveindustry" 
- texturefile = "gfx/interface/goals/GFX_automotiveindustry.tga" 
- }
-##Icon For: 904124
+ name = "GFX_carrythetorch" 
+ texturefile = "gfx/interface/goals/GFX_carrythetorch.tga" 
+ }##Icon For: 904124
  SpriteType = { 
  name = "GFX_thejohnsonpresidency" 
  texturefile = "gfx/interface/goals/GFX_thejohnsonpresidency.tga" 
- }  
+ } 
  }

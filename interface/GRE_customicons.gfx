@@ -57,8 +57,8 @@ spriteTypes = {
  texturefile = "gfx/interface/goals/GFX_militaristpropaganda.tga" 
  }##Icon For: 1089630
  SpriteType = { 
- name = "GFX_allbehindtheking" 
- texturefile = "gfx/interface/goals/GFX_allbehindtheking.tga" 
+ name = "GFX_thekingsconstitution" 
+ texturefile = "gfx/interface/goals/GFX_thekingsconstitution.tga" 
  }##Icon For: 1089616
  SpriteType = { 
  name = "GFX_thegeneralscoup" 

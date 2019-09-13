@@ -1,0 +1,7 @@
+spriteTypes = { 
+##Icon For: Assassination of JFK
+ SpriteType = { 
+ name = "GFX_assassinationofjfk" 
+ texturefile = "gfx/interface/event_gfx/GFX_assassinationofjfk.tga" 
+ } 
+ }
