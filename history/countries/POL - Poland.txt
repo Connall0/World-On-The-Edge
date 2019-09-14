@@ -67,8 +67,8 @@ set_politics = {
 
 create_country_leader = {
 	name = "Aleksander Zawadzki"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "gfx/leaders/Europe/pol_commie_1.tga"
+	desc = "POLITICS_ZAWADZKI_DESC"
+	picture = "gfx/leaders/POL/zawadzki.tga"
 	ideology = auth_soc_subtype
 	traits = {
 		#
