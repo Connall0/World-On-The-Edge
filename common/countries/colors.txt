@@ -727,6 +727,6 @@ ALG = {
 	color_ui = rgb { 173 179 217 }
 }
 RUS = {
-	color = rgb { 84 114 69 }
+	color = rgb { 82 120 58 }
 	color_ui = rgb { 173 179 217 }
 }

@@ -476,6 +476,14 @@ l_english:
  SOV_auth_soc_party:0 "KPSS" 
  SOV_auth_soc_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza" 
  
+#RUSSIA
+ RUS_authoritarian_democrat_party:0 "RPF" 
+ RUS_authoritarian_democrat_party_long:0 "Rossiyskiy Patrioticheskiy Front"   
+ RUS_social_conservative_party:0 "KPR" 
+ RUS_social_conservative_party_long:0 "Konservativnaya Partiya Rossii"
+ RUS_despotism_party:0 "LPR" 
+ RUS_despotism_party_long:0 "Loyalistskaya Partiya Romanova"  
+ 
 #MADAGASCAR
  MAD_social_democrat_party:0 "PSD"
  MAD_social_democrat_party_long:0 "Parti Social Démocrate"
