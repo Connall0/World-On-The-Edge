@@ -340,7 +340,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1963.3.10
+		date = 1963.7.10
 		}
 	}
 
@@ -364,12 +364,63 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1964.4.10
+		date = 1964.2.10
 		}
 	}
 
 	option = { 
 		name = wotedenmark.16.a
 		custom_effect_tooltip = wotedenmark5_tt
+		load_focus_tree = danish_election_focus
+	}
+}
+
+########HOUSING CRISIS###########
+country_event = {
+	id = wotedenmark.17
+	title = wotedenmark.17.t
+	desc = wotedenmark.17.d
+	picture = GFX_report_event_election_poster_3
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1963.2.10
+		}
+	}
+
+	option = { 
+		name = wotedenmark.17.a
+		custom_effect_tooltip = wotedenmark5_tt
+		load_focus_tree = den_housingcrisis
+	}
+}
+
+#####VALG#######
+country_event = {
+	id = wotedenmark.18
+	title = wotedenmark.18.t
+	desc = wotedenmark.18.d
+	picture = GFX_report_event_election_poster_5
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1965.1.15
+		}
+	}
+
+	option = { 
+		name = wotedenmark.18.a
+		custom_effect_tooltip = wotedenmark5_tt
+		hold_election = DEN
 	}
 }

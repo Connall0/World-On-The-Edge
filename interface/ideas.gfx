@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_corruption"
@@ -15,13 +15,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_non_alligned.dds"
 		}		
 	
-##SHARED GERMAN
+	##SHARED GERMAN
 	spriteType = {
 		name = "GFX_idea_GER_divided_nation"
 		texturefile = "gfx/interface/ideas/ger_divided_nation.dds"
 		}
 
-##USA
+ 	##USA
 	spriteType = {
 		name = "GFX_idea_USA_jim_crow_laws"
 		texturefile = "gfx/interface/ideas/usa_jim_crow_laws.dds"
@@ -31,7 +31,7 @@ spriteTypes = {
 		name = "GFX_idea_USA_limited_vietnam"
 		texturefile = "gfx/interface/ideas/USA_limited_vietnam.dds"
 		}		
-##MALAGASY
+	##MALAGASY
 	spriteType = {
 		name = "GFX_idea_MAD_nationwide_illiteracy"
 		texturefile = "gfx/interface/ideas/mad_nationwide_illiteracy.dds"
@@ -45,7 +45,7 @@ spriteTypes = {
 		name = "GFX_idea_MAD_french_economic_dominance"
 		texturefile = "gfx/interface/ideas/mad_french_economic_dominance.dds"
 		}
-##SOVIET UNION
+	##SOVIET UNION
 	spriteType = {
 		name = "GFX_idea_SOV_revolution"
 		texturefile = "gfx/interface/ideas/sov_revolution.dds"
@@ -55,7 +55,7 @@ spriteTypes = {
 		name = "GFX_idea_SOV_khruschev_thaw"
 		texturefile = "gfx/interface/ideas/sov_khrushchev_thaw.dds"
 		}
-##ROMANIA
+	##ROMANIA
 	spriteType = {
 		name = "GFX_idea_ROM_securitate2"
 		texturefile = "gfx/interface/ideas/rom_secret_police.dds"
@@ -65,7 +65,7 @@ spriteTypes = {
 		name = "GFX_idea_ROM_decree_770"
 		texturefile = "gfx/interface/ideas/rom_decree_770.dds"
 		}		
-##FRANCE
+	##FRANCE
 	spriteType = {
 		name = "GFX_idea_FRA_independent_power"
 		texturefile = "gfx/interface/ideas/FRA_independent_power.dds"
@@ -75,13 +75,13 @@ spriteTypes = {
 		name = "GFX_idea_FRA_fifth_republic"
 		texturefile = "gfx/interface/ideas/fra_fifth_republic.dds"
 		}
-##SWITZERLAND
+	##SWITZERLAND
 	spriteType = {
 		name = "GFX_idea_SWI_neutrality"
 		texturefile = "gfx/interface/ideas/swi_neutrality.dds"
 		}
 		
-##PORTUGAL
+	##PORTUGAL
 	spriteType = {
 		name = "GFX_idea_POR_estado_novo"
 		texturefile = "gfx/interface/ideas/por_estado_novo.dds"
@@ -91,7 +91,7 @@ spriteTypes = {
 		name = "GFX_idea_POR_salazar"
 		texturefile = "gfx/interface/ideas/por_salazar.dds"
 		}	
-##IRAN
+	##IRAN
 	spriteType = {
 		name = "GFX_idea_PER_islamic_resistance"
 		texturefile = "gfx/interface/ideas/per_islamic_resistance.dds"
@@ -105,7 +105,7 @@ spriteTypes = {
 		name = "GFX_idea_PER_us_influence"
 		texturefile = "gfx/interface/ideas/per_us_influence.dds"
 		}
-##SPAIN
+	##SPAIN
 	spriteType = {
 		name = "GFX_idea_SPR_spanish_miracle"
 		texturefile = "gfx/interface/ideas/spr_spanish_miracle.dds"
@@ -119,7 +119,7 @@ spriteTypes = {
 		name = "GFX_idea_SPR_lighter_hand"
 		texturefile = "gfx/interface/ideas/spr_lighter_hand.dds"
 		}
-##YUGOSLAVIA
+	##YUGOSLAVIA
 	spriteType = {
 		name = "GFX_idea_YUG_brotherhood_unity"
 		texturefile = "gfx/interface/ideas/yug_brotherhood_unity.dds"
@@ -129,7 +129,7 @@ spriteTypes = {
 		name = "GFX_idea_YUG_market_socialism"
 		texturefile = "gfx/interface/ideas/yug_market_socialism.dds"
 		}		
-##GREECE
+	##GREECE
 	spriteType = {
 		name = "GFX_idea_GRE_divided_politics"
 		texturefile = "gfx/interface/ideas/gre_divided_politics.dds"
@@ -147,7 +147,7 @@ spriteTypes = {
 		name = "GFX_idea_GRE_king_paul"
 		texturefile = "gfx/interface/ideas/gre_paul.dds"
 		}			
-##TAIWAN		
+	##TAIWAN		
 		spriteType = {
 		name = "GFX_idea_CHI_republic_in_exile"
 		texturefile = "gfx/interface/ideas/chi_republic_in_exile.dds"
@@ -160,7 +160,7 @@ spriteTypes = {
 		name = "GFX_idea_CHI_republic_in_name"
 		texturefile = "gfx/interface/ideas/chi_republic_in_name.dds"
 		}		
-##RHODESIA
+	##RHODESIA
 	spriteType = {
 		name = "GFX_idea_RHO_minority_rule"
 		texturefile = "gfx/interface/ideas/rho_minority_rule.dds"
@@ -174,7 +174,7 @@ spriteTypes = {
 		name = "GFX_idea_RHO_illegitimate_state"
 		texturefile = "gfx/interface/ideas/rho_illegitimate_state.dds"
 		}	
-##DENMARK
+ ##DENMARK
 	spriteType = {
 		name = "GFX_idea_nordic_council"
 		texturefile = "gfx/interface/ideas/generic_nordic_council.dds	"
@@ -187,5 +187,5 @@ spriteTypes = {
 		name = "GFX_idea_efta"
 		texturefile = "gfx/interface/ideas/generic_efta.dds	"
 		}	
-##
 	}
+}

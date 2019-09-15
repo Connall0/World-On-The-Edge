@@ -1,0 +1,656 @@
+focus_tree = {
+	id = den_housingcrisis
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DEN
+		}
+		
+		#modifier = {
+		#	add = 10
+		#	original_tag = DEN
+		#}
+	}
+	
+	default = no
+
+
+
+	focus = {
+		id = DEN_housingcrisis
+		icon = GFX_Builder_hand
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_political_power = 30
+		}
+ }
+######Public option####
+	focus = {
+		id = DEN_housingcrisisa
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisis}
+		mutually_exclusive = { focus = DEN_housingcrisisb }
+		x = -2
+		y = 1
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_timed_idea = { idea = SAF_abandon_westminster days = 1095 }
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisa2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa}
+		x = -2
+		y = 2
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisa3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa2}
+		x = -2
+		y = 3
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisa4
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa}
+		x = 0
+		y = 2
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisa5
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa4}
+		x = 0
+		y = 3
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisa6
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa5}
+		prerequisite = { focus = DEN_housingcrisisa3}
+		x = 0
+		y = 4
+		relative_position_id = DEN_housingcrisis
+
+		cost = 14
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	######private option####
+	focus = {
+		id = DEN_housingcrisisb
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisis}
+		mutually_exclusive = { focus = DEN_housingcrisisa }
+		x = 2
+		y = 1
+		relative_position_id = DEN_housingcrisis
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb2a
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb}
+		mutually_exclusive = { focus = DEN_housingcrisisb2b }
+		x = 2
+		y = 2
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb2b
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb}
+		mutually_exclusive = { focus = DEN_housingcrisisb2a }
+		x = 4
+		y = 2
+		relative_position_id = DEN_housingcrisis
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb3a
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb2a}
+		x = 2
+		y = 3
+		relative_position_id = DEN_housingcrisis
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb4a
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb3a}
+		x = 2
+		y = 4
+		relative_position_id = DEN_housingcrisis
+
+		cost = 11
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb3b
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb2b}
+		x = 4
+		y = 3
+		relative_position_id = DEN_housingcrisis
+
+		cost = 8
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisisb4b
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisb3b}
+		x = 4
+		y = 4
+		relative_position_id = DEN_housingcrisis
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	#####DONE######
+	focus = {
+		id = DEN_housingcrisisdone
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = DEN_housingcrisisa6}
+		x = 0
+		y = 5
+		relative_position_id = DEN_housingcrisis
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisiskindadone
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = DEN_housingcrisisb4b}
+		x = 4
+		y = 5
+		relative_position_id = DEN_housingcrisis
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = DEN_housingcrisismended
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = DEN_housingcrisisb4a}
+		x = 2
+		y = 5
+		relative_position_id = DEN_housingcrisis
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}	
+
+	focus = {
+		id = DEN_housingcrisistothefuture
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = DEN_housingcrisisdone focus = DEN_housingcrisismended focus = DEN_housingcrisiskindadone}
+		x = 2
+		y = 6
+		relative_position_id = DEN_housingcrisis
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}	
+}		

@@ -39,8 +39,8 @@ ideas = {
 			consumer_goods_factor = - 0.05
 			}
 		}			
-		GRE_the_sailor_king = {
-			picture = GFX_idea_DEN_king
+		DEN_the_sailor_king = {
+			picture = GFX_idea_den_king
 					
 			allowed = {
 				always = no
@@ -54,6 +54,25 @@ ideas = {
 			
 			modifier = {
 			political_power_gain = 0.10 
-			navy_org = -5
 			}
 		}
+		DEN_housing_crisis = {
+			picture = GFX_idea_den_king
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = -0.05 
+			consumer_goods_factor = 0.10
+			}
+		}
+	}
+}
