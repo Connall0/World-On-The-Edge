@@ -1,0 +1,47 @@
+add_namespace = wgr
+
+##Event: Unification of Germany
+country_event = {
+ id = wgr.1000
+ title = wgr.1000.t
+ desc = wgr.1000.desc
+ picture = GFX_germanyunified
+ fire_only_once = yes
+ major = yes
+	trigger = {
+	tag = WGR
+	62 = {
+    is_owned_by = WGR
+    }
+	64 = {
+    is_owned_by = WGR
+    }
+	65 = {
+    is_owned_by = WGR
+    }
+	61 = {
+    is_owned_by = WGR
+    }
+	65 = {
+    is_owned_by = WGR
+    }
+	791 = {
+    is_owned_by = WGR
+    }
+	789 = {
+    is_owned_by = WGR
+    }
+	60 = {
+    is_owned_by = WGR
+    }		
+}
+	option = {
+		name = wgr.1000.a
+		ai_chance = { factor = 1}
+		WGR = {
+		set_cosmetic_tag = WGR_unified
+		set_capital = 789
+		}
+		
+	}
+}

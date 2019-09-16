@@ -2,7 +2,7 @@ ideas = {
 
 		country = {
 		DEN_nordic_council = {
-			picture = GFX_idea_DEN_nordic_council
+			picture = GFX_idea_nordic_council
 					
 			allowed = {
 				always = no
@@ -15,7 +15,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			consumer_goods_factor = - 0.05
+			consumer_goods_factor = -0.05
 			political_power_factor = -0.05
 			min_export = 0.05 
 			}
@@ -36,11 +36,11 @@ ideas = {
 			modifier = {
 			political_power_gain = -0.25 
 			min_export = 0.05 
-			consumer_goods_factor = - 0.05
+			consumer_goods_factor = -0.05
 			}
 		}			
 		DEN_the_sailor_king = {
-			picture = GFX_idea_den_king
+			picture = GFX_idea_DEN_king
 					
 			allowed = {
 				always = no

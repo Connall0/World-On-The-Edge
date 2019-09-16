@@ -1,0 +1,55 @@
+add_namespace = ddr
+
+##Event: Unification of Germany
+country_event = {
+ id = ddr.1000
+ title = ddr.1000.t
+ desc = ddr.1000.desc
+ picture = GFX_germanyunified
+ fire_only_once = yes
+ major = yes
+	trigger = {
+	tag = DDR
+	58 = {
+    is_owned_by = DDR
+    }
+	59 = {
+    is_owned_by = DDR
+    }
+	56 = {
+    is_owned_by = DDR
+    }
+	57 = {
+    is_owned_by = DDR
+    }
+	55 = {
+    is_owned_by = DDR
+    }
+	54 = {
+    is_owned_by = DDR
+    }
+	53 = {
+    is_owned_by = DDR
+    }
+	52 = {
+    is_owned_by = DDR
+    }		
+	50 = {
+    is_owned_by = DDR
+    }	
+	51 = {
+    is_owned_by = DDR
+    }		
+	42 = {
+    is_owned_by = DDR
+    }		
+}
+	option = {
+		name = ddr.1000.a
+		ai_chance = { factor = 1}
+		DDR = {
+		set_cosmetic_tag = DDR_unified
+		}
+		
+	}
+}

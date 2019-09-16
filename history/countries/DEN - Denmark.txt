@@ -57,14 +57,14 @@ set_politics = {
 	}
 	
 	set_popularities = {
-		social_democrat = 39.4
-		social_liberal = 25.1
-		social_conservative = 16.6
-		lib_soc = 6.1
-		authoritarian_democrat = 5.8
-		despotism = 3.3
-		fascism = 2.2
-		auth_soc = 1.5
+		social_democrat = 39
+		social_liberal = 25
+		social_conservative = 17
+		lib_soc = 6
+		authoritarian_democrat = 6
+		despotism = 3
+		fascism = 2
+		auth_soc = 2
 	}
 
 add_ideas = {
