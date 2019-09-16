@@ -37,6 +37,7 @@ ideas = {
 			political_power_gain = -0.25 
 			min_export = 0.05 
 			consumer_goods_factor = -0.05
+			stability = -0.02
 			}
 		}			
 		DEN_the_sailor_king = {
@@ -53,7 +54,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			political_power_gain = 0.10 
+			stability = 0.05
 			}
 		}
 		DEN_housing_crisis = {
@@ -71,6 +72,7 @@ ideas = {
 			
 			modifier = {
 			political_power_gain = -0.05 
-			consumer_goods_factor = 0.10
+			consumer_goods_factor = 0.15
+			stability = -0.07
 			}
 		}

@@ -24,10 +24,10 @@ focus_tree = {
 		icon = GFX_Builder_hand
 		prerequisite = { focus = }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = 4
 		y = 0
 
-		cost = 1
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -49,9 +49,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_political_power = 30
+			add_political_power = 20
+			add_popularity = {
+    			ideology = social_democracy
+    			popularity = 0.01
+			}
 		}
- }
+ 	}
 ######Public option####
 	focus = {
 		id = DEN_housingcrisisa
@@ -234,11 +238,12 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = DEN_housingcrisisa5}
 		prerequisite = { focus = DEN_housingcrisisa3}
+		mutually_exclusive = { focus = DEN_housingcrisisa7 }
 		x = 0
 		y = 4
 		relative_position_id = DEN_housingcrisis
 
-		cost = 14
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -265,6 +270,42 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = DEN_housingcrisisa7
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = DEN_housingcrisisa5}
+		prerequisite = { focus = DEN_housingcrisisa3}
+		mutually_exclusive = { focus = DEN_housingcrisisa6 }
+		x = -2
+		y = 4
+		relative_position_id = DEN_housingcrisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
 	######private option####
 	focus = {
 		id = DEN_housingcrisisb
@@ -517,7 +558,7 @@ focus_tree = {
 	focus = {
 		id = DEN_housingcrisisdone
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = DEN_housingcrisisa6}
+		prerequisite = { focus = DEN_housingcrisisa6 focus = DEN_housingcrisisa7}
 		x = 0
 		y = 5
 		relative_position_id = DEN_housingcrisis

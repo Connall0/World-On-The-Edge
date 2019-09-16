@@ -323,6 +323,7 @@ country_event = {
 		name = wotedenmark.12.a
 		Add_political_power = 1
 		custom_effect_tooltip = wotedenmark3_tt
+		DEN = { country_event = { hours = 12 id = wotedenmark.17 } }
 	}
 }
 
@@ -371,7 +372,7 @@ country_event = {
 	option = { 
 		name = wotedenmark.16.a
 		custom_effect_tooltip = wotedenmark5_tt
-		load_focus_tree = danish_election_focus
+		load_focus_tree = { tree = danish_election_focus }
 	}
 }
 
@@ -382,16 +383,9 @@ country_event = {
 	desc = wotedenmark.17.d
 	picture = GFX_report_event_election_poster_3
 	
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	fire_only_once = yes
-
-	trigger = { 
-		tag = DEN
-		AND = {
-		date = 1963.2.10
-		}
-	}
 
 	option = { 
 		name = wotedenmark.17.a
