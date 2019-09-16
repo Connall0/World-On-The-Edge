@@ -279,7 +279,7 @@ country_event = {
 	trigger = { 
 		tag = DEN
 		AND = {
-		date = 1963.1.2
+		date = 1963.1.1
 		}
 	}
 
