@@ -88,16 +88,60 @@ set_politics = {
 	}
 	
 	set_popularities = {
-		social_conservative = 52
-		auth_soc = 28
-		lib_soc = 20
+		social_conservative = 42
+		auth_soc = 24
+		lib_soc = 14
+		fascism = 6
+		social_democrat = 5
+		social_liberal = 5
+		authoritarian_democrat = 4
 		}
 
 create_country_leader = {
 	name = "Antonio Segni"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	desc = "POLITICS_SEGNI_DESC"
 	picture = "gfx/leaders/ITA/ita_segni.tga"
 	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Arturo Michelini"
+	desc = "POLITICS_MICHELINI_DESC"
+	picture = "gfx/leaders/ITA/michelini.tga"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Umberto II"
+	desc = "POLITICS_UMBERTO_DESC"
+	picture = "gfx/leaders/ITA/umberto.tga"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Palmiro Togliatti"
+	desc = "POLITICS_TOGLIATTI_DESC"
+	picture = "gfx/leaders/ITA/togliatti.tga"
+	ideology = auth_soc_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Pietro Nenni"
+	desc = "POLITICS_NENNI_DESC"
+	picture = "gfx/leaders/ITA/nenni.tga"
+	ideology = lib_soc_subtype
 	traits = {
 		
 	}

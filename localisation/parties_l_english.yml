@@ -103,6 +103,8 @@ l_english:
  ITA_social_democrat_party_long:0 "Partito Socialista Democratico Italiano"
  ITA_social_liberal_party:0 "PLI"
  ITA_social_liberal_party_long:0 "Partito Liberale Italiano"    
+ ITA_authoritarian_democrat_party:0 "PDIUM"    
+ ITA_authoritarian_democrat_party_long:0 "Partito Democratico Italiano di Unità Monarchica"    
  
 ##ISRAEL
  ISR_social_democrat_party:0 "Mapai" 
