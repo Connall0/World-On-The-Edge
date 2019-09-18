@@ -2,14 +2,50 @@ spriteTypes = {
 
 	####Danish_tree####
 	SpriteType = {
-	name = "GFX_danmark_valg_focus"
-	texturefile = "gfx/interface/goals/goal_danmark_valg_focus.dds"			
+	name = "GFX_helping_hand"
+	texturefile = "gfx/interface/goals/GFX_helpinghand.tga"			
 	}	
+
+	SpriteType = {
+	name = "GFX_housing_crisis"
+	texturefile = "gfx/interface/goals/GFX_housingcrisis.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_invisible_hand"
+	texturefile = "gfx/interface/goals/GFX_Invisiblehand.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_folketing"
+	texturefile = "gfx/interface/goals/GFX_folketing.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_fagforening"
+	texturefile = "gfx/interface/goals/GFX_fagforening.tga"			
+	}	
+
 	SpriteType = {
 	name = "GFX_Builder_hand"
 	texturefile = "gfx/interface/goals/GFX_economic_Democracy.tga"			
 	}	
-		
+
+	SpriteType = {
+	name = "GFX_Copenhagen"
+	texturefile = "gfx/interface/goals/GFX_copenhagen.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_danmark_valg_focus"
+	texturefile = "gfx/interface/goals/goal_danmark_valg_focus.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_Copenhagen"
+	texturefile = "gfx/interface/goals/GFX_copenhagen.tga"			
+	}	
+			
 	#### Generic continuous goal icons
 
 	SpriteType = {

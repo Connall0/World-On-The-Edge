@@ -21,7 +21,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisis
-		icon = GFX_Builder_hand
+		icon = GFX_housing_crisis
 		prerequisite = { focus = }
 		mutually_exclusive = { focus =  }
 		x = 4
@@ -59,7 +59,7 @@ focus_tree = {
 ######Public option####
 	focus = {
 		id = DEN_housingcrisisa
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_helping_hand
 		prerequisite = { focus = DEN_housingcrisis}
 		mutually_exclusive = { focus = DEN_housingcrisisb }
 		x = -2
@@ -95,7 +95,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisa2
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_folketing
 		prerequisite = { focus = DEN_housingcrisisa}
 		x = -2
 		y = 2
@@ -130,7 +130,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisa3
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_fagforening
 		prerequisite = { focus = DEN_housingcrisisa2}
 		x = -2
 		y = 3
@@ -200,7 +200,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisa5
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_Copenhagen
 		prerequisite = { focus = DEN_housingcrisisa4}
 		x = 0
 		y = 3
@@ -309,7 +309,7 @@ focus_tree = {
 	######private option####
 	focus = {
 		id = DEN_housingcrisisb
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_invisible_hand
 		prerequisite = { focus = DEN_housingcrisis}
 		mutually_exclusive = { focus = DEN_housingcrisisa }
 		x = 2
@@ -662,7 +662,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisistothefuture
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_Builder_hand
 		prerequisite = { focus = DEN_housingcrisisdone focus = DEN_housingcrisismended focus = DEN_housingcrisiskindadone}
 		x = 2
 		y = 6
