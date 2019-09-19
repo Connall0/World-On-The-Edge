@@ -1,5 +1,35 @@
 spriteTypes = {	
 
+
+###NEW WOTE GENERIC
+
+	SpriteType = {
+	name = "GFX_goal_world_enterprise"
+	texturefile = "gfx/interface/goals/GFX_world_enterprise.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_people_stood"
+	texturefile = "gfx/interface/goals/GFX_people_stood.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_goal_argument"
+	texturefile = "gfx/interface/goals/GFX_argument.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_goal_house_diamond"
+	texturefile = "gfx/interface/goals/GFX_house_diamond.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_industry_trade_diamond"
+	texturefile = "gfx/interface/goals/GFX_industry_trade.dds"			
+	}	
+	
+	
+
 	####Danish_tree####
 	SpriteType = {
 	name = "GFX_helping_hand"
@@ -64,7 +94,12 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_Copenhagen"
 	texturefile = "gfx/interface/goals/GFX_copenhagen.tga"			
-	}	
+	}		
+
+	SpriteType = {
+	name = "GFX_goal_denmark_trade"
+	texturefile = "gfx/interface/goals/GFX_denmark_trade.dds"			
+	}		
 			
 	#### Generic continuous goal icons
 
@@ -1642,5 +1677,4 @@ spriteTypes = {
 		name = "GFX_focus_hol_liberation"
 		texturefile = "gfx/interface/goals/focus_hol_liberation.dds"
 	}
-
-}
+}	

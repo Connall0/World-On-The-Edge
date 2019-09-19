@@ -345,7 +345,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisb2a
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_denmark_trade
 		prerequisite = { focus = DEN_housingcrisisb}
 		mutually_exclusive = { focus = DEN_housingcrisisb2b }
 		x = 2
@@ -380,8 +380,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = DEN_housingcrisisb2b
-		icon = GFX_goal_generic_consumer_goods
+		id = DEN_housingcrisisb2b	
+		icon = GFX_goal_world_enterprise
 		prerequisite = { focus = DEN_housingcrisisb}
 		mutually_exclusive = { focus = DEN_housingcrisisb2a }
 		x = 4
@@ -487,7 +487,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisb3b
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_people_stood
 		prerequisite = { focus = DEN_housingcrisisb2b}
 		x = 4
 		y = 3
@@ -522,7 +522,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisb4b
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_argument
 		prerequisite = { focus = DEN_housingcrisisb3b}
 		x = 4
 		y = 4
@@ -592,7 +592,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisiskindadone
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_house_diamond
 		prerequisite = { focus = DEN_housingcrisisb4b}
 		x = 4
 		y = 5
@@ -627,7 +627,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisismended
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_industry_trade_diamond
 		prerequisite = { focus = DEN_housingcrisisb4a}
 		x = 2
 		y = 5
