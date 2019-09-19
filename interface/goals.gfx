@@ -7,8 +7,28 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+	name = "GFX_buy_denmark"
+	texturefile = "gfx/interface/goals/GFX_buy_denmark.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_rent_denmark"
+	texturefile = "gfx/interface/goals/GFX_rent_denmark.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_done_71"
+	texturefile = "gfx/interface/goals/GFX_housingcrisis_71.tga"			
+	}	
+
+	SpriteType = {
 	name = "GFX_housing_crisis"
 	texturefile = "gfx/interface/goals/GFX_housingcrisis.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_plan_denmark"
+	texturefile = "gfx/interface/goals/GFX_Plan.tga"			
 	}	
 
 	SpriteType = {

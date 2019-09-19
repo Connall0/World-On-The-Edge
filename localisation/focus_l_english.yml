@@ -2299,11 +2299,11 @@
  DEN_housingcrisisdone:0 "Done By 71'"
  DEN_housingcrisisdone_desc:0 "500.000 homes in 7 years is highly ambitious, but also highly necessary. We will build them fast, for if we dont economic potential will surely be wasted."
  DEN_housingcrisisb2a:0 "Allow Jeudan A/S To Start Construction"
- DEN_housingcrisisb2a_desc:0 "Jeudan A/S has been designing and building houses in Denmark since 1898, so it only seems natural that they should also be the ones to take us out of this crisis."
+ DEN_housingcrisisb2a_desc:0 "Jeudan A/S has been designing and building houses in Denmark since 1898, so it only seems natural that they should also be the ones to take us out of this crisis. They propose low-density-residential neighboorhoods on the outsskirts of the cities as the solution."
  DEN_housingcrisisb3a:0 "Employ The Domestic Workforce" 
  DEN_housingcrisisb4a:0 "'Lige Ud Af Landevejen'"  
  DEN_housingcrisisb2b:0 "Allow A Foreign Enterprise"
  DEN_housingcrisisb3b:0 "Invite More Guest Workers"
  DEN_housingcrisisb4b:0 "Communication Issues"
  DEN_housingcrisiskindadone:0 "It's Done When Its Done, Alright?!"
-
+ DEN_housingcrisismended:0 "10 års planen"
