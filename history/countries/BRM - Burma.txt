@@ -10,16 +10,17 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = auth_soc
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 	}
 
 	set_popularities = {
-		auth_soc = 46
+		despotism = 46
+		auth_soc = 30
 		authoritarian_democrat = 18
-		social_democrat = 36
+		social_democrat = 16
 	}
 	
 create_country_leader = {
