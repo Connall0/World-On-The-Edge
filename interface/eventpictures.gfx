@@ -1,6 +1,29 @@
 spriteTypes = {
 
-
+	spriteType = {
+		name = "GFX_report_event_moscow"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_1"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_2"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_3"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_4.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_4"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_5.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_5"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_6.dds"
+	}
 	spriteType = {
 		name = "GFX_report_event_copenhagen"
 		texturefile = "gfx/event_pictures/report_event_copenhagen.dds"
