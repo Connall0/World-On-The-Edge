@@ -51,7 +51,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 20
 			add_popularity = {
-    			ideology = social_democracy
+    			ideology = social_democrat
     			popularity = 0.01
 			}
 		}

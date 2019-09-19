@@ -26,9 +26,28 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_industry_trade_diamond"
 	texturefile = "gfx/interface/goals/GFX_industry_trade.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_bribes"
+	texturefile = "gfx/interface/goals/GFX_bribe.dds"			
 	}	
 	
+	####Italian Tree####
+	SpriteType = {
+	name = "GFX_ita_mafia"
+	texturefile = "gfx/interface/goals/GFX_ita_mafia.dds"			
+	}		
 	
+	SpriteType = {
+	name = "GFX_ita_yes_mafia"
+	texturefile = "gfx/interface/goals/GFX_ita_yes_mafia.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_ita_no_mafia"
+	texturefile = "gfx/interface/goals/GFX_ita_no_mafia.dds"			
+	}		
 
 	####Danish_tree####
 	SpriteType = {

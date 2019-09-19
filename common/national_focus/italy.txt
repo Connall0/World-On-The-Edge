@@ -1,1 +1,386 @@
+focus_tree = {
+	id = ita_start
 	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}	
+		default = yes
+
+	focus = {
+		id = ITA_the_mafia
+		icon = GFX_ita_mafia
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 8
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+	
+	##NO MAFIA SECTION
+	focus = {
+		id = ITA_no_mafia
+		icon = GFX_ita_no_mafia
+		prerequisite = { focus = ITA_the_mafia}
+		mutually_exclusive = { focus = ITA_yes_mafia }
+		x = 6
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_fund_comission
+		icon = GFX_ita_fund_comission
+		prerequisite = { focus = ITA_no_mafia}
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+	
+		focus = {
+		id = ITA_hunt_is_on
+		icon = GFX_ita_hunt_is_on
+		prerequisite = { focus = ITA_fund_comission}
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 3
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+		focus = {
+		id = ITA_pass_legislation
+		icon = GFX_legislation
+		prerequisite = { focus = ITA_no_mafia}
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+	##YES MAFIA SECTION
+	focus = {
+		id = ITA_yes_mafia
+		icon = GFX_ita_yes_mafia
+		prerequisite = { focus = ITA_the_mafia}
+		mutually_exclusive = { focus = ITA_no_mafia }
+		x = 10
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+		focus = {
+		id = ITA_normalise_bribes
+		icon = GFX_bribes
+		prerequisite = { focus = ITA_yes_mafia}
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_corruption_just_word
+		icon = GFX_corruption
+		prerequisite = { focus = ITA_normalise_bribes}
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 3
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+
+		focus = {
+		id = ITA_organization_better_unorganization
+		icon = GFX_ITA_mafia_2
+		prerequisite = { focus = ITA_yes_mafia}
+		mutually_exclusive = { focus =  }
+		x = 11
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_ally_families
+		icon = GFX_ITA_ally_families
+		prerequisite = { focus = ITA_organization_better_unorganization}
+		mutually_exclusive = { focus =  }
+		x = 11
+		y = 3
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+	
+}
