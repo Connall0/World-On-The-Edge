@@ -27,7 +27,7 @@ create_country_leader = {
 	name = "Ne Win"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
 	picture = "gfx/leaders/BRM/win.tga"
-	ideology = auth_soc_subtype
+	ideology =despotism_subtype
 	traits = {
 		#
 	}
