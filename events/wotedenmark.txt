@@ -276,12 +276,6 @@ country_event = {
 	
 	fire_only_once = yes
 
-	trigger = { 
-		tag = DEN
-		AND = {
-		date = 1963.1.1
-		}
-	}
 
 	option = { 
 		name = wotedenmark.10.a
