@@ -1,0 +1,40 @@
+ideas = {
+
+		country = {
+		ITA_mafia_no = {
+			picture = GFX_idea_PER_islamic_resistance
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.2 				
+			}
+		}
+		
+		ITA_mafia_yes = {
+			picture = GFX_idea_PER_islamic_resistance
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.20			
+			}
+		}
+	}

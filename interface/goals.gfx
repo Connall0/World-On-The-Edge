@@ -33,7 +33,58 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/GFX_bribe.dds"			
 	}	
 	
+	SpriteType = {
+	name = "GFX_make_laws"
+	texturefile = "gfx/interface/goals/GFX_make_laws.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_cctv"
+	texturefile = "gfx/interface/goals/GFX_cctv.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_fist_holding_cash"
+	texturefile = "gfx/interface/goals/GFX_fist_holding_cash.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_punch_mafia"
+	texturefile = "gfx/interface/goals/GFX_punch_mafia.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_papers"
+	texturefile = "gfx/interface/goals/GFX_papers.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_arrest_mafia"
+	texturefile = "gfx/interface/goals/GFX_arrest_mafia.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_government_building"
+	texturefile = "gfx/interface/goals/GFX_government_building.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_government_corruption"
+	texturefile = "gfx/interface/goals/GFX_government_corruption.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_mafia_ally"
+	texturefile = "gfx/interface/goals/GFX_mafia_ally.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_palm_down_mafia"
+	texturefile = "gfx/interface/goals/GFX_palm_down_mafia.dds"			
+	}
+	
 	####Italian Tree####
+	
 	SpriteType = {
 	name = "GFX_ita_mafia"
 	texturefile = "gfx/interface/goals/GFX_ita_mafia.dds"			
@@ -47,6 +98,16 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_ita_no_mafia"
 	texturefile = "gfx/interface/goals/GFX_ita_no_mafia.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_ita_target_mafia"
+	texturefile = "gfx/interface/goals/GFX_ita_target_mafia.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ita_crooked_but_stable"
+	texturefile = "gfx/interface/goals/GFX_ita_crooked_but_stable.dds"			
 	}		
 
 	####Danish_tree####

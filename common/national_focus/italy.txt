@@ -83,12 +83,13 @@ focus_tree = {
 			ITA = {
 			event = ita.3
 			}
+			set_country_flag = ITA_mafia_no
 		}
 	}
 
 		focus = {
 		id = ITA_fund_comission
-		icon = GFX_ita_fund_comission
+		icon = GFX_fist_holding_cash
 		prerequisite = { focus = ITA_no_mafia}
 		mutually_exclusive = { focus =  }
 		x = 5
@@ -125,7 +126,7 @@ focus_tree = {
 	
 		focus = {
 		id = ITA_hunt_is_on
-		icon = GFX_ita_hunt_is_on
+		icon = GFX_ita_target_mafia
 		prerequisite = { focus = ITA_fund_comission}
 		mutually_exclusive = { focus =  }
 		x = 5
@@ -162,11 +163,160 @@ focus_tree = {
 	
 		focus = {
 		id = ITA_pass_legislation
-		icon = GFX_legislation
+		icon = GFX_make_laws
 		prerequisite = { focus = ITA_no_mafia}
 		mutually_exclusive = { focus =  }
 		x = 7
 		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+		focus = {
+		id = ITA_eye_on_them
+		icon = GFX_cctv
+		prerequisite = { focus = ITA_pass_legislation}
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 3
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+		focus = {
+		id = ITA_hit_where_hurts
+		icon = GFX_punch_mafia
+		prerequisite = { focus = ITA_eye_on_them}
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 4
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_gather_evidence
+		icon = GFX_papers
+		prerequisite = { focus = ITA_hunt_is_on}
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 4
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_make_arrests
+		icon = GFX_arrest_mafia
+		prerequisite = { focus = ITA_gather_evidence}
+		prerequisite = { focus = ITA_hit_where_hurts}
+		mutually_exclusive = { focus =  }
+		x = 6
+		y = 5
 
 		cost = 2
 
@@ -232,6 +382,7 @@ focus_tree = {
 			ITA = {
 			event = ita.3
 			}
+		set_country_flag = ITA_mafia_yes
 		}
 	}	
 	
@@ -274,7 +425,7 @@ focus_tree = {
 
 		focus = {
 		id = ITA_corruption_just_word
-		icon = GFX_corruption
+		icon = GFX_government_corruption
 		prerequisite = { focus = ITA_normalise_bribes}
 		mutually_exclusive = { focus =  }
 		x = 9
@@ -307,11 +458,48 @@ focus_tree = {
 			event = ita.3
 			}
 		}
+	}
+
+		focus = {
+		id = ITA_mafia_influence_politics
+		icon = GFX_government_building
+		prerequisite = { focus = ITA_corruption_just_word}
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 4
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
 	}	
 
 		focus = {
 		id = ITA_organization_better_unorganization
-		icon = GFX_ITA_mafia_2
+		icon = GFX_palm_down_mafia
 		prerequisite = { focus = ITA_yes_mafia}
 		mutually_exclusive = { focus =  }
 		x = 11
@@ -348,7 +536,7 @@ focus_tree = {
 
 		focus = {
 		id = ITA_ally_families
-		icon = GFX_ITA_ally_families
+		icon = GFX_mafia_ally
 		prerequisite = { focus = ITA_organization_better_unorganization}
 		mutually_exclusive = { focus =  }
 		x = 11
@@ -383,4 +571,131 @@ focus_tree = {
 		}
 	}
 	
+		focus = {
+		id = ITA_mutual_benefits
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = ITA_ally_families}
+		mutually_exclusive = { focus =  }
+		x = 11
+		y = 4
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}
+
+		focus = {
+		id = ITA_crooked_but_stable
+		icon = GFX_ita_crooked_but_stable
+		prerequisite = { focus = ITA_mutual_benefits}
+		prerequisite = { focus = ITA_mafia_influence_politics}
+		mutually_exclusive = { focus =  }
+		x = 10
+		y = 5
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			ITA = {
+			event = ita.3
+			}
+		}
+	}	
+	
+	##END BIT
+	focus = {
+		id = ITA_fruits_of_labor
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = ITA_make_arrests focus = ITA_crooked_but_stable}
+		mutually_exclusive = { focus =  }
+		x = 8
+		y = 6
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = ITA_no_mafia
+						AND = {
+							has_country_flag = ITA_mafia_no
+						}
+					}
+					NOT = {
+						AND = {
+							has_country_flag = ITA_mafia_yes
+							has_completed_focus = ITA_yes_mafia
+						}
+					}					
+				}
+			add_ideas = ITA_mafia_no
+			}
+		else = {
+			add_ideas = ITA_mafia_yes
+		}		
+	}
 }
