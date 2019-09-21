@@ -677,6 +677,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ITA_fruits_of_labor"
+		custom_effect_tooltip = ITA_fruits_of_labor_tt
 			if = {
 				limit = {
 					OR = {
@@ -692,10 +694,14 @@ focus_tree = {
 						}
 					}					
 				}
+			hidden_effect = {
 			add_ideas = ITA_mafia_no
 			}
+			}
 		else = {
+			hidden_effect = {
 			add_ideas = ITA_mafia_yes
+			}
 		}		
 	}
 }
