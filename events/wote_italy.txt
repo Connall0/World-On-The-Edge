@@ -1,0 +1,24 @@
+add_namespace = ita
+
+##MAFIA
+country_event = {
+ id = ita.1
+ title = ita.1.t
+ desc = ita.1.desc
+ picture = GFX_report_event_ita_mafia_1
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.1.a
+		ai_chance = { factor = 1}
+		set_country_flag = ita_no_mafia
+	}	
+	option = {
+		name = ita.1.b
+		ai_chance = { factor = 1}
+		set_country_flag = ita_yes_mafia
+	}
+}

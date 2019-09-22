@@ -34,6 +34,7 @@
  ########ITALY
  ITA_the_mafia:0 "The Mafia"
  ITA_the_mafia_desc:0 " "
+ ITA_the_mafia_tt:0 "We'll decide how we'll deal with the issue of the Mafia"
  ITA_yes_mafia:0 "Reach an Agreement"
  ITA_yes_mafia_desc:0 " "
  ITA_no_mafia:0 "Stamp them Out"
@@ -52,7 +53,7 @@
  ITA_hunt_is_on_desc:0 " "    
  ITA_pass_legislation:0 "Pass Legislation"
  ITA_pass_legislation_desc:0 " " 
- ITA_eye_on_them:0 "Keep on Eye on Them"
+ ITA_eye_on_them:0 "Keep an Eye on Them"
  ITA_eye_on_them_desc:0 " "   
  ITA_gather_evidence:0 "Gather Evidence"
  ITA_gather_evidence_desc:0 " " 

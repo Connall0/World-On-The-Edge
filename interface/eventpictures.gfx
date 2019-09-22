@@ -1,5 +1,6 @@
 spriteTypes = {
 
+	##DENMARK
 	spriteType = {
 		name = "GFX_report_event_moscow"
 		texturefile = "gfx/event_pictures/report_event_soviet_visit_1.dds"
@@ -87,5 +88,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_danish_conservative_leader"
 		texturefile = "gfx/event_pictures/report_event_danish_conservative_leader.dds"
+	}
+	
+	##ITALY
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_1"
+		texturefile = "gfx/event_pictures/ita_mafia_1.dds"
 	}
 }

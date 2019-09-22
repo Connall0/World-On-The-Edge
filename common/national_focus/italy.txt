@@ -41,9 +41,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
+		custom_effect_tooltip = ITA_the_mafia_tt
+			hidden_effect = {
+			country_event = { id = ita.1 days = 0 }
 			}
 		}
 	}
@@ -53,6 +53,7 @@ focus_tree = {
 		id = ITA_no_mafia
 		icon = GFX_ita_no_mafia
 		prerequisite = { focus = ITA_the_mafia}
+		prerequisite = { has_country_flag = ita_no_mafia}
 		mutually_exclusive = { focus = ITA_yes_mafia }
 		x = 6
 		y = 1
@@ -79,9 +80,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 			ITA = {
-			event = ita.3
+			event = ita.2
 			}
 			set_country_flag = ITA_mafia_no
 		}
@@ -117,9 +117,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 			ITA = {
-			event = ita.3
+			event = ita.10
 			}
 		}
 	}
@@ -154,9 +153,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 			ITA = {
-			event = ita.3
+			event = ita.4
 			}
 		}
 	}	
@@ -352,6 +350,7 @@ focus_tree = {
 		id = ITA_yes_mafia
 		icon = GFX_ita_yes_mafia
 		prerequisite = { focus = ITA_the_mafia}
+		prerequisite = { has_country_flag = ita_yes_mafia}
 		mutually_exclusive = { focus = ITA_no_mafia }
 		x = 10
 		y = 1
@@ -378,7 +377,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 			ITA = {
 			event = ita.3
 			}
