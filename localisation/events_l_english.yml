@@ -1,4 +1,11 @@
 ﻿l_english:
+
+ ##ITALY
+  ita.1.t:0 "The Mafia"
+  ita.1.desc:0 "For almost a century Mafia families have been around in the South and, more specifically, Sicily, from smuggling to counterfitting they seem to have their hands in almost every possible racket in Italy. Since the end of the Second World War their influence over Italy has only been growing after an era of Fascist suppression. Some people believe the Mafia is a problem, a stain on society that must be stamped out. However some others believe the Mafia can be worked with and could be used to the benefit of the government and the nation due to the significant power they already hold. The question is, how will we deal with them?"
+  ita.1.a:0 "We refuse to work with criminals, organised or not"
+  ita.1.b:0 "Working with them could be a benefit"
+  
 ##USA
 usa.1.t:0 "Assassination of JFK"
 usa.1.desc:0 "At 12:30pm, President Kennedy was assassinated whilst riding in his motorcade in Dallas, Texas. Obituaries are being printed honouring the late president and Lyndon Johnson, Kennedy's Vice President, is to become the new President of the United States. Whether Johnson will be a worthy successor to Kennedy and if he has the leadership skills to lead a prosperous America shall be put to the test in these critical times."
@@ -9,7 +16,8 @@ usa.1.a:0 "Johnson Will Carry the Torch"
  uscollapse.1.a:0 "This is a Disaster!"
  uscollapse.1.b:0 "For the Revolution!"
  uscollapse.1.c:0 "Democracy has failed us for the last time!"
-  #Denmark#
+ 
+ #Denmark#
   wotedenmark.1.t:0 "The Mona case"
   wotedenmark.1.d:0 "This morning Mona Rasmussen, just 7 years old, biked alone to her schoolbus which were to arrive at half past eleven. But as the clock turned 11:30, Mona was nowhere to be seen. Three of her classmates noticed her bike in the bushes on their way home from school, two of them ran home to their fathers to tell them the news, and soon the whole neighborhood was looking for Mona. Now three hours have passed, Mona's mother has been crying since the beginning. And with little left to comfort her with, they decided to call the cops." 
   wotedenmark.1.a:0 "You sure the cops are necessary?"
