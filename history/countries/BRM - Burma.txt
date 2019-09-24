@@ -18,9 +18,9 @@ set_politics = {
 
 	set_popularities = {
 		despotism = 46
-		auth_soc = 30
-		authoritarian_democrat = 18
-		social_democrat = 16
+		auth_soc = 25
+		authoritarian_democrat = 15
+		social_democrat = 14
 	}
 	
 create_country_leader = {
