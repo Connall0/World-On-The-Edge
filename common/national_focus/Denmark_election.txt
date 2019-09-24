@@ -1,14 +1,476 @@
 focus_tree = {
-	id = den_startdate
+	id = den_election_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
-			add = 20
+			add = 10
 			tag = DEN
 		}
 	}
 	
 	default = no
-}
+
+	focus = {
+		id = DEN_election_season
+		icon = GFX_folketing
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    			ideology = social_democrat
+    			popularity = 0.01
+			}
+		}
+ 	}
+
+	focus = {
+		id = DEN_the_issues
+		icon = GFX_helping_hand
+		prerequisite = { focus = DEN_election_season}
+		x = 0
+		y = 2
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_timed_idea = { idea = DEN_election season days = 200 }
+		}
+	}
+######housing####
+		
+		focus = {
+		id = DEN_election_housing_crisis
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = 0
+		y = 3
+		relative_position_id = DEN_election_season
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+		focus = {
+		id = DEN_attack_from_the_left
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_election_housing_crisis}
+		mutually_exclusive = { focus = DEN_attack_from_the_right}
+		x = -1
+		y = 5
+		relative_position_id = DEN_election_season
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = private_solution
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.33 } }
+		}
+	}
+
+		focus = {
+		id = DEN_attack_from_the_right
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_election_housing_crisis}
+		mutually_exclusive = { focus = DEN_attack_from_the_left}
+		x = 1
+		y = 5
+		relative_position_id = DEN_election_season
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = State_solution
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.34 } }
+		}
+	}
+
+######MONA######
+	focus = {
+		id = DEN_monacase
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = -4
+		y = 2
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.26 } }
+		}
+	}
+
+######khruschev######
+	focus = {
+		id = DEN_khruschev
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = -2
+		y = 1
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.26 } }
+		}
+	}
+######NATO####
+	focus = {
+		id = DEN_nato_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = 2
+		y = 1
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.27 } }
+		}
+	}
+######monarchy####
+	focus = {
+		id = DEN_monarchy_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = -3
+		y = 4
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.28 } }
+		}
+	}
+
+######EuropeanFTA####
+	focus = {
+		id = DEN_efta_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = 3
+		y = 4
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.29 } }
+		}
+	}
+######Tax Reform######
+	focus = {
+		id = DEN_tax_reform_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = 4
+		y = 2
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.30 } }
+		}
+	}
+######welfare state######
+	focus = {
+		id = DEN_welfare_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = 5
+		y = 3
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.31 } }
+		}
+	}
+######Scandinavian Partnership######
+	focus = {
+		id = DEN_scandinavian_partnership_election
+		icon = GFX_folketing
+		prerequisite = { focus = DEN_the_issues}
+		x = -5
+		y = 3
+		relative_position_id = DEN_election_season
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = Mona_case
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		DEN = { country_event = { id = wotedenmark.32 } }
+		}
+	}

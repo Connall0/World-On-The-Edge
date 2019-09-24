@@ -3,6 +3,12 @@ spriteTypes = {
 
 ###NEW WOTE GENERIC
 
+	
+	SpriteType = {
+	name = "GFX_goal_jeudan"
+	texturefile = "gfx/interface/goals/GFX_jeudan.tga"			
+	}
+
 	SpriteType = {
 	name = "GFX_goal_world_enterprise"
 	texturefile = "gfx/interface/goals/GFX_world_enterprise.dds"			
