@@ -89,7 +89,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_timed_idea = { idea = SAF_abandon_westminster days = 1095 }
+		set_country_flag = State_solution
 		}
 	}
 
@@ -339,7 +339,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-
+		set_country_flag = private_solution
 		}
 	}
 
@@ -381,7 +381,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_housingcrisisb2b	
-		icon = GFX_goal_world_enterprise
+		icon = GFX_goal_jeudan
 		prerequisite = { focus = DEN_housingcrisisb}
 		mutually_exclusive = { focus = DEN_housingcrisisb2a }
 		x = 4
