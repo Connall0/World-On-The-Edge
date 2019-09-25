@@ -1,5 +1,10 @@
 ﻿l_english:
 
+ ##WORLD EVENTS
+  WORLD.1.t:0 "Elections in Italy"
+  WORLD.1.desc:0 " "
+  WORLD.1.a:0 "We Eagerly Await the Results"
+ 
  ##ITALY
   ita.1.t:0 "The Mafia"
   ita.1.desc:0 "For almost a century Mafia families have been around in the South and, more specifically, Sicily, from smuggling to counterfitting they seem to have their hands in almost every possible racket in Italy. Since the end of the Second World War their influence over Italy has only been growing after an era of Fascist suppression. Some people believe the Mafia is a problem, a stain on society that must be stamped out. However some others believe the Mafia can be worked with and could be used to the benefit of the government and the nation due to the significant power they already hold. The question is, how will we deal with them?"

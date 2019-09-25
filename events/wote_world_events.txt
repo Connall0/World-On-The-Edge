@@ -2,7 +2,7 @@ add_namespace = WORLD
 
 news_event = {
 	id = WORLD.1
-	picture = GFX_news_event_us_vietnamwar
+	picture = GFX_news_event_italian_elections
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.1"}
 	title = WORLD.1.t
 	desc = WORLD.1.d

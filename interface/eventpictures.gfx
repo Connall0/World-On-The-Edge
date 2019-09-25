@@ -94,5 +94,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_ita_mafia_1"
 		texturefile = "gfx/event_pictures/ita_mafia_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_news_event_italian_elections"
+		texturefile = "gfx/event_pictures/GFX_news_event_italian_elections.dds"
 	}
 }
