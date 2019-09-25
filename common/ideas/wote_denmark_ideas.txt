@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		DEN_efta = {
-			picture = idea_efta
+			picture = idea_generic_efta
 					
 			allowed = {
 				always = no
@@ -76,3 +76,5 @@ ideas = {
 			stability = -0.07
 			}
 		}
+	}
+}

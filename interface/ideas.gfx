@@ -170,7 +170,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/den_king.dds"
 		}	
 	spriteType = {
-		name = "GFX_idea_efta"
+		name = "GFX_idea_generic_efta"
 		texturefile = "gfx/interface/ideas/generic_efta.dds"
 		}
  ##ITALY
