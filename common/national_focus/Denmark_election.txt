@@ -244,7 +244,7 @@ focus_tree = {
 		}
 
 		available = {
-		has_country_flag = Mona_case
+		has_country_flag = khruschev_den	
 		}
 		
 		bypass = {
@@ -279,7 +279,6 @@ focus_tree = {
 		}
 
 		available = {
-		has_country_flag = Mona_case
 		}
 		
 		bypass = {

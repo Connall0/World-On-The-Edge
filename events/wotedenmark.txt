@@ -63,10 +63,6 @@ country_event = {
 			factor = 60
 		}
 		Add_political_power = -20	
-		hidden_effect = {
-	set_country_flag = Mona_case
-		}
-
 	}
 }
 
@@ -151,6 +147,7 @@ country_event = {
 		name = wotedenmark.6.a
 		hidden_effect = {
 	DEN = { country_event = { days = 14 id = wotedenmark.7 } }
+	set_country_flag = Mona_case
 		}
 		add_popularity = {
 			ideology = social_conservative
@@ -438,15 +435,17 @@ country_event = {
 
 	mean_time_to_happen = {days = 1}
 
-	######## Peaceful coexistance is indeed necesaarry, Accept the invitation.
+	######## Peaceful coexistance is indeed necesarry, Accept the invitation.
 	option = { 
 		name = wotedenmark.19.a
 		Add_political_power = -1
 		hidden_effect = {
+	set_country_flag = khruschev_den	
 	DEN = { country_event = { hours = 18 id = wotedenmark.20 } }
 		ai_chance = {
 			factor = 60
-		Add_political_power = -50	
+		Add_political_power = -50
+		
 		}
 		}
 	}
@@ -511,15 +510,15 @@ country_event = {
 
 # mona case two b
 country_event = {
-	id = wotedenmark.4
-	title = wotedenmark.4.t
-	desc = wotedenmark.4.d
+	id = wotedenmark.22
+	title = wotedenmark.22.t
+	desc = wotedenmark.22.d
 	picture = GFX_report_event_mona_case
 
 	is_triggered_only = yes
 
 	option = {
-		name = wotedenmark.4.a
+		name = wotedenmark.22.a
 		hidden_effect = {
 		add_stability = -0.1
 	DEN = { country_event = { days = 1 id = wotedenmark.6 } }
@@ -535,16 +534,16 @@ country_event = {
 
 # mona case two a 2
 country_event = { 
-	id = wotedenmark.5
-	title = wotedenmark.5.t
-	desc = wotedenmark.5.d
+	id = wotedenmark.23
+	title = wotedenmark.23.t
+	desc = wotedenmark.23.d
 	picture = GFX_report_event_danish_conservative_leader
 
 	is_triggered_only = yes
 
 	#conservatives speak out
 	option = {
-		name = wotedenmark.5.a
+		name = wotedenmark.23.a
 		add_popularity = {
 			ideology = social_conservative
 			popularity = 0.02
@@ -557,16 +556,16 @@ country_event = {
 
 # mona case two b 2
 country_event = { 
-	id = wotedenmark.6
-	title = wotedenmark.6.t
-	desc = wotedenmark.6.d
+	id = wotedenmark.24
+	title = wotedenmark.24.t
+	desc = wotedenmark.24.d
 	picture = GFX_report_event_danish_conservative_leader
 
 	is_triggered_only = yes
 
 	#conservatives speak out
 	option = {
-		name = wotedenmark.6.a
+		name = wotedenmark.24.a
 		hidden_effect = {
 	DEN = { country_event = { days = 14 id = wotedenmark.7 } }
 		}
@@ -582,16 +581,16 @@ country_event = {
 
 # mona case two b 3
 country_event = { 
-	id = wotedenmark.7
-	title = wotedenmark.7.t
-	desc = wotedenmark.7.d
+	id = wotedenmark.25
+	title = wotedenmark.25.t
+	desc = wotedenmark.25.d
 	picture = GFX_report_event_mona_case
 
 	is_triggered_only = yes
 
 	#Suspect found
 	option = {
-		name = wotedenmark.7.a
+		name = wotedenmark.25.a
 		custom_effect_tooltip = wotedenmark2_tt
 		add_stability = 0.07
 		ai_chance = {
