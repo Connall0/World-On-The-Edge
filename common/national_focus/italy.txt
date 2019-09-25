@@ -19,7 +19,7 @@ focus_tree = {
 		x = 8
 		y = 0
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -57,7 +57,7 @@ focus_tree = {
 		x = 6
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -79,12 +79,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			ITA = {
-			event = ita.2
-			}
-			add_political_power = -25
-			add_stability = 0.05		
-			set_country_flag = ITA_mafia_no
+		country_event = { id = ita.2 days = 0 }
 		}
 	}
 
@@ -118,9 +113,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			ITA = {
-			event = ita.10
-			}
+		country_event = { id = ita.3 days = 0 }
 		}
 	}
 	
@@ -154,9 +147,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			ITA = {
-			event = ita.4
-			}
+		country_event = { id = ita.4 days = 0 }
 		}
 	}	
 	
@@ -190,10 +181,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.6 days = 0 }
 		}
 	}	
 	
@@ -228,9 +216,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.7 days = 0 }
 		}
 	}	
 	
@@ -264,10 +250,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.8 days = 0 }
 		}
 	}
 
@@ -301,10 +284,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.5 days = 0 }
 		}
 	}
 
@@ -339,10 +319,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.9 days = 0 }
 		}
 	}	
 	
@@ -355,7 +332,7 @@ focus_tree = {
 		x = 10
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -654,7 +631,7 @@ focus_tree = {
 		x = 8
 		y = 6
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 1

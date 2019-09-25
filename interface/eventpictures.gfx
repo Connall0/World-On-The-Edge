@@ -90,9 +90,41 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_danish_conservative_leader.dds"
 	}
 	
+	##GENERIC
+	spriteType = {
+		name = "GFX_report_event_cop_investigation"
+		texturefile = "gfx/event_pictures/GFX_report_event_cop_investigation.dds"
+	}		
+	spriteType = {
+		name = "GFX_report_event_signing_law"
+		texturefile = "gfx/event_pictures/GFX_report_event_signing_law.dds"
+	}	
+	
 	##ITALY
+	##MAFIA EVENT CHAIN
 	spriteType = {
 		name = "GFX_report_event_ita_mafia_1"
 		texturefile = "gfx/event_pictures/ita_mafia_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_no"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_no.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_commission"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_commission.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_hunt"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_hunt.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_arrest"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_arrest.dds"	
+		}
+	##ELECTIONS
+	spriteType = {
+		name = "GFX_news_event_italian_elections"
+		texturefile = "gfx/event_pictures/GFX_news_event_italian_elections.dds"
 	}
 }

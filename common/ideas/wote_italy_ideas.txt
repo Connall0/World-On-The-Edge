@@ -2,7 +2,7 @@ ideas = {
 
 		country = {
 		ITA_mafia_no = {
-			picture = GFX_idea_PER_islamic_resistance
+			picture = GFX_idea_ita_mafia_weakened
 					
 			allowed = {
 				always = no
@@ -15,13 +15,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.15
-				conscription_factor = -0.2 				
+				stability_factor = -0.1
+				political_power_gain = 0.5				
 			}
 		}
 		
 		ITA_mafia_yes = {
-			picture = GFX_idea_PER_islamic_resistance
+			picture = GFX_idea_ita_mafia_collaboration
 					
 			allowed = {
 				always = no
@@ -34,7 +34,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.20			
+				stability_factor = 0.1
+				political_power_gain = -0.5 				
 			}
 		}
 	}

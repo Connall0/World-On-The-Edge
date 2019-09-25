@@ -1,0 +1,1383 @@
+focus_tree = {
+	id = 2
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRE
+		}
+	}
+	#Focus for Inspire Unity
+	focus = {
+		id = IRE_inspireunity
+		icon = GFX_goal_generic_demand_territory
+		x = 72
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_yXjDzaOK }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fianna Fáil
+	focus = {
+		id = IRE_fiannafil
+		icon = GFX_goal_unknown
+		x = 51
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_the1965election }
+		mutually_exclusive = { 
+			focus = IRE_irishworkersparty 
+		}
+		mutually_exclusive = { 
+			focus = IRE_clannnapoblachta 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Republicanise from Within
+	focus = {
+		id = IRE_republicanisefromwithin
+		icon = GFX_goal_generic_neutrality_focus
+		x = 51
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_fiannafil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reopen the Dockyards
+	focus = {
+		id = IRE_reopenthedockyards
+		icon = GFX_goal_generic_navy_submarine
+		x = 23
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_workplacereforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Naval Service
+	focus = {
+		id = IRE_navalservice
+		icon = GFX_goal_generic_navy_battleship
+		x = 87
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_militaryreforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for UN Peacekeeping
+	focus = {
+		id = IRE_unpeacekeeping
+		icon = GFX_goal_tfv_can_forced_quebec_conscription
+		x = 77
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fine Gael
+	focus = {
+		id = IRE_finegael
+		icon = GFX_goal_unknown
+		x = 34
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_the1965election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Irish Workers' Party
+	focus = {
+		id = IRE_irishworkersparty
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_the1965election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Clann na Poblachta
+	focus = {
+		id = IRE_clannnapoblachta
+		icon = GFX_goal_unknown
+		x = 68
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_the1965election }
+		mutually_exclusive = { focus = IRE_fiannafil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace the Workers
+	focus = {
+		id = IRE_embracetheworkers
+		icon = GFX_focus_generic_military_academy
+		x = 1
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_irishworkersparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Communique to Moscow
+	focus = {
+		id = IRE_communiquetomoscow
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_irishworkersparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for test
+	focus = {
+		id = IRE_test
+		icon = GFX_goal_unknown
+		x = 92
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Reforms
+	focus = {
+		id = IRE_militaryreforms
+		icon = GFX_militaryreforms
+		x = 82
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			air_experience= 25army_experience= 25navy_experience= 25
+		}
+	}
+
+	#Focus for Army
+	focus = {
+		id = IRE_army
+		icon = GFX_goal_generic_small_arms
+		x = 77
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_militaryreforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Air Corps
+	focus = {
+		id = IRE_aircorps
+		icon = GFX_goal_generic_air_bomber
+		x = 82
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_militaryreforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rewrite the Irish Constitution
+	focus = {
+		id = IRE_rewritetheirishconstitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 31
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_towardsthefuture }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to Washington
+	focus = {
+		id = IRE_speaktowashington
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 55
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_statevisittotheus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Open Talks with the British
+	focus = {
+		id = IRE_opentalkswiththebritish
+		icon = GFX_focus_chi_british_cooperation
+		x = 37
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_towardsthefuture }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Towards the Future
+	focus = {
+		id = IRE_towardsthefuture
+		icon = GFX_goal_tripartite_pact
+		x = 34
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_finegael }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 25add_stability= 5
+		}
+	}
+
+	#Focus for Economic Autarky
+	focus = {
+		id = IRE_economicautarky
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 46
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_fiannafil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Send Volunteers
+	focus = {
+		id = IRE_sendvolunteers
+		icon = GFX_focus_generic_little_entente
+		x = 64
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_startabombingcampaign 
+		}
+		prerequisite = { 
+			focus = IRE_sendweaponsnorth 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop the Countryside
+	focus = {
+		id = IRE_developthecountryside
+		icon = GFX_goal_generic_construct_civilian
+		x = 25
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_workplacereforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Send Weapons North
+	focus = {
+		id = IRE_sendweaponsnorth
+		icon = GFX_goal_generic_small_arms
+		x = 65
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_improvemunitionsfactories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The 1965 Election
+	focus = {
+		id = IRE_the1965election
+		icon = GFX_goal_support_democracy
+		x = 34
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Labour Party
+	focus = {
+		id = IRE_labourparty
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_the1965election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Munitions Factories
+	focus = {
+		id = IRE_improvemunitionsfactories
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 64
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_clannnapoblachta }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Start a Bombing Campaign
+	focus = {
+		id = IRE_startabombingcampaign
+		icon = GFX_goal_poland_goal
+		x = 63
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_improvemunitionsfactories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join the Warsaw Pact
+	focus = {
+		id = IRE_jointhewarsawpact
+		icon = GFX_goal_support_communism
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_statevisit }
+		mutually_exclusive = { focus = IRE_remainneutral }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Remain Neutral
+	focus = {
+		id = IRE_remainneutral
+		icon = GFX_goal_generic_demand_territory
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_statevisit }
+		mutually_exclusive = { focus = IRE_jointhewarsawpact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Living Standards
+	focus = {
+		id = IRE_improvelivingstandards
+		icon = GFX_focus_generic_self_management
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_socialreforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Protect the Fisheries
+	focus = {
+		id = IRE_protectthefisheries
+		icon = GFX_goal_unknown
+		x = 87
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_navalservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prevent Smuggling
+	focus = {
+		id = IRE_preventsmuggling
+		icon = GFX_goal_unknown
+		x = 87
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_navalservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase Submarines
+	focus = {
+		id = IRE_purchasesubmarines
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 85
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_navalservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase European Fighters
+	focus = {
+		id = IRE_purchaseeuropeanfighters
+		icon = GFX_goal_continuous_air_production
+		x = 81
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_aircorps }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operation Armegedon
+	focus = {
+		id = IRE_operationarmegedon
+		icon = GFX_focus_attack_britain
+		x = 79
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_intelligencedivision }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase Destroyers
+	focus = {
+		id = IRE_purchasedestroyers
+		icon = GFX_goal_generic_navy_battleship
+		x = 85
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_purchasesubmarines }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Message to the Nation
+	focus = {
+		id = IRE_messagetothenation
+		icon = GFX_goal_unknown
+		x = 72
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_clannnapoblachta }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase Foreign Planes
+	focus = {
+		id = IRE_purchaseforeignplanes
+		icon = GFX_goal_generic_air_fighter2
+		x = 42
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_purchaseforeignweapons }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue Alone
+	focus = {
+		id = IRE_continuealone
+		icon = GFX_goal_generic_political_pressure
+		x = 58
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_acceptdonations }
+		mutually_exclusive = { focus = IRE_askforhelp }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Intelligence Division
+	focus = {
+		id = IRE_intelligencedivision
+		icon = GFX_goal_generic_secret_weapon
+		x = 79
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free Health Care
+	focus = {
+		id = IRE_freehealthcare
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_socialreforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Reforms
+	focus = {
+		id = IRE_socialreforms
+		icon = GFX_goal_generic_demand_territory
+		x = 16
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_labourparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The European Workers Front
+	focus = {
+		id = IRE_theeuropeanworkersfront
+		icon = GFX_goal_support_fourth_int
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_remainneutral }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to Moscow
+	focus = {
+		id = IRE_speaktomoscow
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_communiquetomoscow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dublin Conference
+	focus = {
+		id = IRE_dublinconference
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_speaktomoscow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Irish-Soviet Exercises
+	focus = {
+		id = IRE_irishsovietexercises
+		icon = GFX_focus_attack_soviet
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_jointhewarsawpact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for State Visit to the US
+	focus = {
+		id = IRE_statevisittotheus
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 56
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_fiannafil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Civilian Industry
+	focus = {
+		id = IRE_improvecivilianindustry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 47
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_economicautarky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Military Industry
+	focus = {
+		id = IRE_improvemilitaryindustry
+		icon = GFX_goal_generic_air_production
+		x = 45
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_economicautarky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win Over the Factories
+	focus = {
+		id = IRE_winoverthefactories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_embracetheworkers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win Over the Docks
+	focus = {
+		id = IRE_winoverthedocks
+		icon = GFX_focus_generic_cruiser2
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_embracetheworkers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for State Visit
+	focus = {
+		id = IRE_statevisit
+		icon = GFX_focus_ger_strike_at_the_source
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_communiquetomoscow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Aquire Soviet Tech
+	focus = {
+		id = IRE_aquiresoviettech
+		icon = GFX_focus_generic_socialist_science
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_communiquetomoscow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Allow Naval Access
+	focus = {
+		id = IRE_allownavalaccess
+		icon = GFX_goal_continuous_naval_production
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_aquiresoviettech }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Atlantic Oil
+	focus = {
+		id = IRE_atlanticoil
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_aquiresoviettech }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Redistribute the Land
+	focus = {
+		id = IRE_redistributetheland
+		icon = GFX_focus_eng_crush_the_dream
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_winoverthefactories 
+		}
+		prerequisite = { 
+			focus = IRE_winoverthedocks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Education Board
+	focus = {
+		id = IRE_nationaleducationboard
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		x = 1
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_redistributetheland }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Accept Donations
+	focus = {
+		id = IRE_acceptdonations
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 56
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_speaktowashington 
+		}
+		prerequisite = { 
+			focus = IRE_jfkmemorial 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for JFK Memorial
+	focus = {
+		id = IRE_jfkmemorial
+		icon = GFX_focus_usa_recruit_the_free_corps
+		x = 57
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_statevisittotheus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ask for Help
+	focus = {
+		id = IRE_askforhelp
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 54
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_acceptdonations }
+		mutually_exclusive = { focus = IRE_continuealone }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join the EEC
+	focus = {
+		id = IRE_jointheeec
+		icon = GFX_goal_unknown
+		x = 34
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_entertheworldstage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase Foreign Weapons
+	focus = {
+		id = IRE_purchaseforeignweapons
+		icon = GFX_goal_generic_small_arms
+		x = 42
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_joinnato }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Political Stance
+	focus = {
+		id = IRE_politicalstance
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_improvelivingstandards 
+		}
+		prerequisite = { 
+			focus = IRE_freehealthcare 
+		}
+		prerequisite = { 
+			focus = IRE_reopenthedockyards 
+		}
+		prerequisite = { 
+			focus = IRE_developthecountryside 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enter the World Stage
+	focus = {
+		id = IRE_entertheworldstage
+		icon = GFX_goal_support_democracy
+		x = 34
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_towardsthefuture }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reduce Voting Age
+	focus = {
+		id = IRE_reducevotingage
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_rewritetheirishconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Become a Secular State
+	focus = {
+		id = IRE_becomeasecularstate
+		icon = GFX_goal_generic_demand_territory
+		x = 30
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_rewritetheirishconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join NATO
+	focus = {
+		id = IRE_joinnato
+		icon = GFX_goal_unknown
+		x = 44
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_askforhelp 
+			focus = IRE_entertheworldstage 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for US Bomber Bases
+	focus = {
+		id = IRE_usbomberbases
+		icon = GFX_goal_generic_air_bomber
+		x = 52
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_irishamericanpact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Condem the Killing
+	focus = {
+		id = IRE_condemthekilling
+		icon = GFX_goal_generic_dangerous_deal
+		x = 37
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_opentalkswiththebritish }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Adopt the Euro
+	focus = {
+		id = IRE_adopttheeuro
+		icon = GFX_goal_unknown
+		x = 36
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_jointheeec }
+		mutually_exclusive = { focus = IRE_continuewiththeirishpound }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Workplace Reforms
+	focus = {
+		id = IRE_workplacereforms
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_labourparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue with the Irish Pound
+	focus = {
+		id = IRE_continuewiththeirishpound
+		icon = GFX_goal_unknown
+		x = 32
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_jointheeec }
+		mutually_exclusive = { focus = IRE_adopttheeuro }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Trading Fleet
+	focus = {
+		id = IRE_improvetradingfleet
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 46
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_improvecivilianindustry 
+		}
+		prerequisite = { 
+			focus = IRE_improvemilitaryindustry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the MATS
+	focus = {
+		id = IRE_expandthemats
+		icon = GFX_goal_generic_air_fighter2
+		x = 83
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_aircorps }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Irish Language
+	focus = {
+		id = IRE_theirishlanguage
+		icon = GFX_goal_unknown
+		x = 68
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_clannnapoblachta }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Away from Socialism
+	focus = {
+		id = IRE_awayfromsocialism
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_politicalstance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Allow Socialism
+	focus = {
+		id = IRE_allowsocialism
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_politicalstance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Allow the Moderates
+	focus = {
+		id = IRE_allowthemoderates
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_allowsocialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Local Defence Brigades
+	focus = {
+		id = IRE_localdefencebrigades
+		icon = GFX_goal_generic_political_pressure
+		x = 77
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_unpeacekeeping }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Exclude the Extremists
+	focus = {
+		id = IRE_excludetheextremists
+		icon = GFX_goal_unknown
+		x = 22
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_awayfromsocialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Neutrality Pact
+	focus = {
+		id = IRE_neutralitypact
+		icon = GFX_goal_unknown
+		x = 58
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_continuealone }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Celtic Culture Revival
+	focus = {
+		id = IRE_celticculturerevival
+		icon = GFX_goal_unknown
+		x = 68
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_theirishlanguage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Practise Dogfights
+	focus = {
+		id = IRE_practisedogfights
+		icon = GFX_goal_unknown
+		x = 82
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_purchaseeuropeanfighters 
+		}
+		prerequisite = { 
+			focus = IRE_expandthemats 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Irish-American Pact
+	focus = {
+		id = IRE_irishamericanpact
+		icon = GFX_focus_hol_the_fourth_ally
+		x = 54
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_askforhelp }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Weapon Design Contest
+	focus = {
+		id = IRE_weapondesigncontest
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 75
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Containment
+	focus = {
+		id = IRE_supportcontainment
+		icon = GFX_goal_unknown
+		x = 54
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_irishamericanpact }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Political Direction
+	focus = {
+		id = IRE_politicaldirection
+		icon = GFX_goal_unknown
+		x = 70
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_celticculturerevival 
+		}
+		prerequisite = { 
+			focus = IRE_inspireunity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Armed Struggle
+	focus = {
+		id = IRE_armedstruggle
+		icon = GFX_goal_unknown
+		x = 68
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_politicaldirection }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Planes for Bases
+	focus = {
+		id = IRE_planesforbases
+		icon = GFX_goal_continuous_air_production
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_allownavalaccess 
+		}
+		prerequisite = { 
+			focus = IRE_atlanticoil 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Seek Soviet Aid
+	focus = {
+		id = IRE_seeksovietaid
+		icon = GFX_focus_ger_great_red_menace
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_dublinconference }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Spread the Revolution
+	focus = {
+		id = IRE_spreadtherevolution
+		icon = GFX_focus_generic_join_comintern
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = IRE_proclaimtherevolution 
+		}
+		prerequisite = { 
+			focus = IRE_theeuropeanworkersfront 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Mines
+	focus = {
+		id = IRE_expandthemines
+		icon = GFX_goal_generic_construction2
+		x = 46
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_improvetradingfleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Proclaim the Revolution
+	focus = {
+		id = IRE_proclaimtherevolution
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = IRE_nationaleducationboard }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

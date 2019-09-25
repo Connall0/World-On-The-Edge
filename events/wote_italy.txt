@@ -22,3 +22,153 @@ country_event = {
 		set_country_flag = ita_yes_mafia
 	}
 }
+
+##STAMP THEM OUT
+country_event = {
+ id = ita.2
+ title = ita.2.t
+ desc = ita.2.desc
+ picture = GFX_report_event_ita_mafia_no
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.2.a
+		ai_chance = { factor = 1}
+		add_political_power = -25
+		add_stability = 0.02		
+		set_country_flag = ITA_mafia_no
+	}	
+}
+
+##FUND THE COMMISSION
+country_event = {
+ id = ita.3
+ title = ita.3.t
+ desc = ita.3.desc
+ picture = GFX_report_event_ita_mafia_commission
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.3.a
+		ai_chance = { factor = 0.5}
+		add_stability = 0.01
+	}
+	option = {
+		name = ita.3.b
+		ai_chance = { factor = 0.5}
+		add_stability = 0.05
+		add_political_power = -25
+	}		
+}
+
+##THE HUNT IS ON
+country_event = {
+ id = ita.4
+ title = ita.4.t
+ desc = ita.4.desc
+ picture = GFX_report_event_ita_mafia_hunt
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.4.a
+		ai_chance = { factor = 1}
+	}	
+}
+
+##GATHER EVIDENCE
+country_event = {
+ id = ita.5
+ title = ita.5.t
+ desc = ita.5.desc
+ picture = GFX_report_event_cop_investigation
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.5.a
+		ai_chance = { factor = 1}
+	}	
+}
+
+##PASS LEGISLATION
+country_event = {
+ id = ita.6
+ title = ita.6.t
+ desc = ita.6.desc
+ picture = GFX_report_event_signing_law
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.6.a
+		ai_chance = { factor = 1}
+		add_political_power = -10
+	}	
+}
+
+##KEEP AN EYE ON THEM
+country_event = {
+ id = ita.7
+ title = ita.7.t
+ desc = ita.7.desc
+ picture = GFX_report_event_cop_investigation
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.7.a
+		ai_chance = { factor = 1}
+		add_political_power = -10
+	}	
+}
+
+##HIT EM WHERE IT HURTS
+country_event = {
+ id = ita.8
+ title = ita.8.t
+ desc = ita.8.desc
+ picture = GFX_report_event_ita_mafia_no
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.8.a
+		ai_chance = { factor = 1}
+		add_political_power = -10
+	}	
+}
+
+##MAKE ARRESTS
+country_event = {
+ id = ita.9
+ title = ita.9.t
+ desc = ita.9.desc
+ picture = GFX_report_event_ita_mafia_arrest
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.9.a
+		ai_chance = { factor = 1}
+		add_political_power = -10
+	}	
+}

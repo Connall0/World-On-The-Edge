@@ -186,5 +186,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_efta"
 		texturefile = "gfx/interface/ideas/generic_efta.dds"
+		}
+ ##ITALY
+	spriteType = {
+		name = "GFX_idea_ita_mafia_collaboration"
+		texturefile = "gfx/interface/ideas/GFX_ita_mafia_collaboration.dds"
 		}	
+	spriteType = {
+		name = "GFX_idea_ita_mafia_weakened"
+		texturefile = "gfx/interface/ideas/GFX_ita_mafia_weakened.dds"
+		}		
 	}

@@ -1,12 +1,17 @@
 ﻿l_english:
-generic_space_program:0 "Space Program"
-generic_nuclear_arsenal:0 "Nuclear Arsenal"
-generic_nuclear_arsenal_desc:0 "We are a nation with a large nuclear arsenal. We wield the power to destroy the world, this power should only be used completely as a last resort though due to the fact our enemies also have this power."
-generic_warsaw_pact:0 "Warsaw Pact"
-generic_warsaw_pact_desc:0 "Formed after the end of the Second World War, the Warsaw Pact was formed by the Eastern Bloc as a defensive pact against NATO and acts as a method for the Soviet Union to maintain control over Central and Eastern Europe, should this collapse it would certainly weaken Russian control over the Eastern Bloc countries."
-generic_european_economic_community:0 "European Economic Community"
-generic_non_alligned:0 "Non-Aligned Movement"
-generic_non_alligned_desc:0 "As a member state of the Non-Aligned Movement we have agreed to stay out of all conflicts between the two major powers in the world in order to protect our people from the horrors of war between the powers."
+ ##GENERIC
+  generic_space_program:0 "Space Program"
+  generic_nuclear_arsenal:0 "Nuclear Arsenal"
+  generic_nuclear_arsenal_desc:0 "We are a nation with a large nuclear arsenal. We wield the power to destroy the world, this power should only be used completely as a last resort though due to the fact our enemies also have this power."
+  generic_warsaw_pact:0 "Warsaw Pact"
+  generic_warsaw_pact_desc:0 "Formed after the end of the Second World War, the Warsaw Pact was formed by the Eastern Bloc as a defensive pact against NATO and acts as a method for the Soviet Union to maintain control over Central and Eastern Europe, should this collapse it would certainly weaken Russian control over the Eastern Bloc countries."
+  generic_european_economic_community:0 "European Economic Community"
+  generic_non_alligned:0 "Non-Aligned Movement"
+  generic_non_alligned_desc:0 "As a member state of the Non-Aligned Movement we have agreed to stay out of all conflicts between the two major powers in the world in order to protect our people from the horrors of war between the powers."
+
+ ##ITALY
+  ITA_mafia_no:0 "Weakened Mafia"
+  ITA_mafia_yes:0 "Collaboration with the Mafia"
 
 #ROMANIA IDEAS
 ROM_securitate2:0 "Securitate"
