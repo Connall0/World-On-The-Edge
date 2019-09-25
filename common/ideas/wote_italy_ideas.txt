@@ -1,8 +1,47 @@
 ideas = {
 
 		country = {
+		
+		ITA_economic_miracle = {
+			picture = ita_economic_miracle
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1				
+			}
+		}
+		
+		ITA_looming_extremism = {
+			picture = ita_looming_extremism
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.1
+			political_power_factor = -0.1 			
+			}
+		}		
+		
 		ITA_mafia_no = {
-			picture = GFX_idea_ita_mafia_weakened
+			picture = ita_mafia_weakened
 					
 			allowed = {
 				always = no
@@ -21,7 +60,7 @@ ideas = {
 		}
 		
 		ITA_mafia_yes = {
-			picture = GFX_idea_ita_mafia_collaboration
+			picture = ita_mafia_collaboration
 					
 			allowed = {
 				always = no

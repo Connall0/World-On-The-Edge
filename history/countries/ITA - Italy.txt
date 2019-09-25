@@ -75,7 +75,15 @@ if = {
 }
 
 add_ideas = {
+	##IDEAS
+	ITA_economic_miracle
+	ITA_looming_extremism
 	generic_european_economic_community
+    ##MINISTERS
+	ITA_amintore_fanfani_hog
+	ITA_attilio_piccioni_fm
+	ITA_giuseppe_trabucchi_em
+	ITA_paolo_emilio_taviani_sm
 }
 
 set_convoys = 200

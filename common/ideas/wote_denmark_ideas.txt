@@ -2,7 +2,7 @@ ideas = {
 
 		country = {
 		DEN_nordic_council = {
-			picture = GFX_idea_nordic_council
+			picture = idea_nordic_council
 					
 			allowed = {
 				always = no
@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		DEN_efta = {
-			picture = GFX_idea_efta
+			picture = idea_efta
 					
 			allowed = {
 				always = no
@@ -41,7 +41,7 @@ ideas = {
 			}
 		}			
 		DEN_the_sailor_king = {
-			picture = GFX_idea_DEN_king
+			picture = idea_DEN_king
 					
 			allowed = {
 				always = no
@@ -58,7 +58,7 @@ ideas = {
 			}
 		}
 		DEN_housing_crisis = {
-			picture = GFX_idea_den_king
+			picture = idea_den_king
 					
 			allowed = {
 				always = no

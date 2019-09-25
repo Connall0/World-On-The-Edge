@@ -10,6 +10,8 @@
   generic_non_alligned_desc:0 "As a member state of the Non-Aligned Movement we have agreed to stay out of all conflicts between the two major powers in the world in order to protect our people from the horrors of war between the powers."
 
  ##ITALY
+  ITA_economic_miracle:0 "Economic Miracle"
+  ITA_looming_extremism:0 "Looming Extremism"
   ITA_mafia_no:0 "Weakened Mafia"
   ITA_mafia_yes:0 "Collaboration with the Mafia"
 

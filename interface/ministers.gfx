@@ -1,5 +1,27 @@
 spriteTypes = {
 
+##ITALY
+	#Head of Government
+	spriteType = { 
+		name = "GFX_idea_ITA_amintore_fanfani_hog"
+		texturefile = "gfx/interface/ideas/ministers/ITA/amintore_fanfani.dds"
+		}
+	#Foreign Minister	
+		spriteType = { 
+		name = "GFX_idea_ITA_attilio_piccioni_fm"
+		texturefile = "gfx/interface/ideas/ministers/ITA/attilio_piccioni.dds"
+		}
+	#Economy Minister	
+		spriteType = { 
+		name = "GFX_idea_ITA_giuseppe_trabucchi_em"
+		texturefile = "gfx/interface/ideas/ministers/ITA/giuseppe_trabucchi.dds"
+		}
+	#Security Minister	
+		spriteType = { 
+		name = "GFX_idea_ITA_paolo_emilio_taviani_sm"
+		texturefile = "gfx/interface/ideas/ministers/ITA/paolo_emilio_taviani.dds"
+		}
+
 ##YUGOSLAVIA
 	#Head of Government
 	spriteType = { 

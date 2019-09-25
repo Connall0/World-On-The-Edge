@@ -160,27 +160,13 @@ spriteTypes = {
 		name = "GFX_idea_CHI_republic_in_name"
 		texturefile = "gfx/interface/ideas/chi_republic_in_name.dds"
 		}		
-	##RHODESIA
-	spriteType = {
-		name = "GFX_idea_RHO_minority_rule"
-		texturefile = "gfx/interface/ideas/rho_minority_rule.dds"
-		}
-		
-	spriteType = {
-		name = "GFX_idea_RHO_guerilla_activity"
-		texturefile = "gfx/interface/ideas/rho_guerilla_activity.dds"
-		}
-	spriteType = {
-		name = "GFX_idea_RHO_illegitimate_state"
-		texturefile = "gfx/interface/ideas/rho_illegitimate_state.dds"
-		}	
  ##DENMARK
 	spriteType = {
 		name = "GFX_idea_nordic_council"
 		texturefile = "gfx/interface/ideas/generic_nordic_council.dds"
 		}	
 	spriteType = {
-		name = "GFX_idea_DEN_king"
+		name = "GFX_idea_den_king"
 		texturefile = "gfx/interface/ideas/den_king.dds"
 		}	
 	spriteType = {
@@ -188,6 +174,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_efta.dds"
 		}
  ##ITALY
+ 	spriteType = {
+		name = "GFX_idea_ita_economic_miracle"
+		texturefile = "gfx/interface/ideas/ita_economic_miracle.dds"
+		}	
+	spriteType = {
+		name = "GFX_idea_ita_looming_extremism"
+		texturefile = "gfx/interface/ideas/ita_looming_extremism.dds"
+		}	
 	spriteType = {
 		name = "GFX_idea_ita_mafia_collaboration"
 		texturefile = "gfx/interface/ideas/GFX_ita_mafia_collaboration.dds"

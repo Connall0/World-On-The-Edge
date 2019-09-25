@@ -1,5 +1,71 @@
 ideas = {
 
+##ITALY
+
+	head_of_government = {
+		ITA_amintore_fanfani_hog = {
+			picture "GFX_idea_ITA_amintore_fanfani_hog"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ITA_amintore_fanfani_hog"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = no
+		}
+	}	
+	
+	foreign_minister = {
+		ITA_attilio_piccioni_fm = {
+			picture "GFX_idea_ITA_attilio_piccioni_fm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ITA_attilio_piccioni_fm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	economy_minister = {
+		ITA_giuseppe_trabucchi_em = {
+			picture "GFX_idea_ITA_giuseppe_trabucchi_em"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ITA_giuseppe_trabucchi_em"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+		
+	security_minister = {
+		ITA_paolo_emilio_taviani_sm = {
+			picture "GFX_idea_ITA_paolo_emilio_taviani_sm"
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ITA_paolo_emilio_taviani_sm"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = no
+			}		
+		}
+
 ##CYPRUS
 
 	head_of_government = {

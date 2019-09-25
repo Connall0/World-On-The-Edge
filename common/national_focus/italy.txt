@@ -215,7 +215,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 		country_event = { id = ita.7 days = 0 }
 		}
 	}	
