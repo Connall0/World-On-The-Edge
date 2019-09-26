@@ -121,6 +121,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_ita_mafia_arrest"
 		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_arrest.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_2"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_2.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_government_speech"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_government_speech.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_empty_parliament"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_empty_parliament.dds"	
 		}
 	##ELECTIONS
 	spriteType = {

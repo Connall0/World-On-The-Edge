@@ -133,7 +133,6 @@ country_event = {
 	option = {
 		name = ita.7.a
 		ai_chance = { factor = 1}
-		add_political_power = -10
 	}	
 }
 
@@ -151,7 +150,6 @@ country_event = {
 	option = {
 		name = ita.8.a
 		ai_chance = { factor = 1}
-		add_political_power = -10
 	}	
 }
 
@@ -169,6 +167,161 @@ country_event = {
 	option = {
 		name = ita.9.a
 		ai_chance = { factor = 1}
-		add_political_power = -10
+		add_political_power = -25
+		add_stability = 0.05	
+	}	
+}
+
+##REACH AN AGREEMENT
+country_event = {
+ id = ita.10
+ title = ita.10.t
+ desc = ita.10.desc
+ picture = GFX_report_event_ita_mafia_2
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.10.a
+		ai_chance = { factor = 1}
+		add_political_power = 50
+		add_stability = -0.05			
+		set_country_flag = ITA_mafia_yes	
+	}	
+}
+
+##NORMALISE BRIBES
+country_event = {
+ id = ita.11
+ title = ita.11.t
+ desc = ita.11.desc
+ picture = GFX_report_event_ita_mafia_no
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.11.a
+		ai_chance = { factor = 1}
+		add_political_power = 20
+		add_stability = -0.02			
+	}	
+}
+
+##CORRUPTION IS JUST A WORD
+country_event = {
+ id = ita.12
+ title = ita.12.t
+ desc = ita.12.desc
+ picture = GFX_report_event_ita_government_speech
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.12.a
+		ai_chance = { factor = 1}		
+	}	
+}
+
+##INFLUENCE IN POLITICS
+country_event = {
+ id = ita.13
+ title = ita.13.t
+ desc = ita.13.desc
+ picture = GFX_report_event_ita_empty_parliament
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.13.a
+		ai_chance = { factor = 1}		
+	}	
+}
+
+##ORGANISATION BETTER THAN UNORGANISATION
+country_event = {
+ id = ita.14
+ title = ita.14.t
+ desc = ita.14.desc
+ picture = GFX_report_event_ita_mafia_hunt
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.14.a
+		ai_chance = { factor = 1}		
+	}	
+}
+
+##FIND ALLIES IN THE FAMILIES
+country_event = {
+ id = ita.15
+ title = ita.15.t
+ desc = ita.15.desc
+ picture = GFX_report_event_ita_mafia_no
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.15.a
+		ai_chance = { factor = 0.34}	
+		add_stability = 0.1		
+	}
+	option = {
+		name = ita.15.b
+		ai_chance = { factor = 0.33}	
+		add_political_power = 50
+	}
+	option = {
+		name = ita.15.c
+		ai_chance = { factor = 0.33}	
+		add_offsite_building { type = industrial_complex level = 2 }	
+	}	
+}
+
+##MUTUAL BENEFITS
+country_event = {
+ id = ita.16
+ title = ita.16.t
+ desc = ita.16.desc
+ picture = GFX_report_event_ita_mafia_hunt
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.16.a
+		ai_chance = { factor = 1}		
+	}	
+}
+
+##CROOKED BUT STABLE
+country_event = {
+ id = ita.17
+ title = ita.17.t
+ desc = ita.17.desc
+ picture = GFX_report_event_ita_government_speech
+ fire_only_once = no
+ is_triggered_only = yes
+	trigger = {
+	
+	}
+	option = {
+		name = ita.17.a
+		ai_chance = { factor = 1}
+		add_stability = 0.1
+		add_political_power	= -100	
 	}	
 }

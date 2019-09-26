@@ -352,14 +352,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			ITA = {
-			event = ita.3
-			}
-			add_political_power = 50
-			add_stability = -0.05			
-		set_country_flag = ITA_mafia_yes
-		}
-	}	
+		country_event = { id = ita.10 days = 0 }
+			}	
+		}	
 	
 		focus = {
 		id = ITA_normalise_bribes
@@ -391,10 +386,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.11 days = 0 }
 		}
 	}
 
@@ -428,10 +420,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.12 days = 0 }
 		}
 	}
 
@@ -465,10 +454,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.13 days = 0 }
 		}
 	}	
 
@@ -502,10 +488,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.14 days = 0 }
 		}
 	}
 
@@ -539,10 +522,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.15 days = 0 }
 		}
 	}
 	
@@ -576,10 +556,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.16 days = 0 }
 		}
 	}
 
@@ -614,10 +591,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
-			ITA = {
-			event = ita.3
-			}
+		country_event = { id = ita.17 days = 0 }
 		}
 	}	
 	
