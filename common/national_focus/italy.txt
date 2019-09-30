@@ -9,7 +9,7 @@ focus_tree = {
 			tag = ITA
 		}
 	}	
-		default = yes
+		default = no
 
 	focus = {
 		id = ITA_the_mafia
