@@ -10,6 +10,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_goal_danish_german"
+	texturefile = "gfx/interface/goals/GFX_denmark_germany.tga"			
+	}
+
+	SpriteType = {
 	name = "GFX_goal_world_enterprise"
 	texturefile = "gfx/interface/goals/GFX_world_enterprise.dds"			
 	}

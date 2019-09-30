@@ -26,6 +26,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_soviet_visit_6.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_soviet_denmark_6"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_7.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_7"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_8.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_copenhagen"
 		texturefile = "gfx/event_pictures/report_event_copenhagen.dds"
 	}

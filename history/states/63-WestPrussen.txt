@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = POL
+		add_claim_by = WGR
 		victory_points = {
 			6282 5
 		}

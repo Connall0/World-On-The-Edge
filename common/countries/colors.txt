@@ -730,3 +730,7 @@ RUS = {
 	color = rgb { 82 120 58 }
 	color_ui = rgb { 173 179 217 }
 }
+KAT = {
+  color = rgb { 217  229  47 }
+  color_ui = rgb { 79 135 30}
+}

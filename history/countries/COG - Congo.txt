@@ -1,6 +1,6 @@
 ﻿capital = 295
 
-oob = "COG_1936"
+oob = "COG_1963"
 
 # Starting tech
 set_technology = {
@@ -9,6 +9,11 @@ set_technology = {
 }
 
 set_convoys = 5
+
+declare_war_on = {
+	target = KAT #tag
+	type = annex_everything #cb
+}
 
 set_politics = {
 	ruling_party = social_conservative

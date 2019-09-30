@@ -27,6 +27,7 @@ state={
 			air_base = 6
 		}
 		add_core_of = POL
+		add_claim_by = WGR
 
 		1939.1.1 = {
 			buildings = {

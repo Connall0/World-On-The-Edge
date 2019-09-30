@@ -241,7 +241,7 @@ country_event = {
 
 	option = { 
 		name = wotedenmark.13.a
-		add_stability = 0.02
+		add_stability = 0.01
 		hidden_effect = {
 	DEN = { country_event = { days = 10 id = wotedenmark.14 } }
 		}
@@ -261,7 +261,7 @@ country_event = {
 
 	option = { 
 		name = wotedenmark.14.a
-		add_stability = 0.06
+		add_stability = 0.04
 	}
 }
 ######NYTÅRSTALE###########
@@ -438,29 +438,30 @@ country_event = {
 	######## Peaceful coexistance is indeed necesarry, Accept the invitation.
 	option = { 
 		name = wotedenmark.19.a
-		Add_political_power = -1
 		hidden_effect = {
 	set_country_flag = khruschev_den	
-	DEN = { country_event = { hours = 18 id = wotedenmark.20 } }
+	DEN = { country_event = { hours = 18 id = wotedenmark.21 } }
+		Add_political_power = -50
+		}
 		ai_chance = {
 			factor = 60
-		Add_political_power = -50
-		
 		}
-		}
+		add_opinion_modifier = { target = SOV modifier = small_increase }
+		custom_effect_tooltip = wotedenmark6_tt
 	}
 
 	# We'll politely decline. 
 	option = {
 		name = wotedenmark.19.b
-		custom_effect_tooltip = wotedenmark_tt
-		DEN = { country_event = { days = 20 id = wotedenmark.21 } }
+		hidden_effect = {	
+	DEN = { country_event = { hours = 18 id = wotedenmark.20 } }
+		Add_political_power = -10
+		}
 		ai_chance = {
 			factor = 40
 		}
-		effect_tooltip = {
-			Add_political_power = -10	
-		}		
+		add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		custom_effect_tooltip = wotedenmark7_tt
 	}
 }
 
@@ -469,25 +470,33 @@ country_event = {
 	id = wotedenmark.20
 	title = wotedenmark.20.t
 	desc = wotedenmark.20.d
-	picture = GFX_report_event_mona_case
+	picture = GFX_report_event_soviet_denmark_7
 
 	is_triggered_only = yes
 
-	# Send every cop available!
+	# Damn
 	option = {
 		name = wotedenmark.20.a
-		custom_effect_tooltip = wotedenmarkrusse_tt
-		DEN = { country_event = { days = 1 id = wotedenmark.3 } }
-		ai_chance = {
-			factor = 40
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.01
+				ideology = social_liberal
+				popularity = -0.02
+				ideology = social_democrat
+				popularity = -0.035
+				ideology = auth_soc
+				popularity = +0.015
+			}
 		}
-		effect_tooltip = {
-			Add_political_power = -2
+		custom_effect_tooltip = wotedenmark8_tt
+		ai_chance = {
+			factor = 100
 		}
 	}
 }
 
-# Mona Case two a
+# An american request?
 country_event = {
 	id = wotedenmark.21
 	title = wotedenmark.21.t
