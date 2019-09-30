@@ -23,15 +23,15 @@ set_politics = {
 	}
 	
 	set_popularities = {
-		despotism = 88
-		social_democrat = 5
+		social_conservative = 78
+		social_democrat = 10
 		auth_soc = 7
 	}
 
 create_country_leader = {
 	name = "Moïse Tshombe"
 	desc = "POLITICS_Moïse_Tshombe_DESC"
-	picture = "/gfx/leaders/IRQ/muhammad.tga"
+	picture = "/gfx/leaders/KAT/tshombe.tga"
 	ideology = despotism_subtype
 	traits = {
 		#
