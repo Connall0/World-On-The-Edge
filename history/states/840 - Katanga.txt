@@ -1,7 +1,7 @@
 state= {
 	id=840
 	name="STATE_840"
-	manpower = 1022350
+	manpower = 1176378
 	resources={
 		tungsten=2 # was: 10
 	}
@@ -23,6 +23,6 @@ state= {
 		add_core_of = KAT
 	}
 	provinces={
- 	1516 1929 1968 9986 12795 12907 
+ 	1516 1817 1929 1968 9986 12795 12907 
  	}
 }
