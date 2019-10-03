@@ -58,7 +58,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 12907 # Durbin
+		location = 1817 # Durbin
 		division_template = "Katanga Freedom Fighters"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -70,7 +70,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 12907 # Durbin
+		location = 1817 # Durbin
 		division_template = "Katanga Freedom Fighters"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -107,7 +107,7 @@ air_wings = {
 	275 = {
 		# SAAF Fighter Squadron -- Hawker Furys
 		fighter_equipment_0 =  {
-			owner = "SAF" 
+			owner = "COG" 
 			amount = 10
 		}
 	}
@@ -119,7 +119,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "SAF"
+			creator = "COG"
 		}
 		requested_factories = 1
 		progress = 0.20

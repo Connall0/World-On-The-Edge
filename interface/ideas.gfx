@@ -173,7 +173,7 @@ spriteTypes = {
 		name = "GFX_idea_generic_efta"
 		texturefile = "gfx/interface/ideas/generic_efta.dds"
 		}
- ##ITALY
+    ##ITALY
  	spriteType = {
 		name = "GFX_idea_ita_economic_miracle"
 		texturefile = "gfx/interface/ideas/ita_economic_miracle.dds"
@@ -190,4 +190,8 @@ spriteTypes = {
 		name = "GFX_idea_ita_mafia_weakened"
 		texturefile = "gfx/interface/ideas/GFX_ita_mafia_weakened.dds"
 		}		
-	}
+		####KATANGA####
+	spriteType = {
+		name = "GFX_idea_kat_fucked"
+		texturefile = "gfx/interface/ideas/kat_the_dream_is_over.dds"
+		}

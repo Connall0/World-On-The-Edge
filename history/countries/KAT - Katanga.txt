@@ -28,6 +28,10 @@ set_politics = {
 		auth_soc = 7
 	}
 
+add_ideas = {
+	KAT_its_all_over
+}
+
 create_country_leader = {
 	name = "Moïse Tshombe"
 	desc = "POLITICS_Moïse_Tshombe_DESC"
