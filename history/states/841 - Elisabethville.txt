@@ -23,6 +23,6 @@ state= {
 		add_core_of = KAT
 	}
 	provinces={
- 	191 4515 
+ 	191 1817 4515 12907
  	}
 }

@@ -34,7 +34,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 1817 # Capetown
+		location = 12907 # Capetown
+		division_template = "Katanga Freedom Fighters"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Elisabethville bat."
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 191 # Durbin
 		division_template = "Katanga Freedom Fighters"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3

@@ -1,0 +1,22 @@
+ideas = {
+
+		country = {
+		KAT_its_all_over = {
+			picture = GFX_idea_kat_fucked
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.15
+			army_core_defence_factor = -0.2 
+			war_support_factor = -0.40
+			}
+		}
