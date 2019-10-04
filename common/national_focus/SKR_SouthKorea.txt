@@ -1,9 +1,0 @@
-focus_tree = { 
-id = SKR
-country = { 
-factor = 0 
-modifier = { 
-add = 10 
-tag = SKR 
-} 
-} 
