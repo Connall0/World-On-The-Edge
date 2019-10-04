@@ -1,0 +1,65 @@
+﻿capital = 841
+
+oob = "KAT_1963"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+	fuel_silos = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+	}
+	
+	set_popularities = {
+		social_conservative = 78
+		social_democrat = 10
+		auth_soc = 7
+	}
+
+add_ideas = {
+	KAT_its_all_over
+}
+
+create_country_leader = {
+	name = "Moïse Tshombe"
+	desc = "POLITICS_Moïse_Tshombe_DESC"
+	picture = "/gfx/leaders/KAT/tshombe.tga"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rashid Ali al-Gaylani"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yusuf Salman Yusuf"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}

@@ -2643,4 +2643,23 @@
  CHL_auth_soc_desc:0 "Chile"
  CHL_lib_soc:0 "Chile"
  CHL_lib_soc_DEF:0 "Chile"
+
+ #KATANGA
+ KAT_fascism:0 "State of Katanga"
+ KAT_fascism_DEF:0 "State of Katanga"
+ KAT_social_conservative:0 "State of Katanga"
+ KAT_social_conservative_DEF:0 "State of Katanga"
+ KAT_social_liberal:0 "State of Katanga"
+ KAT_social_liberal_DEF:0 "State of Katanga"
+ KAT_social_democrat:0 "State of Katanga"
+ KAT_social_democrat_DEF:0 "State of Katanga"
+ KAT_authoritarian_democrat:0 "State of Katanga"
+ KAT_authoritarian_democrat_DEF:0 "State of Katanga"
+ KAT_despotism:0 "State of Katanga"
+ KAT_despotism_DEF:0 "The State of Katanga"
+ KAT_ADJ "Katangan"
+ KAT_auth_soc:0 "State of Katanga"
+ KAT_auth_soc_desc:0 "State of Katanga"
+ KAT_lib_soc:0 "State of Katanga"
+ KAT_lib_soc_DEF:0 "State of Katanga"
  

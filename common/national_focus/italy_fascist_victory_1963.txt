@@ -1,0 +1,47 @@
+focus_tree = {
+	id = ita_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}	
+		default = no
+
+	focus = {
+		id = ITA_msi_victory
+		icon = GFX_ita_msi
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 8
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

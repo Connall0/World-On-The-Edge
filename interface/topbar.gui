@@ -94,6 +94,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_shield_medium"
 			position = { x= 12 y = 15 }
 			Orientation = "UPPER_LEFT"
+						clipping = yes
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "q"

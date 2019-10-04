@@ -1,6 +1,38 @@
 spriteTypes = {
 
-
+	##DENMARK
+	spriteType = {
+		name = "GFX_report_event_moscow"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_1"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_2"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_3"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_4.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_4"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_5.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_5"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_6.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_6"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_7.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_soviet_denmark_7"
+		texturefile = "gfx/event_pictures/report_event_soviet_visit_8.dds"
+	}
 	spriteType = {
 		name = "GFX_report_event_copenhagen"
 		texturefile = "gfx/event_pictures/report_event_copenhagen.dds"
@@ -64,5 +96,55 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_danish_conservative_leader"
 		texturefile = "gfx/event_pictures/report_event_danish_conservative_leader.dds"
+	}
+	
+	##GENERIC
+	spriteType = {
+		name = "GFX_report_event_cop_investigation"
+		texturefile = "gfx/event_pictures/GFX_report_event_cop_investigation.dds"
+	}		
+	spriteType = {
+		name = "GFX_report_event_signing_law"
+		texturefile = "gfx/event_pictures/GFX_report_event_signing_law.dds"
+	}	
+	
+	##ITALY
+	##MAFIA EVENT CHAIN
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_1"
+		texturefile = "gfx/event_pictures/ita_mafia_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_no"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_no.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_commission"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_commission.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_hunt"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_hunt.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_arrest"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_arrest.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_mafia_2"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_mafia_2.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_government_speech"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_government_speech.dds"	
+		}	
+	spriteType = {
+		name = "GFX_report_event_ita_empty_parliament"
+		texturefile = "gfx/event_pictures/GFX_report_event_ita_empty_parliament.dds"	
+		}
+	##ELECTIONS
+	spriteType = {
+		name = "GFX_news_event_italian_elections"
+		texturefile = "gfx/event_pictures/GFX_news_event_italian_elections.dds"
 	}
 }

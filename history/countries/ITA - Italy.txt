@@ -3,9 +3,9 @@
 oob = "ITA_1936"
 
 set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.7
-
+set_stability = 0.3
+set_war_support = 0.2
+load_focus_tree = ita_start
 
 
 # Starting tech
@@ -75,7 +75,15 @@ if = {
 }
 
 add_ideas = {
+	##IDEAS
+	ITA_economic_miracle
+	ITA_looming_extremism
 	generic_european_economic_community
+    ##MINISTERS
+	ITA_amintore_fanfani_hog
+	ITA_attilio_piccioni_fm
+	ITA_giuseppe_trabucchi_em
+	ITA_paolo_emilio_taviani_sm
 }
 
 set_convoys = 200

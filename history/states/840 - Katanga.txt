@@ -1,0 +1,28 @@
+state= {
+	id=840
+	name="STATE_840"
+	manpower = 1176378
+	resources={
+		tungsten=2 # was: 10
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = COG
+		victory_points = {
+			9986 3 #mwene ditu 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = COG 
+		add_core_of = KAT
+	}
+	provinces={
+ 	1516 1929 1968 9986 12795 
+ 	}
+}

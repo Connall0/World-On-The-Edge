@@ -16,12 +16,11 @@ ideas = {
 			
 			modifier = {
 			consumer_goods_factor = -0.05
-			political_power_factor = -0.05
 			min_export = 0.05 
 			}
 		}
 		DEN_efta = {
-			picture = GFX_idea_efta
+			picture = GFX_idea_generic_efta
 					
 			allowed = {
 				always = no
@@ -41,7 +40,7 @@ ideas = {
 			}
 		}			
 		DEN_the_sailor_king = {
-			picture = GFX_idea_DEN_king
+			picture = GFX_idea_den_king
 					
 			allowed = {
 				always = no
@@ -58,7 +57,7 @@ ideas = {
 			}
 		}
 		DEN_housing_crisis = {
-			picture = GFX_idea_den_king
+			picture = ita_mafia_collaboration
 					
 			allowed = {
 				always = no
@@ -76,3 +75,23 @@ ideas = {
 			stability = -0.07
 			}
 		}
+		DEN_guest_workers = {
+			picture = ita_looming_extremism
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+ 			modifier = {
+ 			MONTHLY_POPULATION = 0.25
+			stability = -0.07
+			}
+		}
+	}
+}

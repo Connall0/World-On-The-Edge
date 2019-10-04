@@ -27,6 +27,7 @@ country_event = {
 		Add_political_power = -1
 		hidden_effect = {
 	DEN = { country_event = { hours = 6 id = wotedenmark.2 } }
+	set_country_flag = Mona_case
 		}
 	}
 }
@@ -61,9 +62,7 @@ country_event = {
 		ai_chance = {
 			factor = 60
 		}
-		effect_tooltip = {
-			Add_political_power = -20	
-		}		
+		Add_political_power = -20	
 	}
 }
 
@@ -148,6 +147,7 @@ country_event = {
 		name = wotedenmark.6.a
 		hidden_effect = {
 	DEN = { country_event = { days = 14 id = wotedenmark.7 } }
+	set_country_flag = Mona_case
 		}
 		add_popularity = {
 			ideology = social_conservative
@@ -241,7 +241,7 @@ country_event = {
 
 	option = { 
 		name = wotedenmark.13.a
-		add_stability = 0.02
+		add_stability = 0.01
 		hidden_effect = {
 	DEN = { country_event = { days = 10 id = wotedenmark.14 } }
 		}
@@ -261,7 +261,7 @@ country_event = {
 
 	option = { 
 		name = wotedenmark.14.a
-		add_stability = 0.06
+		add_stability = 0.04
 	}
 }
 ######NYTÅRSTALE###########
@@ -276,12 +276,6 @@ country_event = {
 	
 	fire_only_once = yes
 
-	trigger = { 
-		tag = DEN
-		AND = {
-		date = 1963.1.1
-		}
-	}
 
 	option = { 
 		name = wotedenmark.10.a
@@ -372,7 +366,7 @@ country_event = {
 	option = { 
 		name = wotedenmark.16.a
 		custom_effect_tooltip = wotedenmark5_tt
-		load_focus_tree = { tree = danish_election_focus }
+		load_focus_tree = { tree = den_election_focus }
 	}
 }
 
@@ -417,4 +411,199 @@ country_event = {
 		custom_effect_tooltip = wotedenmark5_tt
 		hold_election = DEN
 	}
+}
+
+########### Khruschev visit ############
+
+# A soviet state visit?
+country_event = {
+	id = wotedenmark.19
+	title = wotedenmark.19.t
+	desc = wotedenmark.19.d
+	picture = GFX_report_event_moscow
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = DEN
+		AND = {
+		date = 1963.1.10
+		}
+	}
+
+	mean_time_to_happen = {days = 1}
+
+	######## Peaceful coexistance is indeed necesarry, Accept the invitation.
+	option = { 
+		name = wotedenmark.19.a
+		hidden_effect = {
+	set_country_flag = khruschev_den	
+	DEN = { country_event = { hours = 18 id = wotedenmark.21 } }
+		Add_political_power = -50
+		}
+		ai_chance = {
+			factor = 60
+		}
+		add_opinion_modifier = { target = SOV modifier = small_increase }
+		custom_effect_tooltip = wotedenmark6_tt
+	}
+
+	# We'll politely decline. 
+	option = {
+		name = wotedenmark.19.b
+		hidden_effect = {	
+	DEN = { country_event = { hours = 18 id = wotedenmark.20 } }
+		Add_political_power = -10
+		}
+		ai_chance = {
+			factor = 40
+		}
+		add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		custom_effect_tooltip = wotedenmark7_tt
+	}
+}
+
+# We're missing out
+country_event = {
+	id = wotedenmark.20
+	title = wotedenmark.20.t
+	desc = wotedenmark.20.d
+	picture = GFX_report_event_soviet_denmark_7
+
+	is_triggered_only = yes
+
+	# Damn
+	option = {
+		name = wotedenmark.20.a
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.01
+				ideology = social_liberal
+				popularity = -0.02
+				ideology = social_democrat
+				popularity = -0.035
+				ideology = auth_soc
+				popularity = +0.015
+			}
+		}
+		custom_effect_tooltip = wotedenmark8_tt
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# An american request?
+country_event = {
+	id = wotedenmark.21
+	title = wotedenmark.21.t
+	desc = wotedenmark.21.d
+	picture = GFX_report_event_mona_case
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {days = 1}
+
+	option = { 
+		name = wotedenmark.21.a
+		add_stability = -0.05
+		hidden_effect = {
+	DEN = { country_event = { days = 1 id = wotedenmark.5 } }
+		}
+	}
+}
+
+
+# mona case two b
+country_event = {
+	id = wotedenmark.22
+	title = wotedenmark.22.t
+	desc = wotedenmark.22.d
+	picture = GFX_report_event_mona_case
+
+	is_triggered_only = yes
+
+	option = {
+		name = wotedenmark.22.a
+		hidden_effect = {
+		add_stability = -0.1
+	DEN = { country_event = { days = 1 id = wotedenmark.6 } }
+		}
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			add_stability = -0.1
+		}
+	}
+}
+
+# mona case two a 2
+country_event = { 
+	id = wotedenmark.23
+	title = wotedenmark.23.t
+	desc = wotedenmark.23.d
+	picture = GFX_report_event_danish_conservative_leader
+
+	is_triggered_only = yes
+
+	#conservatives speak out
+	option = {
+		name = wotedenmark.23.a
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# mona case two b 2
+country_event = { 
+	id = wotedenmark.24
+	title = wotedenmark.24.t
+	desc = wotedenmark.24.d
+	picture = GFX_report_event_danish_conservative_leader
+
+	is_triggered_only = yes
+
+	#conservatives speak out
+	option = {
+		name = wotedenmark.24.a
+		hidden_effect = {
+	DEN = { country_event = { days = 14 id = wotedenmark.7 } }
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.05
+		}
+		ai_chance = {
+			factor = 100
+		}	
+	}	
+}
+
+# mona case two b 3
+country_event = { 
+	id = wotedenmark.25
+	title = wotedenmark.25.t
+	desc = wotedenmark.25.d
+	picture = GFX_report_event_mona_case
+
+	is_triggered_only = yes
+
+	#Suspect found
+	option = {
+		name = wotedenmark.25.a
+		custom_effect_tooltip = wotedenmark2_tt
+		add_stability = 0.07
+		ai_chance = {
+			factor = 100
+		}	
+	}	
 }

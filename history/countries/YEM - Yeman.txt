@@ -26,7 +26,7 @@ set_politics = {
 create_country_leader = {
 	name = "Abdullah al-Sallal"
 	desc = "POLITICS_IMAM_YAHYA_DESC"
-	picture = "GFX_portrait_yemen_imam_yahya"
+	picture = "gfx/leaders/YEM/al-sallal.dds"
 	ideology = despotism_subtype
 	traits = {
 		#

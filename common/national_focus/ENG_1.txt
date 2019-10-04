@@ -1,0 +1,1374 @@
+focus_tree = {
+	id = 1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	#Focus for Speak to Advisors
+	focus = {
+		id = ENG_speaktoadvisors
+		icon = GFX_goal_unknown
+		x = 72
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Adress to the Nation
+	focus = {
+		id = ENG_adresstothenation
+		icon = GFX_goal_generic_radar
+		x = 72
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_assumedirectpower }
+		mutually_exclusive = { focus = ENG_businessasusual }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Political Deadlock
+	focus = {
+		id = ENG_politicaldeadlock
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 74
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the1964election }
+		mutually_exclusive = { 
+			focus = ENG_labour 
+		}
+		mutually_exclusive = { 
+			focus = ENG_theliberalparty 
+		}
+		mutually_exclusive = { 
+			focus = ENG_theconservativeparty 
+		}
+		mutually_exclusive = { 
+			focus = ENG_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ensure the Support of the Army
+	focus = {
+		id = ENG_ensurethesupportofthearmy
+		icon = GFX_focus_attack_britain
+		x = 76
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to the Parties
+	focus = {
+		id = ENG_speaktotheparties
+		icon = GFX_goal_generic_national_unity
+		x = 74
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Business as Usual
+	focus = {
+		id = ENG_businessasusual
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 76
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_assumedirectpower }
+		mutually_exclusive = { focus = ENG_adresstothenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue National Service
+	focus = {
+		id = ENG_continuenationalservice
+		icon = GFX_focus_generic_little_entente
+		x = 11
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofwar }
+		mutually_exclusive = { focus = ENG_abolishnationalservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Labour
+	focus = {
+		id = ENG_labour
+		icon = GFX_goal_unknown
+		x = 23
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the1964election }
+		mutually_exclusive = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Liberal Party
+	focus = {
+		id = ENG_theliberalparty
+		icon = GFX_goal_unknown
+		x = 43
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the1964election }
+		mutually_exclusive = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Conservative Party
+	focus = {
+		id = ENG_theconservativeparty
+		icon = GFX_goal_unknown
+		x = 58
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the1964election }
+		mutually_exclusive = { focus = ENG_politicaldeadlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Big Freeze
+	focus = {
+		id = ENG_thebigfreeze
+		icon = GFX_focus_AST_never_gallipoli
+		x = 9
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Royal Tatoo
+	focus = {
+		id = ENG_royaltatoo
+		icon = GFX_focus_rom_parties_end
+		x = 1
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_improvethenaturereserves }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for UK Design Grant
+	focus = {
+		id = ENG_ukdesigngrant
+		icon = GFX_goal_unknown
+		x = 17
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_fundrollsroyce }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fund Rolls Royce
+	focus = {
+		id = ENG_fundrollsroyce
+		icon = GFX_goal_generic_build_airforce
+		x = 17
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofscientificresearch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Close the Border
+	focus = {
+		id = ENG_closetheborder
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 94
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reprisals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rebuild the Portsmouth Docks
+	focus = {
+		id = ENG_rebuildtheportsmouthdocks
+		icon = GFX_goal_continuous_naval_production
+		x = 7
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_focusonthesouth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ignore the Complaints
+	focus = {
+		id = ENG_ignorethecomplaints
+		icon = GFX_focus_usa_voter_registration_act
+		x = 11
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_ordertheworkersback }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support the Anti-IRA Groups
+	focus = {
+		id = ENG_supporttheantiiragroups
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 95
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_startrandomarrests 
+		}
+		prerequisite = { 
+			focus = ENG_constructthepeaceline 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Thaw
+	focus = {
+		id = ENG_thethaw
+		icon = GFX_goal_tripartite_pact
+		x = 9
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_createagovernmentfund 
+			focus = ENG_ignorethecomplaints 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The 1964 Election
+	focus = {
+		id = ENG_the1964election
+		icon = GFX_focus_usa_voter_registration_act
+		x = 51
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appease the Dissidents
+	focus = {
+		id = ENG_appeasethedissidents
+		icon = GFX_focus_AST_never_gallipoli
+		x = 81
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_deploythearmy }
+		mutually_exclusive = { focus = ENG_startrandomarrests }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of Scientific Research
+	focus = {
+		id = ENG_departmentofscientificresearch
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thethaw }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Rural Infrastructure
+	focus = {
+		id = ENG_improveruralinfrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 117
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of War
+	focus = {
+		id = ENG_departmentofwar
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thethaw }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of Industrial Development
+	focus = {
+		id = ENG_departmentofindustrialdevelopment
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thethaw }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Rural Infrastructure
+	focus = {
+		id = ENG_improveruralinfrastructure
+		icon = GFX_goal_generic_construct_civilian
+		x = 6
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofindustrialdevelopment }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of Culture
+	focus = {
+		id = ENG_departmentofculture
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thethaw }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Renew the Enfield Contract
+	focus = {
+		id = ENG_renewtheenfieldcontract
+		icon = GFX_focus_secret_rearmament
+		x = 13
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_continuenationalservice 
+			focus = ENG_abolishnationalservice 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Foreign Production Licences
+	focus = {
+		id = ENG_foreignproductionlicences
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		x = 11
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Give the BBC Funding
+	focus = {
+		id = ENG_givethebbcfunding
+		icon = GFX_goal_generic_radar
+		x = 1
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofculture }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on the North
+	focus = {
+		id = ENG_focusonthenorth
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_improveruralinfrastructure }
+		mutually_exclusive = { focus = ENG_focusonthesouth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on the South
+	focus = {
+		id = ENG_focusonthesouth
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_improveruralinfrastructure }
+		mutually_exclusive = { focus = ENG_focusonthenorth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reform the Police
+	focus = {
+		id = ENG_reformthepolice
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 79
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_appeasethedissidents }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for End Gerrymandering
+	focus = {
+		id = ENG_endgerrymandering
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 83
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_appeasethedissidents }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Food Relief
+	focus = {
+		id = ENG_foodrelief
+		icon = GFX_goal_generic_construct_civilian
+		x = 87
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_armedpatrols 
+		}
+		prerequisite = { 
+			focus = ENG_constructthepeaceline 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for One Man, One Vote
+	focus = {
+		id = ENG_onemanonevote
+		icon = GFX_goal_generic_forceful_treaty
+		x = 81
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_appeasethedissidents }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Order the Workers Back
+	focus = {
+		id = ENG_ordertheworkersback
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 11
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_speaktothebbc }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Create a Government Fund
+	focus = {
+		id = ENG_createagovernmentfund
+		icon = GFX_focus_eng_decolonization
+		x = 7
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_visittheeffectedareas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Wait for the Snow to Melt
+	focus = {
+		id = ENG_waitforthesnowtomelt
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 11
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thebigfreeze }
+		mutually_exclusive = { focus = ENG_sendinthearmy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Visit the Effected Areas
+	focus = {
+		id = ENG_visittheeffectedareas
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 7
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_messagetothenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Message to the Nation
+	focus = {
+		id = ENG_messagetothenation
+		icon = GFX_goal_generic_radar
+		x = 7
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_sendinthearmy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Send in the Army
+	focus = {
+		id = ENG_sendinthearmy
+		icon = GFX_goal_generic_small_arms
+		x = 7
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thebigfreeze }
+		mutually_exclusive = { focus = ENG_waitforthesnowtomelt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to the BBC
+	focus = {
+		id = ENG_speaktothebbc
+		icon = GFX_goal_generic_radar
+		x = 11
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_waitforthesnowtomelt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Universities
+	focus = {
+		id = ENG_improveuniversities
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 17
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofscientificresearch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Abolish National Service
+	focus = {
+		id = ENG_abolishnationalservice
+		icon = GFX_focus_generic_little_entente
+		x = 13
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_departmentofwar }
+		mutually_exclusive = { focus = ENG_continuenationalservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Assume Direct Power
+	focus = {
+		id = ENG_assumedirectpower
+		icon = GFX_focus_AST_rats_tobruk
+		x = 74
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_speaktoadvisors 
+		}
+		prerequisite = { 
+			focus = ENG_politicaldeadlock 
+		}
+		prerequisite = { 
+			focus = ENG_ensurethesupportofthearmy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Impose Rationing
+	focus = {
+		id = ENG_imposerationing
+		icon = GFX_goal_unknown
+		x = 77
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_businessasusual }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Gain Back Trust
+	focus = {
+		id = ENG_gainbacktrust
+		icon = GFX_goal_generic_improve_relations
+		x = 72
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_speaktothelords 
+		}
+		prerequisite = { 
+			focus = ENG_speaktothecommons 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for God Save the Queen
+	focus = {
+		id = ENG_godsavethequeen
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 76
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_gainbacktrust 
+			focus = ENG_thefutureofthecountry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Return to Westminster
+	focus = {
+		id = ENG_returntowestminster
+		icon = GFX_goal_support_democracy
+		x = 70
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_thefutureofthecountry 
+			focus = ENG_gainbacktrust 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Message to Paris
+	focus = {
+		id = ENG_messagetoparis
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 84
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thefutureofthecountry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Financing
+	focus = {
+		id = ENG_securefinancing
+		icon = GFX_goal_generic_military_deal
+		x = 84
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_messagetoparis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to the Old Guard
+	focus = {
+		id = ENG_speaktotheoldguard
+		icon = GFX_goal_generic_political_pressure
+		x = 82
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_messagetoparis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Glasgow Docks
+	focus = {
+		id = ENG_expandtheglasgowdocks
+		icon = GFX_focus_generic_navy_battleship2
+		x = 5
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_focusonthenorth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Future of the Country
+	focus = {
+		id = ENG_thefutureofthecountry
+		icon = GFX_focus_eng_imperial_federation
+		x = 76
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_ignorethepeople 
+		}
+		prerequisite = { 
+			focus = ENG_imposerationing 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to the Commons
+	focus = {
+		id = ENG_speaktothecommons
+		icon = GFX_speaktothecommons
+		x = 71
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_adresstothenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Speak to the Lords
+	focus = {
+		id = ENG_speaktothelords
+		icon = GFX_speaktothelords
+		x = 73
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_adresstothenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ignore the People
+	focus = {
+		id = ENG_ignorethepeople
+		icon = GFX_goal_unknown
+		x = 75
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_businessasusual }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Increase the Size of the NHS
+	focus = {
+		id = ENG_increasethesizeofthenhs
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_labour }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Belfast Confernece
+	focus = {
+		id = ENG_belfastconfernece
+		icon = GFX_goal_unknown
+		x = 81
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_reformthepolice 
+		}
+		prerequisite = { 
+			focus = ENG_onemanonevote 
+		}
+		prerequisite = { 
+			focus = ENG_endgerrymandering 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Return of the King
+	focus = {
+		id = ENG_returnoftheking
+		icon = GFX_focus_eng_god_save_the_king
+		x = 84
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_securefinancing 
+		}
+		prerequisite = { 
+			focus = ENG_speaktotheoldguard 
+		}
+		prerequisite = { 
+			focus = ENG_spreadthemessage 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reprisals
+	focus = {
+		id = ENG_reprisals
+		icon = GFX_goal_continuous_def_against_influence
+		x = 92
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_bloodysunday }
+		mutually_exclusive = { focus = ENG_housetohousesearches }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Troubles
+	focus = {
+		id = ENG_thetroubles
+		icon = GFX_goal_generic_territory_or_war
+		x = 87
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deploy the Army
+	focus = {
+		id = ENG_deploythearmy
+		icon = GFX_goal_tfv_can_forced_quebec_conscription
+		x = 87
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_thetroubles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Armed Patrols
+	focus = {
+		id = ENG_armedpatrols
+		icon = GFX_focus_generic_little_entente
+		x = 87
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_deploythearmy }
+		mutually_exclusive = { focus = ENG_startrandomarrests }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Grip onto the Empire
+	focus = {
+		id = ENG_gripontotheempire
+		icon = GFX_focus_RAJ_british_investors
+		x = 56
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_theconservativeparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Abolish the Death Penalty
+	focus = {
+		id = ENG_abolishthedeathpenalty
+		icon = GFX_goal_generic_forceful_treaty
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_labour }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Spread the Message
+	focus = {
+		id = ENG_spreadthemessage
+		icon = GFX_goal_generic_propaganda
+		x = 86
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_messagetoparis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve the Nature Reserves
+	focus = {
+		id = ENG_improvethenaturereserves
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_givethebbcfunding }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revive the Economy
+	focus = {
+		id = ENG_revivetheeconomy
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 60
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_theconservativeparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reform with the Welsh Liberals
+	focus = {
+		id = ENG_reformwiththewelshliberals
+		icon = GFX_goal_unknown
+		x = 43
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_theliberalparty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Start Random Arrests
+	focus = {
+		id = ENG_startrandomarrests
+		icon = GFX_goal_generic_secret_weapon
+		x = 95
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_deploythearmy }
+		mutually_exclusive = { 
+			focus = ENG_armedpatrols 
+		}
+		mutually_exclusive = { 
+			focus = ENG_appeasethedissidents 
+		}
+		mutually_exclusive = { 
+			focus = ENG_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Construct the 'Peace Line'
+	focus = {
+		id = ENG_constructthepeaceline
+		icon = GFX_goal_generic_construct_military
+		x = 91
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_startrandomarrests 
+			focus = ENG_armedpatrols 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Second Corination
+	focus = {
+		id = ENG_asecondcorination
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 84
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_returnoftheking }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Joint NATO Exercises
+	focus = {
+		id = ENG_jointnatoexercises
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_foreignproductionlicences 
+			focus = ENG_renewtheenfieldcontract 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raids South of the Border
+	focus = {
+		id = ENG_raidssouthoftheborder
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 95
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_supporttheantiiragroups }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win Hearts and Minds
+	focus = {
+		id = ENG_winheartsandminds
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 87
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_foodrelief }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Eric Lubbock
+	focus = {
+		id = ENG_ericlubbock
+		icon = GFX_goal_unknown
+		x = 43
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reformwiththewelshliberals }
+		mutually_exclusive = { focus = ENG_jeremythorpe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Jeremy Thorpe
+	focus = {
+		id = ENG_jeremythorpe
+		icon = GFX_goal_unknown
+		x = 48
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_decideonadeputy }
+		mutually_exclusive = { 
+			focus = ENG_emlynhooson 
+			focus = ENG_ericlubbock 
+			focus = ENG_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Emlyn Hooson
+	focus = {
+		id = ENG_emlynhooson
+		icon = GFX_goal_unknown
+		x = 39
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_decideonadeputy }
+		mutually_exclusive = { focus = ENG_jeremythorpe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for House to House Searches
+	focus = {
+		id = ENG_housetohousesearches
+		icon = GFX_goal_generic_demand_territory
+		x = 90
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_bloodysunday }
+		mutually_exclusive = { focus = ENG_reprisals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Recall Overseas Divisions
+	focus = {
+		id = ENG_recalloverseasdivisions
+		icon = GFX_focus_eng_decolonization
+		x = 74
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_defendthepalaces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bloody Sunday
+	focus = {
+		id = ENG_bloodysunday
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		x = 91
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_raidssouthoftheborder 
+			focus = ENG_winheartsandminds 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Defend the Palaces
+	focus = {
+		id = ENG_defendthepalaces
+		icon = GFX_goal_generic_construct_military
+		x = 74
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_godsavethequeen }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mission to Europe
+	focus = {
+		id = ENG_missiontoeurope
+		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
+		x = 76
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_godsavethequeen }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Generals
+	focus = {
+		id = ENG_newgenerals
+		icon = GFX_focus_mex_support_general_cedillo
+		x = 78
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_arresttraitors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arrest Traitors
+	focus = {
+		id = ENG_arresttraitors
+		icon = GFX_focus_mex_arrest_general_cedillo
+		x = 78
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_godsavethequeen }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Government of National Unity
+	focus = {
+		id = ENG_governmentofnationalunity
+		icon = GFX_focus_eng_the_sun_never_sets
+		x = 70
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_returntowestminster }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Decide on a Deputy
+	focus = {
+		id = ENG_decideonadeputy
+		icon = GFX_goal_unknown
+		x = 43
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reformwiththewelshliberals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Order the Republic to Stop
+	focus = {
+		id = ENG_ordertherepublictostop
+		icon = GFX_goal_unknown
+		x = 94
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_closetheborder }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
