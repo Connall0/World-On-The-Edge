@@ -4,7 +4,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 20
 			tag = SKR
 		}
 	}
@@ -86,10 +86,10 @@ focus_tree = {
 	focus = {
 		id = SKR_funding_education
 		icon = GFX_goal_generic_military_academy
-		prerequisite = { SKR_mitigating_population_growth }
-		x = 2
+		prerequisite = { focus = SKR_mitigating_population_growth }
+		x = 0
 		y = 1
-
+		relative_position_id = SKR_mitigating_population_growth
 
 		cost = 5
 
@@ -308,7 +308,7 @@ focus_tree = {
 	focus = {
 		id = SKR_heavy_mccarthy
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		prerequisite = { SKR_1963_elections }
+		prerequisite = { focus = SKR_1963_elections }
 		mutually_exclusive = { focus =  SKR_medium_mccarthy focus = SKR_low_mccarthy}
 		x = 3
 		y = 3
@@ -347,7 +347,7 @@ focus_tree = {
 	focus = {
 		id = SKR_medium_mccarthy
 		icon = GFX_goal_molotov_ribbentrop_pact
-		prerequisite = { SKR_1963_elections }
+		prerequisite = { focus = SKR_1963_elections }
 		mutually_exclusive = { focus =  SKR_high_mccarthy focus = SKR_low_mccarthy}
 		x = 5
 		y = 3
@@ -385,7 +385,7 @@ focus_tree = {
 	focus = {
 		id = SKR_low_mccarthy
 		icon = GFX_goal_generic_support_democracy
-		prerequisite = { SKR_1963_elections }
+		prerequisite = { focus = SKR_1963_elections }
 		mutually_exclusive = { focus =  SKR_middle_mccarthy focus = SKR_low_mccarthy}
 		x = 7
 		y = 3
